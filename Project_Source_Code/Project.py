@@ -349,7 +349,6 @@ class Flight_Booking_Screen(QDialog):
         super(Flight_Booking_Screen, self).__init__()
         
         loadUi(r"Project_Source_Code\Flight_Booking_Screen.ui", self)
-        # Relative Path - loadUi(r"Flight_Booking_Screen.ui", self")
 
         
         
@@ -731,8 +730,7 @@ class Flight_Booking_Screen(QDialog):
 class Confirm_Customer_Information(QDialog):
     def __init__(self):
         super(Confirm_Customer_Information, self).__init__()
-        loadUi(r"F:\New_Laptop_Documents\NMIMS_College_Docs\2nd_Year\1st_Semester\DBMS\Project\Project_Source_Code\Confirm_User_Details_Screen.ui", self)
-        # Relative Path - loadUi(r"Project_Source_Code\Confirm_User_Details_Screen.ui", self")
+        loadUi(r"Project_Source_Code\Confirm_User_Details_Screen.ui", self)
 
         
         self.Customer_Info_TableWidget.setColumnWidth(0, 175)
