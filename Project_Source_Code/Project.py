@@ -862,7 +862,7 @@ FlightID = 0 # Global variable for accessing chosen Flight ID of customer across
 class Payment_Booking(QDialog):
     def __init__(self):
         super(Payment_Booking, self).__init__()
-        loadUi(r"Project_Source_Code\Payment_Info_Screen.ui", self)
+        loadUi(r"Project_Source_Code\Payment_Booking_Screen.ui", self)
         
         self.User_Input_Flight_ID.clicked.connect(self.Display_User_Flight_ID)
         self.Proceed_To_Summary_Button.clicked.connect(self.gotoSummary_Information)
