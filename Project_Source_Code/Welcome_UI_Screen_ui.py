@@ -13,12 +13,12 @@ from PySide2.QtGui import *
 from PySide2.QtWidgets import *
 
 
-class Ui_Dialog(object):
-    def setupUi(self, Dialog):
-        if not Dialog.objectName():
-            Dialog.setObjectName(u"Dialog")
-        Dialog.resize(1200, 862)
-        self.bgwidget = QWidget(Dialog)
+class Ui_Login_SignUp_Page(object):
+    def setupUi(self, Login_SignUp_Page):
+        if not Login_SignUp_Page.objectName():
+            Login_SignUp_Page.setObjectName(u"Login_SignUp_Page")
+        Login_SignUp_Page.resize(1200, 862)
+        self.bgwidget = QWidget(Login_SignUp_Page)
         self.bgwidget.setObjectName(u"bgwidget")
         self.bgwidget.setGeometry(QRect(0, 0, 1201, 801))
         self.bgwidget.setStyleSheet(u"background-color: white;")
@@ -87,19 +87,19 @@ class Ui_Dialog(object):
 "    border-color: navy; /* make the default button prominent */\n"
 "}")
 
-        self.retranslateUi(Dialog)
+        self.retranslateUi(Login_SignUp_Page)
 
-        QMetaObject.connectSlotsByName(Dialog)
+        QMetaObject.connectSlotsByName(Login_SignUp_Page)
     # setupUi
 
-    def retranslateUi(self, Dialog):
-        Dialog.setWindowTitle(QCoreApplication.translate("Dialog", u"Dialog", None))
-        self.Header_Title.setText(QCoreApplication.translate("Dialog", u"Flight Booking Management System", None))
-        self.Login_Sign_Up_Label.setText(QCoreApplication.translate("Dialog", u"Login/Sign Up Page", None))
+    def retranslateUi(self, Login_SignUp_Page):
+        Login_SignUp_Page.setWindowTitle(QCoreApplication.translate("Login_SignUp_Page", u"Dialog", None))
+        self.Header_Title.setText(QCoreApplication.translate("Login_SignUp_Page", u"Flight Booking Management System", None))
+        self.Login_Sign_Up_Label.setText(QCoreApplication.translate("Login_SignUp_Page", u"Login/Sign Up Page", None))
 #if QT_CONFIG(whatsthis)
-        self.Login.setWhatsThis(QCoreApplication.translate("Dialog", u"<html><head/><body><p><br/></p></body></html>", None))
+        self.Login.setWhatsThis(QCoreApplication.translate("Login_SignUp_Page", u"<html><head/><body><p><br/></p></body></html>", None))
 #endif // QT_CONFIG(whatsthis)
-        self.Login.setText(QCoreApplication.translate("Dialog", u"Login", None))
-        self.Create_an_Account.setText(QCoreApplication.translate("Dialog", u"Create an Account", None))
+        self.Login.setText(QCoreApplication.translate("Login_SignUp_Page", u"Login", None))
+        self.Create_an_Account.setText(QCoreApplication.translate("Login_SignUp_Page", u"Create an Account", None))
     # retranslateUi
 
