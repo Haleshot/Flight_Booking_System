@@ -340,11 +340,8 @@ class OTP_Screen(QDialog):
 class Flight_Booking_Screen(QDialog):
     def __init__(self):
         super(Flight_Booking_Screen, self).__init__()
-        
         loadUi(r"Project_Source_Code\Flight_Booking_Screen.ui", self)
 
-        
-        
         self.Find_Flights_Button.clicked.connect(self.gotoFindFlights)
 
 
@@ -371,6 +368,7 @@ class Flight_Booking_Screen(QDialog):
 
         else:
             self.Error_Popup_Message.setText("")
+            self.Available_Flights_Table_Widget.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
             if Timing == "Select" and Airline_Company == "Select":
                 # query = 'SELECT Password FROM Initial_Info_Account WHERE Username =\''+EmailField+"\'"
 
@@ -725,7 +723,7 @@ class Confirm_Customer_Information(QDialog):
         super(Confirm_Customer_Information, self).__init__()
         loadUi(r"Project_Source_Code\Confirm_User_Details_Screen.ui", self)
 
-        
+        self.Customer_Info_TableWidget.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
         self.Customer_Info_TableWidget.setColumnWidth(0, 175)
         self.Customer_Info_TableWidget.setColumnWidth(1, 175)
         self.Customer_Info_TableWidget.setColumnWidth(3, 175)
@@ -957,6 +955,8 @@ class Payment_Info(QDialog):
 
         self.Confirm_Payment.clicked.connect(self.confirm)
 
+        self.Total_Cost_Info_TableWidget.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
+
         self.Total_Cost_Info_TableWidget.setColumnWidth(0, 400)
         self.Total_Cost_Info_TableWidget.setColumnWidth(1, 400)
         self.Total_Cost_Info_TableWidget.setColumnWidth(2, 400)
@@ -1011,8 +1011,6 @@ class Payment_Info(QDialog):
             cursor = db.cursor(buffered=True)
             Payment_ID = random.randint(3244,54354)
 
-
-
             Payment_Info_Customer = [Payment_ID, Customer_ID, self.Payment_Cost, self.Payment_tax, self.Payment_Date, Customer_Card_Type, Customer_Number]
 
             cursor.execute('INSERT INTO Payment VALUES (%s, %s, %s, %s, %s, %s, %s);', Payment_Info_Customer)
@@ -1054,6 +1052,8 @@ class Update_Flight_Info(QDialog):
             print(cursor.statement)
             print()
 
+
+            self.User_Flight_Details.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
             self.User_Flight_Details.setRowCount(0) # Setting the rowcount as zero so the QTableWidget refreshes everytime according to the applied filters.
             self.User_Flight_Details.verticalHeader().setVisible(False)  #Hiding the Row Count Numbers displayed on the side.
 
@@ -1138,6 +1138,9 @@ class Summary(QDialog):
         # Declaing the use of Global variables here.
         global Email_Field
         global FlightID
+
+        self.Customer_Info_TableWidget.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
+        self.User_Selected_Flights_TableWidget.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
 
 
         self.Customer_Info_TableWidget.setColumnWidth(0, 175)
@@ -1246,7 +1249,7 @@ class Additional_Info(QDialog):
         loadUi(r"Project_Source_Code\More_Flight_Details_Screen.ui", self)
         self.Back_To_Summary_Button.clicked.connect(self.gotoSummary)
         
-
+        self.Flight_Info_TableWidget.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
         self.Flight_Info_TableWidget.setColumnWidth(0, 150)
         self.Flight_Info_TableWidget.setColumnWidth(1, 150)
         self.Flight_Info_TableWidget.setColumnWidth(2, 0)        
@@ -1331,6 +1334,7 @@ class Cancellation(QDialog):
 
         global Payment_ID
 
+        self.Cancellation_Info_TableWidget.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
         self.Cancellation_Info_TableWidget.setColumnWidth(0, 350)
         self.Cancellation_Info_TableWidget.setColumnWidth(1, 350)
         self.Cancellation_Info_TableWidget.setColumnWidth(2, 350)
