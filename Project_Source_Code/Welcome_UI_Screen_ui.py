@@ -89,7 +89,6 @@ class Ui_Login_SignUp_Page(object):
         self.label = QLabel(self.bgwidget)
         self.label.setObjectName(u"label")
         self.label.setGeometry(QRect(90, 260, 1051, 261))
-        self.label.setPixmap(QPixmap(u"Flight_Gif.webp"))
         self.label.setAlignment(Qt.AlignCenter)
 
         self.retranslateUi(Login_SignUp_Page)

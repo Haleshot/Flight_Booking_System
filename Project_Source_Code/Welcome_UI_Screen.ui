@@ -152,9 +152,6 @@ QPushButton:default {
     <property name="text">
      <string/>
     </property>
-    <property name="pixmap">
-     <pixmap>Flight_Gif.webp</pixmap>
-    </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
     </property>
