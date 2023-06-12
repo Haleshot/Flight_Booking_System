@@ -107,3 +107,11 @@ Learnt integration of front end (PyQt5) with backend (Database); enhanced coding
 
 Understood the importance of various applications that helps us in our day-to-day life and the 		working at front end as well as the back end of these applications. 
  -->
+ 
+ 
+
+<p align="center"> 
+ 
+ <img src="https://media.tenor.com/hB9OTbewrikAAAAi/work-work-in-progress.gif" width="200" height="300" /> 
+ 
+</p>
