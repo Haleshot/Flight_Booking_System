@@ -1037,8 +1037,7 @@ class Payment_Info(QDialog):
 class Update_Flight_Info(QDialog):
     def __init__(self):
         super(Update_Flight_Info, self).__init__()
-        loadUi(r"F:\New_Laptop_Documents\NMIMS_College_Docs\2nd_Year\1st_Semester\DBMS\Project\Project_Source_Code\Update_Flight_Information.ui", self)
-        # Relative Path - loadUi(r"Project_Source_Code\Update_Flight_Information.ui", self")
+        loadUi(r"Project_Source_Code\Update_Flight_Information.ui", self)
     
         self.User_Input_Flight_ID.clicked.connect(self.Display_User_Flight_ID)
         self.Proceed_To_Summary_Button.clicked.connect(self.gotoSummary_Information)
@@ -1133,8 +1132,7 @@ class Summary(QDialog):
     def __init__(self):
 
         super(Summary, self).__init__()
-        loadUi(r"F:\New_Laptop_Documents\NMIMS_College_Docs\2nd_Year\1st_Semester\DBMS\Project\Project_Source_Code\Summary_Screen.ui", self)
-        # Relative Path - loadUi(r"Project_Source_Code\Summary_Screen.ui", self")
+        loadUi(r"Project_Source_Code\Summary_Screen.ui", self)
         
         self.Customer_Info_pushButton.clicked.connect(self.gotoUpdateCustomerInfo)
         self.Flight_Info_pushButton.clicked.connect(self.gotoUpdateFlightInfo)
