@@ -1,0 +1,362 @@
+1st Oct:
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('12', 'Mumbai', 'Chennai', 'Indivo', '2', '2022-10-01 10:10:00', '2022-10-01 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('13', 'Mumbai', 'Chennai', 'Indivo', '2', '2022-10-01 18:10:00', '2022-10-01 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('14', 'Mumbai', 'Chennai', 'MetAirways', '2', '2022-10-01 10:10:00', '2022-10-01 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('15', 'Mumbai', 'Chennai', 'MetAirways', '2', '2022-10-01 18:10:00', '2022-10-01 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('16', 'Mumbai', 'Chennai', 'Picejet', '2', '2022-10-01 10:10:00', '2022-10-01 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('17', 'Mumbai', 'Chennai', 'Picejet', '2', '2022-10-01 18:10:00', '2022-10-01 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('18', 'Mumbai', 'Chennai', 'Nistara', '2', '2022-10-01 10:10:00', '2022-10-01 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('19', 'Mumbai', 'Chennai', 'Nistara', '2', '2022-10-01 18:10:00', '2022-10-01 20:10:00', '300', '4');
+
+
+
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('12', 'Mumbai', 'Bangalore', 'Indivo', '2', '2022-10-01 10:10:00', '2022-10-01 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('13', 'Mumbai', 'Bangalore', 'Indivo', '2', '2022-10-01 18:10:00', '2022-10-01 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('14', 'Mumbai', 'Bangalore', 'MetAirways', '2', '2022-10-01 10:10:00', '2022-10-01 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('15', 'Mumbai', 'Bangalore', 'MetAirways', '2', '2022-10-01 18:10:00', '2022-10-01 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('16', 'Mumbai', 'Bangalore', 'Picejet', '2', '2022-10-01 10:10:00', '2022-10-01 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('17', 'Mumbai', 'Bangalore', 'Picejet', '2', '2022-10-01 18:10:00', '2022-10-01 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('18', 'Mumbai', 'Bangalore', 'Nistara', '2', '2022-10-01 10:10:00', '2022-10-01 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('19', 'Mumbai', 'Bangalore', 'Nistara', '2', '2022-10-01 18:10:00', '2022-10-01 20:10:00', '300', '4');
+
+
+
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('20', 'Mumbai', 'Delhi', 'Indivo', '2', '2022-10-01 10:10:00', '2022-10-01 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('21', 'Mumbai', 'Delhi', 'Indivo', '2', '2022-10-01 18:10:00', '2022-10-01 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('22', 'Mumbai', 'Delhi', 'MetAirways', '2', '2022-10-01 10:10:00', '2022-10-01 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('23', 'Mumbai', 'Delhi', 'MetAirways', '2', '2022-10-01 18:10:00', '2022-10-01 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('24', 'Mumbai', 'Delhi', 'Picejet', '2', '2022-10-01 10:10:00', '2022-10-01 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('25', 'Mumbai', 'Delhi', 'Picejet', '2', '2022-10-01 18:10:00', '2022-10-01 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('26', 'Mumbai', 'Delhi', 'Nistara', '2', '2022-10-01 10:10:00', '2022-10-01 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('27', 'Mumbai', 'Delhi', 'Nistara', '2', '2022-10-01 18:10:00', '2022-10-01 20:10:00', '300', '4');
+
+
+
+2nd Oct:
+
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('28', 'Mumbai', 'Chennai', 'Indivo', '2', '2022-10-02 10:10:00', '2022-10-02 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('29', 'Mumbai', 'Chennai', 'Indivo', '2', '2022-10-02 18:10:00', '2022-10-02 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('30', 'Mumbai', 'Chennai', 'MetAirways', '2', '2022-10-02 10:10:00', '2022-10-02 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('31', 'Mumbai', 'Chennai', 'MetAirways', '2', '2022-10-02 18:10:00', '2022-10-02 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('32', 'Mumbai', 'Chennai', 'Picejet', '2', '2022-10-02 10:10:00', '2022-10-02 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('33', 'Mumbai', 'Chennai', 'Picejet', '2', '2022-10-02 18:10:00', '2022-10-02 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('34', 'Mumbai', 'Chennai', 'Nistara', '2', '2022-10-02 10:10:00', '2022-10-02 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('35', 'Mumbai', 'Chennai', 'Nistara', '2', '2022-10-02 18:10:00', '2022-10-02 20:10:00', '300', '4');
+
+
+
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('36', 'Mumbai', 'Bangalore', 'Indivo', '2', '2022-10-02 10:10:00', '2022-10-02 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('37', 'Mumbai', 'Bangalore', 'Indivo', '2', '2022-10-02 18:10:00', '2022-10-02 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('38', 'Mumbai', 'Bangalore', 'MetAirways', '2', '2022-10-02 10:10:00', '2022-10-02 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('39', 'Mumbai', 'Bangalore', 'MetAirways', '2', '2022-10-02 18:10:00', '2022-10-02 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('40', 'Mumbai', 'Bangalore', 'Picejet', '2', '2022-10-02 10:10:00', '2022-10-02 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('41', 'Mumbai', 'Bangalore', 'Picejet', '2', '2022-10-02 18:10:00', '2022-10-02 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('42', 'Mumbai', 'Bangalore', 'Nistara', '2', '2022-10-02 10:10:00', '2022-10-02 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('43', 'Mumbai', 'Bangalore', 'Nistara', '2', '2022-10-02 18:10:00', '2022-10-02 20:10:00', '300', '4');
+
+
+
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('44', 'Mumbai', 'Delhi', 'Indivo', '2', '2022-10-02 10:10:00', '2022-10-02 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('45', 'Mumbai', 'Delhi', 'Indivo', '2', '2022-10-02 18:10:00', '2022-10-02 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('46', 'Mumbai', 'Delhi', 'MetAirways', '2', '2022-10-02 10:10:00', '2022-10-02 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('47', 'Mumbai', 'Delhi', 'MetAirways', '2', '2022-10-02 18:10:00', '2022-10-02 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('48', 'Mumbai', 'Delhi', 'Picejet', '2', '2022-10-02 10:10:00', '2022-10-02 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('49', 'Mumbai', 'Delhi', 'Picejet', '2', '2022-10-02 18:10:00', '2022-10-02 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('50', 'Mumbai', 'Delhi', 'Nistara', '2', '2022-10-02 10:10:00', '2022-10-02 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('51', 'Mumbai', 'Delhi', 'Nistara', '2', '2022-10-02 18:10:00', '2022-10-02 20:10:00', '300', '4');
+
+
+3rd Oct:
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('52', 'Mumbai', 'Chennai', 'Indivo', '2', '2022-10-03 10:10:00', '2022-10-03 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('53', 'Mumbai', 'Chennai', 'Indivo', '2', '2022-10-03 18:10:00', '2022-10-03 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('54', 'Mumbai', 'Chennai', 'MetAirways', '2', '2022-10-03 10:10:00', '2022-10-03 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('55', 'Mumbai', 'Chennai', 'MetAirways', '2', '2022-10-03 18:10:00', '2022-10-03 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('56', 'Mumbai', 'Chennai', 'Picejet', '2', '2022-10-03 10:10:00', '2022-10-03 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('57', 'Mumbai', 'Chennai', 'Picejet', '2', '2022-10-03 18:10:00', '2022-10-03 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('58', 'Mumbai', 'Chennai', 'Nistara', '2', '2022-10-03 10:10:00', '2022-10-03 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('59', 'Mumbai', 'Chennai', 'Nistara', '2', '2022-10-03 18:10:00', '2022-10-03 20:10:00', '300', '4');
+
+
+
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('60', 'Mumbai', 'Bangalore', 'Indivo', '2', '2022-10-03 10:10:00', '2022-10-03 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('61', 'Mumbai', 'Bangalore', 'Indivo', '2', '2022-10-03 18:10:00', '2022-10-03 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('62', 'Mumbai', 'Bangalore', 'MetAirways', '2', '2022-10-03 10:10:00', '2022-10-03 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('63', 'Mumbai', 'Bangalore', 'MetAirways', '2', '2022-10-03 18:10:00', '2022-10-03 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('64', 'Mumbai', 'Bangalore', 'Picejet', '2', '2022-10-03 10:10:00', '2022-10-03 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('65', 'Mumbai', 'Bangalore', 'Picejet', '2', '2022-10-03 18:10:00', '2022-10-03 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('66', 'Mumbai', 'Bangalore', 'Nistara', '2', '2022-10-03 10:10:00', '2022-10-03 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('67', 'Mumbai', 'Bangalore', 'Nistara', '2', '2022-10-03 18:10:00', '2022-10-03 20:10:00', '300', '4');
+
+
+
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('68', 'Mumbai', 'Delhi', 'Indivo', '2', '2022-10-03 10:10:00', '2022-10-03 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('69', 'Mumbai', 'Delhi', 'Indivo', '2', '2022-10-03 18:10:00', '2022-10-03 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('70', 'Mumbai', 'Delhi', 'MetAirways', '2', '2022-10-03 10:10:00', '2022-10-03 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('71', 'Mumbai', 'Delhi', 'MetAirways', '2', '2022-10-03 18:10:00', '2022-10-03 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('72', 'Mumbai', 'Delhi', 'Picejet', '2', '2022-10-03 10:10:00', '2022-10-03 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('73', 'Mumbai', 'Delhi', 'Picejet', '2', '2022-10-03 18:10:00', '2022-10-03 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('74', 'Mumbai', 'Delhi', 'Nistara', '2', '2022-10-03 10:10:00', '2022-10-03 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('75', 'Mumbai', 'Delhi', 'Nistara', '2', '2022-10-03 18:10:00', '2022-10-03 20:10:00', '300', '4');
+
+
+
+4th Oct:
+
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('76', 'Mumbai', 'Chennai', 'Indivo', '2', '2022-10-04 10:10:00', '2022-10-04 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('77', 'Mumbai', 'Chennai', 'Indivo', '2', '2022-10-04 18:10:00', '2022-10-04 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('78', 'Mumbai', 'Chennai', 'MetAirways', '2', '2022-10-04 10:10:00', '2022-10-04 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('79', 'Mumbai', 'Chennai', 'MetAirways', '2', '2022-10-04 18:10:00', '2022-10-04 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('80', 'Mumbai', 'Chennai', 'Picejet', '2', '2022-10-04 10:10:00', '2022-10-04 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('81', 'Mumbai', 'Chennai', 'Picejet', '2', '2022-10-04 18:10:00', '2022-10-04 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('82', 'Mumbai', 'Chennai', 'Nistara', '2', '2022-10-04 10:10:00', '2022-10-04 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('83', 'Mumbai', 'Chennai', 'Nistara', '2', '2022-10-04 18:10:00', '2022-10-04 20:10:00', '300', '4');
+
+
+
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('84', 'Mumbai', 'Bangalore', 'Indivo', '2', '2022-10-04 10:10:00', '2022-10-04 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('85', 'Mumbai', 'Bangalore', 'Indivo', '2', '2022-10-04 18:10:00', '2022-10-04 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('86', 'Mumbai', 'Bangalore', 'MetAirways', '2', '2022-10-04 10:10:00', '2022-10-04 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('87', 'Mumbai', 'Bangalore', 'MetAirways', '2', '2022-10-04 18:10:00', '2022-10-04 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('88', 'Mumbai', 'Bangalore', 'Picejet', '2', '2022-10-04 10:10:00', '2022-10-04 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('89', 'Mumbai', 'Bangalore', 'Picejet', '2', '2022-10-04 18:10:00', '2022-10-04 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('90', 'Mumbai', 'Bangalore', 'Nistara', '2', '2022-10-04 10:10:00', '2022-10-04 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('91', 'Mumbai', 'Bangalore', 'Nistara', '2', '2022-10-04 18:10:00', '2022-10-04 20:10:00', '300', '4');
+
+
+
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('92', 'Mumbai', 'Delhi', 'Indivo', '2', '2022-10-04 10:10:00', '2022-10-04 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('93', 'Mumbai', 'Delhi', 'Indivo', '2', '2022-10-04 18:10:00', '2022-10-04 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('94', 'Mumbai', 'Delhi', 'MetAirways', '2', '2022-10-04 10:10:00', '2022-10-04 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('95', 'Mumbai', 'Delhi', 'MetAirways', '2', '2022-10-04 18:10:00', '2022-10-04 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('96', 'Mumbai', 'Delhi', 'Picejet', '2', '2022-10-04 10:10:00', '2022-10-04 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('97', 'Mumbai', 'Delhi', 'Picejet', '2', '2022-10-04 18:10:00', '2022-10-04 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('98', 'Mumbai', 'Delhi', 'Nistara', '2', '2022-10-04 10:10:00', '2022-10-04 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('99', 'Mumbai', 'Delhi', 'Nistara', '2', '2022-10-04 18:10:00', '2022-10-04 20:10:00', '300', '4');
+
+
+5th Oct:
+
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1000', 'Mumbai', 'Chennai', 'Indivo', '2', '2022-10-05 10:10:00', '2022-10-05 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1001', 'Mumbai', 'Chennai', 'Indivo', '2', '2022-10-05 18:10:00', '2022-10-05 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1002', 'Mumbai', 'Chennai', 'MetAirways', '2', '2022-10-05 10:10:00', '2022-10-05 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1003', 'Mumbai', 'Chennai', 'MetAirways', '2', '2022-10-05 18:10:00', '2022-10-05 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1004', 'Mumbai', 'Chennai', 'Picejet', '2', '2022-10-05 10:10:00', '2022-10-05 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1005', 'Mumbai', 'Chennai', 'Picejet', '2', '2022-10-05 18:10:00', '2022-10-05 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1006', 'Mumbai', 'Chennai', 'Nistara', '2', '2022-10-05 10:10:00', '2022-10-05 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1007', 'Mumbai', 'Chennai', 'Nistara', '2', '2022-10-05 18:10:00', '2022-10-05 20:10:00', '300', '4');
+
+
+
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1008', 'Mumbai', 'Bangalore', 'Indivo', '2', '2022-10-05 10:10:00', '2022-10-05 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1009', 'Mumbai', 'Bangalore', 'Indivo', '2', '2022-10-05 18:10:00', '2022-10-05 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1010', 'Mumbai', 'Bangalore', 'MetAirways', '2', '2022-10-05 10:10:00', '2022-10-05 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1011', 'Mumbai', 'Bangalore', 'MetAirways', '2', '2022-10-05 18:10:00', '2022-10-05 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1012', 'Mumbai', 'Bangalore', 'Picejet', '2', '2022-10-05 10:10:00', '2022-10-05 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1013', 'Mumbai', 'Bangalore', 'Picejet', '2', '2022-10-05 18:10:00', '2022-10-05 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1014', 'Mumbai', 'Bangalore', 'Nistara', '2', '2022-10-05 10:10:00', '2022-10-05 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1015', 'Mumbai', 'Bangalore', 'Nistara', '2', '2022-10-05 18:10:00', '2022-10-05 20:10:00', '300', '4');
+
+
+
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1016', 'Mumbai', 'Delhi', 'Indivo', '2', '2022-10-05 10:10:00', '2022-10-05 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1017', 'Mumbai', 'Delhi', 'Indivo', '2', '2022-10-05 18:10:00', '2022-10-05 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1018', 'Mumbai', 'Delhi', 'MetAirways', '2', '2022-10-05 10:10:00', '2022-10-05 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1019', 'Mumbai', 'Delhi', 'MetAirways', '2', '2022-10-05 18:10:00', '2022-10-05 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1020', 'Mumbai', 'Delhi', 'Picejet', '2', '2022-10-05 10:10:00', '2022-10-05 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1021', 'Mumbai', 'Delhi', 'Picejet', '2', '2022-10-05 18:10:00', '2022-10-05 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1022', 'Mumbai', 'Delhi', 'Nistara', '2', '2022-10-05 10:10:00', '2022-10-05 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1023', 'Mumbai', 'Delhi', 'Nistara', '2', '2022-10-05 18:10:00', '2022-10-05 20:10:00', '300', '4');
+
+
+6th Oct:
+
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1024', 'Mumbai', 'Chennai', 'Indivo', '2', '2022-10-06 10:10:00', '2022-10-06 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1025', 'Mumbai', 'Chennai', 'Indivo', '2', '2022-10-06 18:10:00', '2022-10-06 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1026', 'Mumbai', 'Chennai', 'MetAirways', '2', '2022-10-06 10:10:00', '2022-10-06 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1027', 'Mumbai', 'Chennai', 'MetAirways', '2', '2022-10-06 18:10:00', '2022-10-06 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1028', 'Mumbai', 'Chennai', 'Picejet', '2', '2022-10-06 10:10:00', '2022-10-06 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1029', 'Mumbai', 'Chennai', 'Picejet', '2', '2022-10-06 18:10:00', '2022-10-06 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1030', 'Mumbai', 'Chennai', 'Nistara', '2', '2022-10-06 10:10:00', '2022-10-06 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1031', 'Mumbai', 'Chennai', 'Nistara', '2', '2022-10-06 18:10:00', '2022-10-06 20:10:00', '300', '4');
+
+
+
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1032', 'Mumbai', 'Bangalore', 'Indivo', '2', '2022-10-06 10:10:00', '2022-10-06 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1033', 'Mumbai', 'Bangalore', 'Indivo', '2', '2022-10-06 18:10:00', '2022-10-06 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1034', 'Mumbai', 'Bangalore', 'MetAirways', '2', '2022-10-06 10:10:00', '2022-10-06 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1035', 'Mumbai', 'Bangalore', 'MetAirways', '2', '2022-10-06 18:10:00', '2022-10-06 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1036', 'Mumbai', 'Bangalore', 'Picejet', '2', '2022-10-06 10:10:00', '2022-10-06 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1037', 'Mumbai', 'Bangalore', 'Picejet', '2', '2022-10-06 18:10:00', '2022-10-06 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1038', 'Mumbai', 'Bangalore', 'Nistara', '2', '2022-10-06 10:10:00', '2022-10-06 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1039', 'Mumbai', 'Bangalore', 'Nistara', '2', '2022-10-06 18:10:00', '2022-10-06 20:10:00', '300', '4');
+
+
+
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1040', 'Mumbai', 'Delhi', 'Indivo', '2', '2022-10-06 10:10:00', '2022-10-06 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1041', 'Mumbai', 'Delhi', 'Indivo', '2', '2022-10-06 18:10:00', '2022-10-06 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1042', 'Mumbai', 'Delhi', 'MetAirways', '2', '2022-10-06 10:10:00', '2022-10-06 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1043', 'Mumbai', 'Delhi', 'MetAirways', '2', '2022-10-06 18:10:00', '2022-10-06 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1044', 'Mumbai', 'Delhi', 'Picejet', '2', '2022-10-06 10:10:00', '2022-10-06 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1045', 'Mumbai', 'Delhi', 'Picejet', '2', '2022-10-06 18:10:00', '2022-10-06 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1046', 'Mumbai', 'Delhi', 'Nistara', '2', '2022-10-06 10:10:00', '2022-10-06 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1047', 'Mumbai', 'Delhi', 'Nistara', '2', '2022-10-06 18:10:00', '2022-10-06 20:10:00', '300', '4');
+
+
+7th Oct:
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1048', 'Mumbai', 'Chennai', 'Indivo', '2', '2022-10-07 10:10:00', '2022-10-07 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1049', 'Mumbai', 'Chennai', 'Indivo', '2', '2022-10-07 18:10:00', '2022-10-07 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1050', 'Mumbai', 'Chennai', 'MetAirways', '2', '2022-10-07 10:10:00', '2022-10-07 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1051', 'Mumbai', 'Chennai', 'MetAirways', '2', '2022-10-07 18:10:00', '2022-10-07 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1052', 'Mumbai', 'Chennai', 'Picejet', '2', '2022-10-07 10:10:00', '2022-10-07 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1053', 'Mumbai', 'Chennai', 'Picejet', '2', '2022-10-07 18:10:00', '2022-10-07 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1054', 'Mumbai', 'Chennai', 'Nistara', '2', '2022-10-07 10:10:00', '2022-10-07 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1055', 'Mumbai', 'Chennai', 'Nistara', '2', '2022-10-07 18:10:00', '2022-10-07 20:10:00', '300', '4');
+
+
+
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1056', 'Mumbai', 'Bangalore', 'Indivo', '2', '2022-10-07 10:10:00', '2022-10-07 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1057', 'Mumbai', 'Bangalore', 'Indivo', '2', '2022-10-07 18:10:00', '2022-10-07 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1058', 'Mumbai', 'Bangalore', 'MetAirways', '2', '2022-10-07 10:10:00', '2022-10-07 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1059', 'Mumbai', 'Bangalore', 'MetAirways', '2', '2022-10-07 18:10:00', '2022-10-07 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1060', 'Mumbai', 'Bangalore', 'Picejet', '2', '2022-10-07 10:10:00', '2022-10-07 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1061', 'Mumbai', 'Bangalore', 'Picejet', '2', '2022-10-07 18:10:00', '2022-10-07 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1062', 'Mumbai', 'Bangalore', 'Nistara', '2', '2022-10-07 10:10:00', '2022-10-07 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1063', 'Mumbai', 'Bangalore', 'Nistara', '2', '2022-10-07 18:10:00', '2022-10-07 20:10:00', '300', '4');
+
+
+
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1064', 'Mumbai', 'Delhi', 'Indivo', '2', '2022-10-07 10:10:00', '2022-10-07 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1065', 'Mumbai', 'Delhi', 'Indivo', '2', '2022-10-07 18:10:00', '2022-10-07 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1066', 'Mumbai', 'Delhi', 'MetAirways', '2', '2022-10-07 10:10:00', '2022-10-07 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1067', 'Mumbai', 'Delhi', 'MetAirways', '2', '2022-10-07 18:10:00', '2022-10-07 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1068', 'Mumbai', 'Delhi', 'Picejet', '2', '2022-10-07 10:10:00', '2022-10-07 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1069', 'Mumbai', 'Delhi', 'Picejet', '2', '2022-10-07 18:10:00', '2022-10-07 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1070', 'Mumbai', 'Delhi', 'Nistara', '2', '2022-10-07 10:10:00', '2022-10-07 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1071', 'Mumbai', 'Delhi', 'Nistara', '2', '2022-10-07 18:10:00', '2022-10-07 20:10:00', '300', '4');
+
+
+8th Oct:
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1072', 'Mumbai', 'Chennai', 'Indivo', '2', '2022-10-08 10:10:00', '2022-10-08 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1073', 'Mumbai', 'Chennai', 'Indivo', '2', '2022-10-08 18:10:00', '2022-10-08 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1074', 'Mumbai', 'Chennai', 'MetAirways', '2', '2022-10-08 10:10:00', '2022-10-08 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1075', 'Mumbai', 'Chennai', 'MetAirways', '2', '2022-10-08 18:10:00', '2022-10-08 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1076', 'Mumbai', 'Chennai', 'Picejet', '2', '2022-10-08 10:10:00', '2022-10-08 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1077', 'Mumbai', 'Chennai', 'Picejet', '2', '2022-10-08 18:10:00', '2022-10-08 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1078', 'Mumbai', 'Chennai', 'Nistara', '2', '2022-10-08 10:10:00', '2022-10-08 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1079', 'Mumbai', 'Chennai', 'Nistara', '2', '2022-10-08 18:10:00', '2022-10-08 20:10:00', '300', '4');
+
+
+
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1080', 'Mumbai', 'Bangalore', 'Indivo', '2', '2022-10-08 10:10:00', '2022-10-08 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1081', 'Mumbai', 'Bangalore', 'Indivo', '2', '2022-10-08 18:10:00', '2022-10-08 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1082', 'Mumbai', 'Bangalore', 'MetAirways', '2', '2022-10-08 10:10:00', '2022-10-08 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1083', 'Mumbai', 'Bangalore', 'MetAirways', '2', '2022-10-08 18:10:00', '2022-10-08 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1084', 'Mumbai', 'Bangalore', 'Picejet', '2', '2022-10-08 10:10:00', '2022-10-08 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1085', 'Mumbai', 'Bangalore', 'Picejet', '2', '2022-10-08 18:10:00', '2022-10-08 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1086', 'Mumbai', 'Bangalore', 'Nistara', '2', '2022-10-08 10:10:00', '2022-10-08 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1087', 'Mumbai', 'Bangalore', 'Nistara', '2', '2022-10-08 18:10:00', '2022-10-08 20:10:00', '300', '4');
+
+
+
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1088', 'Mumbai', 'Delhi', 'Indivo', '2', '2022-10-08 10:10:00', '2022-10-08 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1089', 'Mumbai', 'Delhi', 'Indivo', '2', '2022-10-08 18:10:00', '2022-10-08 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1090', 'Mumbai', 'Delhi', 'MetAirways', '2', '2022-10-08 10:10:00', '2022-10-08 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1091', 'Mumbai', 'Delhi', 'MetAirways', '2', '2022-10-08 18:10:00', '2022-10-08 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1092', 'Mumbai', 'Delhi', 'Picejet', '2', '2022-10-08 10:10:00', '2022-10-08 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1093', 'Mumbai', 'Delhi', 'Picejet', '2', '2022-10-08 18:10:00', '2022-10-08 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1094', 'Mumbai', 'Delhi', 'Nistara', '2', '2022-10-08 10:10:00', '2022-10-08 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1095', 'Mumbai', 'Delhi', 'Nistara', '2', '2022-10-08 18:10:00', '2022-10-08 20:10:00', '300', '4');
+
+9th Oct:
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1096', 'Mumbai', 'Chennai', 'Indivo', '2', '2022-10-09 10:10:00', '2022-10-09 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1097', 'Mumbai', 'Chennai', 'Indivo', '2', '2022-10-09 18:10:00', '2022-10-09 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1098', 'Mumbai', 'Chennai', 'MetAirways', '2', '2022-10-09 10:10:00', '2022-10-09 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1099', 'Mumbai', 'Chennai', 'MetAirways', '2', '2022-10-09 18:10:00', '2022-10-09 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1100', 'Mumbai', 'Chennai', 'Picejet', '2', '2022-10-09 10:10:00', '2022-10-09 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1101', 'Mumbai', 'Chennai', 'Picejet', '2', '2022-10-09 18:10:00', '2022-10-09 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1102', 'Mumbai', 'Chennai', 'Nistara', '2', '2022-10-09 10:10:00', '2022-10-09 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1103', 'Mumbai', 'Chennai', 'Nistara', '2', '2022-10-09 18:10:00', '2022-10-09 20:10:00', '300', '4');
+
+
+
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1104', 'Mumbai', 'Bangalore', 'Indivo', '2', '2022-10-09 10:10:00', '2022-10-09 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1105', 'Mumbai', 'Bangalore', 'Indivo', '2', '2022-10-09 18:10:00', '2022-10-09 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1106', 'Mumbai', 'Bangalore', 'MetAirways', '2', '2022-10-09 10:10:00', '2022-10-09 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1107', 'Mumbai', 'Bangalore', 'MetAirways', '2', '2022-10-09 18:10:00', '2022-10-09 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1108', 'Mumbai', 'Bangalore', 'Picejet', '2', '2022-10-09 10:10:00', '2022-10-09 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1109', 'Mumbai', 'Bangalore', 'Picejet', '2', '2022-10-09 18:10:00', '2022-10-09 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1110', 'Mumbai', 'Bangalore', 'Nistara', '2', '2022-10-09 10:10:00', '2022-10-09 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1111', 'Mumbai', 'Bangalore', 'Nistara', '2', '2022-10-09 18:10:00', '2022-10-09 20:10:00', '300', '4');
+
+
+
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1112', 'Mumbai', 'Delhi', 'Indivo', '2', '2022-10-09 10:10:00', '2022-10-09 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1113', 'Mumbai', 'Delhi', 'Indivo', '2', '2022-10-09 18:10:00', '2022-10-09 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1114', 'Mumbai', 'Delhi', 'MetAirways', '2', '2022-10-09 10:10:00', '2022-10-09 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1115', 'Mumbai', 'Delhi', 'MetAirways', '2', '2022-10-09 18:10:00', '2022-10-09 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1116', 'Mumbai', 'Delhi', 'Picejet', '2', '2022-10-09 10:10:00', '2022-10-09 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1117', 'Mumbai', 'Delhi', 'Picejet', '2', '2022-10-09 18:10:00', '2022-10-09 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1118', 'Mumbai', 'Delhi', 'Nistara', '2', '2022-10-09 10:10:00', '2022-10-09 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1119', 'Mumbai', 'Delhi', 'Nistara', '2', '2022-10-09 18:10:00', '2022-10-09 20:10:00', '300', '4');
+
+
+10th OCt:
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1120', 'Mumbai', 'Chennai', 'Indivo', '2', '2022-10-10 10:10:00', '2022-10-10 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1121', 'Mumbai', 'Chennai', 'Indivo', '2', '2022-10-10 18:10:00', '2022-10-10 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1122', 'Mumbai', 'Chennai', 'MetAirways', '2', '2022-10-10 10:10:00', '2022-10-10 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1123', 'Mumbai', 'Chennai', 'MetAirways', '2', '2022-10-10 18:10:00', '2022-10-10 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1124', 'Mumbai', 'Chennai', 'Picejet', '2', '2022-10-10 10:10:00', '2022-10-10 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1125', 'Mumbai', 'Chennai', 'Picejet', '2', '2022-10-10 18:10:00', '2022-10-10 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1126', 'Mumbai', 'Chennai', 'Nistara', '2', '2022-10-10 10:10:00', '2022-10-10 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1127', 'Mumbai', 'Chennai', 'Nistara', '2', '2022-10-10 18:10:00', '2022-10-10 20:10:00', '300', '4');
+
+
+
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1128', 'Mumbai', 'Bangalore', 'Indivo', '2', '2022-10-10 10:10:00', '2022-10-10 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1129', 'Mumbai', 'Bangalore', 'Indivo', '2', '2022-10-10 18:10:00', '2022-10-10 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1130', 'Mumbai', 'Bangalore', 'MetAirways', '2', '2022-10-10 10:10:00', '2022-10-10 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1131', 'Mumbai', 'Bangalore', 'MetAirways', '2', '2022-10-10 18:10:00', '2022-10-10 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1132', 'Mumbai', 'Bangalore', 'Picejet', '2', '2022-10-10 10:10:00', '2022-10-10 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1133', 'Mumbai', 'Bangalore', 'Picejet', '2', '2022-10-10 18:10:00', '2022-10-10 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1134', 'Mumbai', 'Bangalore', 'Nistara', '2', '2022-10-10 10:10:00', '2022-10-10 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1135', 'Mumbai', 'Bangalore', 'Nistara', '2', '2022-10-10 18:10:00', '2022-10-10 20:10:00', '300', '4');
+
+
+
+
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1136', 'Mumbai', 'Delhi', 'Indivo', '2', '2022-10-10 10:10:00', '2022-10-10 12:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1137', 'Mumbai', 'Delhi', 'Indivo', '2', '2022-10-10 18:10:00', '2022-10-10 20:10:00', '300', '1');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1138', 'Mumbai', 'Delhi', 'MetAirways', '2', '2022-10-10 10:10:00', '2022-10-10 12:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1139', 'Mumbai', 'Delhi', 'MetAirways', '2', '2022-10-10 18:10:00', '2022-10-10 20:10:00', '300', '2');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1140', 'Mumbai', 'Delhi', 'Picejet', '2', '2022-10-10 10:10:00', '2022-10-10 12:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1141', 'Mumbai', 'Delhi', 'Picejet', '2', '2022-10-10 18:10:00', '2022-10-10 20:10:00', '300', '3');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1142', 'Mumbai', 'Delhi', 'Nistara', '2', '2022-10-10 10:10:00', '2022-10-10 12:10:00', '300', '4');
+INSERT INTO `dbms_project`.`flights` (`F_ID`, `F_Dept_Location`, `F_Arr_Location`, `F_Company`, `F_Duration`, `F_Dept_Time`, `F_Arr_Time`, `F_Seats`, `C_ID`) VALUES ('1143', 'Mumbai', 'Delhi', 'Nistara', '2', '2022-10-10 18:10:00', '2022-10-10 20:10:00', '300', '4');

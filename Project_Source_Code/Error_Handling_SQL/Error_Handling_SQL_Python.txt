@@ -1,0 +1,1 @@
+https://pynative.com/python-mysql-execute-parameterized-query-using-prepared-statement/
