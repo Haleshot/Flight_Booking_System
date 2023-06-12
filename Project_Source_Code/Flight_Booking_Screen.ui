@@ -301,8 +301,8 @@ font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>170</x>
-     <y>60</y>
+     <x>166</x>
+     <y>62</y>
      <width>21</width>
      <height>16</height>
     </rect>
@@ -317,7 +317,7 @@ font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>850</x>
+     <x>843</x>
      <y>70</y>
      <width>16</width>
      <height>16</height>
