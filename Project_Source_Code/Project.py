@@ -1250,8 +1250,7 @@ class Additional_Info(QDialog):
     def __init__(self):
 
         super(Additional_Info, self).__init__()
-        loadUi(r"F:\New_Laptop_Documents\NMIMS_College_Docs\2nd_Year\1st_Semester\DBMS\Project\Project_Source_Code\More_Flight_Details_Screen.ui", self)
-        # Relative Path - loadUi(r"More_Flight_Details_Screen.ui", self")
+        loadUi(r"Project_Source_Code\More_Flight_Details_Screen.ui", self)
         self.Back_To_Summary_Button.clicked.connect(self.gotoSummary)
         
 
