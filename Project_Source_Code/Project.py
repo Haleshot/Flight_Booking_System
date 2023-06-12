@@ -198,7 +198,7 @@ class Full_Profile_Screen(QDialog):
         
         
         
-        if Customer_Pincode.isalpha():
+        if Customer_Pincode.isalnum():
             Customer_Pincode = random.randint(23334,53342)
         
 
@@ -996,7 +996,7 @@ class Payment_Info(QDialog):
         Customer_Number = self.Customer_Number.text()
 
 
-        if len(Customer_ID) == 0 or len(Customer_Card_Type) == 0 or len(Customer_Number) == 0:
+        if len(Customer_ID) == 0 or len(Customer_Card_Type) == 0 or len(Customer_Number) == 0 or not Customer_ID.isdigit():
             self.Error_Popup_Message.setText("Please input all * fields!")
 
         if Customer_ID.isalpha():
