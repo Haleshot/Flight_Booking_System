@@ -4,6 +4,7 @@
 # import libraries used in this project
 import sys
 from PyQt5.uic import loadUi
+from PyQt5.QtGui import QMovie
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QDialog, QApplication, QStackedWidget
 import mysql.connector
@@ -44,7 +45,15 @@ class Welcome_screen(QDialog):
     def __init__(self):
         super(Welcome_screen, self).__init__()
         loadUi(r"Project_Source_Code\Welcome_UI_Screen.ui", self)
-        
+
+        self.movie = QMovie("loader.gif")
+        self.label.setMovie(self.movie)
+  
+        self.startAnimation()
+        self.movie.start()
+  
+    def startAnimation(self):
+        self.movie.start()
         self.Login.clicked.connect(self.gotoLogin)
         self.Create_an_Account.clicked.connect(self.gotoCreate)
 

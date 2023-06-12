@@ -140,7 +140,7 @@ QPushButton:default {
      <string>Create an Account</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="Flight_Gif_Label">
     <property name="geometry">
      <rect>
       <x>90</x>
