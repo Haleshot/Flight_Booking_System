@@ -43,8 +43,9 @@ to Payments Page.
 class Welcome_screen(QDialog):
     def __init__(self):
         super(Welcome_screen, self).__init__()
-        loadUi(r"F:\New_Laptop_Documents\NMIMS_College_Docs\2nd_Year\1st_Semester\DBMS\Project\Project_Source_Code\Welcome_UI_Screen.ui", self)
+        loadUi(r"Project_Source_Code\Welcome_UI_Screen.ui", self)
         # Relative Path - loadUi(r"Project_Source_Code\Welcome_UI_Screen.ui", self")
+        
         self.Login.clicked.connect(self.gotoLogin)
         self.Create_an_Account.clicked.connect(self.gotoCreate)
 
@@ -64,7 +65,7 @@ class Login_screen(QDialog):
     
     def __init__(self):
         super(Login_screen, self).__init__()
-        loadUi(r"F:\New_Laptop_Documents\NMIMS_College_Docs\2nd_Year\1st_Semester\DBMS\Project\Project_Source_Code\Login_UI.ui", self)
+        loadUi(r"Project_Source_Code\Login_UI.ui", self)
         # Relative Path - loadUi(r"Project_Source_Code\Login_UI.ui", self")
         self.login.clicked.connect(self.Login_Function)
 
