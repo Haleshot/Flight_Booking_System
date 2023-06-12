@@ -41,6 +41,22 @@
      <string>Flight Booking Management System</string>
     </property>
    </widget>
+   <widget class="QLabel" name="Login_Sign_Up_Label">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>160</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Login/Sign Up Page</string>
+    </property>
+   </widget>
    <widget class="QPushButton" name="Login">
     <property name="geometry">
      <rect>

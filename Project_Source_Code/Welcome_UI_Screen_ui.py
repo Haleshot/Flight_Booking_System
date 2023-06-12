@@ -26,6 +26,10 @@ class Ui_Dialog(object):
         self.Header_Title.setObjectName(u"Header_Title")
         self.Header_Title.setGeometry(QRect(350, 80, 621, 91))
         self.Header_Title.setStyleSheet(u"font: 20pt \"MS Shell Dlg 2\";")
+        self.Login_Sign_Up_Label = QLabel(self.bgwidget)
+        self.Login_Sign_Up_Label.setObjectName(u"Login_Sign_Up_Label")
+        self.Login_Sign_Up_Label.setGeometry(QRect(520, 160, 191, 61))
+        self.Login_Sign_Up_Label.setStyleSheet(u"font: 12pt \"MS Shell Dlg 2\";")
         self.Login = QPushButton(self.bgwidget)
         self.Login.setObjectName(u"Login")
         self.Login.setGeometry(QRect(490, 570, 241, 71))
@@ -50,6 +54,7 @@ class Ui_Dialog(object):
     def retranslateUi(self, Dialog):
         Dialog.setWindowTitle(QCoreApplication.translate("Dialog", u"Dialog", None))
         self.Header_Title.setText(QCoreApplication.translate("Dialog", u"Flight Booking Management System", None))
+        self.Login_Sign_Up_Label.setText(QCoreApplication.translate("Dialog", u"Login/Sign Up Page", None))
         self.Login.setText(QCoreApplication.translate("Dialog", u"Login", None))
         self.Create_an_Account.setText(QCoreApplication.translate("Dialog", u"Create an Account", None))
     # retranslateUi
