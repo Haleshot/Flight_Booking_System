@@ -86,6 +86,11 @@ class Ui_Login_SignUp_Page(object):
 "QPushButton:default {\n"
 "    border-color: navy; /* make the default button prominent */\n"
 "}")
+        self.label = QLabel(self.bgwidget)
+        self.label.setObjectName(u"label")
+        self.label.setGeometry(QRect(90, 260, 1051, 261))
+        self.label.setPixmap(QPixmap(u"Flight_Gif.webp"))
+        self.label.setAlignment(Qt.AlignCenter)
 
         self.retranslateUi(Login_SignUp_Page)
 
@@ -101,5 +106,6 @@ class Ui_Login_SignUp_Page(object):
 #endif // QT_CONFIG(whatsthis)
         self.Login.setText(QCoreApplication.translate("Login_SignUp_Page", u"Login", None))
         self.Create_an_Account.setText(QCoreApplication.translate("Login_SignUp_Page", u"Create an Account", None))
+        self.label.setText("")
     # retranslateUi
 
