@@ -2,28 +2,16 @@
 
 
 # import libraries used in this project
-from mimetypes import init
-from re import A
-from sqlite3 import Cursor, connect
 import sys
-from time import strftime
-from unittest import installHandler
 from PyQt5.uic import loadUi
 from PyQt5 import QtWidgets
-from PyQt5.QtWidgets import QDialog, QApplication, QWidget, QStackedWidget, QComboBox
-from PyQt5.QtGui import QPixmap
-import sql
+from PyQt5.QtWidgets import QDialog, QApplication, QStackedWidget
 import mysql.connector
 from datetime import date
 from PyQt5.QtWidgets import * 
 from PyQt5.QtCore import QCoreApplication
 
-
-
-import os
 import random
-import twilio
-import twilio.rest
 from twilio.rest import Client
 
 
