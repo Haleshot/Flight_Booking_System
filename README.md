@@ -1,4 +1,4 @@
-# Storyline 
+<!-- # Storyline 
 
 Flight Ticket Management System - 
 
@@ -106,3 +106,4 @@ Implemented Flight Ticket Booking system which helps a customer in booking fligh
 Learnt integration of front end (PyQt5) with backend (Database); enhanced coding in Python;improvised and implemented concepts learnt in the DBMS course in the project which led to better understanding of the queries in MySQL. 
 
 Understood the importance of various applications that helps us in our day-to-day life and the 		working at front end as well as the back end of these applications. 
+ -->
