@@ -1,6 +1,3 @@
-# DBMS Project
-
-
 # import libraries used in this project
 import sys
 from PyQt5.uic import loadUi
@@ -11,20 +8,13 @@ import mysql.connector
 from datetime import date
 from PyQt5.QtWidgets import * 
 from PyQt5.QtCore import QCoreApplication
-
 import random
 from twilio.rest import Client
-
-
 
 """
 Check out this video : 
 https://www.youtube.com/watch?v=ksW59gYEl6Q&ab_channel=PyTutorials
-"""
 
-
-
-"""
 TO DO:
 
 1. Transfer information from the initial profile account table and final profile account table to the Customer Table if needed.
