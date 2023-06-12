@@ -783,8 +783,7 @@ class Confirm_Customer_Information(QDialog):
 class Update_Customer_Information(QDialog):
     def __init__(self):
         super(Update_Customer_Information, self).__init__()
-        loadUi(r"F:\New_Laptop_Documents\NMIMS_College_Docs\2nd_Year\1st_Semester\DBMS\Project\Project_Source_Code\Update_Customer_Information.ui", self)
-        # Relative Path - loadUi(r"Project_Source_Code\Update_Customer_Information.ui", self")
+        loadUi(r"Project_Source_Code\Update_Customer_Information.ui", self)
                 
         self.Reenter_Button.clicked.connect(self.gotoReenterDetails)
 
