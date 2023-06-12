@@ -290,8 +290,8 @@ class OTP_Screen(QDialog):
         else:
 
         
-            account_sid = 'AC57dc85c6338df700cdb094d3b3b707f3'
-            auth_token = 'bdc2d0df15eb75bf9c6ca329f6a016ff'
+            account_sid = ''
+            auth_token = ''
             client = Client(account_sid, auth_token)
 
             # WORK ON SENDING OTP TO PHONE ENTERED BY USER.
@@ -348,7 +348,7 @@ class Flight_Booking_Screen(QDialog):
     def __init__(self):
         super(Flight_Booking_Screen, self).__init__()
         
-        loadUi(r"F:\New_Laptop_Documents\NMIMS_College_Docs\2nd_Year\1st_Semester\DBMS\Project\Project_Source_Code\Flight_Booking_Screen.ui", self)
+        loadUi(r"Project_Source_Code\Flight_Booking_Screen.ui", self)
         # Relative Path - loadUi(r"Flight_Booking_Screen.ui", self")
 
         
