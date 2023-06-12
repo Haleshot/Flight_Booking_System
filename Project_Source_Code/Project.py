@@ -94,15 +94,10 @@ class Login_screen(QDialog):
             SELECT Password FROM Initial_Info_Account WHERE Username = %s
             """
 
-            tpl = (EmailField, )
-
-            
+            tpl = (EmailField, )   
             cursor.execute(query, tpl)
-            
 
             result = cursor.fetchone()
-            
-
 
             if result == None:
                 self.Error_Popup_Message.setText("Account with this Username doesn't exist! Create Account...") # If account doesn't exist
@@ -138,10 +133,6 @@ class Create_Screen(QDialog):
         super(Create_Screen, self).__init__()
         loadUi(r"Project_Source_Code\Create_Account_UI.ui", self)
         self.Next_Button.clicked.connect(self.gotoSignUp)
-        EmailField = self.EmailField.text()
-        PasswordField = self.PasswordField.text()
-
-
 
 
     def gotoSignUp(self):
