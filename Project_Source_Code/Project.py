@@ -1318,8 +1318,7 @@ class Success(QDialog):
     def __init__(self):
 
         super(Success, self).__init__()
-        loadUi(r"F:\New_Laptop_Documents\NMIMS_College_Docs\2nd_Year\1st_Semester\DBMS\Project\Project_Source_Code\Success_Payment_Screen.ui", self)
-        # Relative Path - loadUi(r"Success_Payment_Screen.ui", self")
+        loadUi(r"Project_Source_Code\Success_Payment_Screen.ui", self)
 
         self.Yes_Button.clicked.connect(self.gotoRefund)
         self.Quit_Button.clicked.connect(QCoreApplication.instance().quit)
@@ -1334,8 +1333,7 @@ class Cancellation(QDialog):
     def __init__(self):
 
         super(Cancellation, self).__init__()
-        loadUi(r"F:\New_Laptop_Documents\NMIMS_College_Docs\2nd_Year\1st_Semester\DBMS\Project\Project_Source_Code\Cancellation_Refund_Screen.ui", self)
-        # Relative Path - loadUi(r"Cancellation_Refund_Screen.ui", self")
+        loadUi(r"Project_Source_Code\Cancellation_Refund_Screen.ui", self)
         self.Quit_Button.clicked.connect(QCoreApplication.instance().quit)
 
         global Payment_ID
