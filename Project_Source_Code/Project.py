@@ -135,7 +135,6 @@ class Create_Screen(QDialog):
     def __init__(self):
         super(Create_Screen, self).__init__()
         loadUi(r"Project_Source_Code\Create_Account_UI.ui", self)
-        # Relative Path - loadUi(r"Project_Source_Code\Create_Account_UI.ui", self")
         self.Next_Button.clicked.connect(self.gotoSignUp)
         EmailField = self.EmailField.text()
         PasswordField = self.PasswordField.text()
@@ -181,8 +180,7 @@ class Full_Profile_Screen(QDialog):
     def __init__(self):
         super(Full_Profile_Screen, self).__init__()
         
-        loadUi(r"F:\New_Laptop_Documents\NMIMS_College_Docs\2nd_Year\1st_Semester\DBMS\Project\Project_Source_Code\Full_Profile_Screen.ui", self)
-        # Relative Path - loadUi(r"Project_Source_Code\Full_Profile_Screen.ui", self")
+        loadUi(r"Project_Source_Code\Full_Profile_Screen.ui", self)
         self.Sign_Up.clicked.connect(self.SignUp_Function)
 
         
