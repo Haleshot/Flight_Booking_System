@@ -37,6 +37,8 @@ class Welcome_screen(QDialog):
         super(Welcome_screen, self).__init__()
         loadUi(r"Project_Source_Code\Welcome_UI_Screen.ui", self)
 
+        
+        # Displaying the Flight Gif on the label
         self.movie = QMovie("Project_Source_Code\Flight Gif.gif")
         self.Flight_Gif_Label.setMovie(self.movie)
   
