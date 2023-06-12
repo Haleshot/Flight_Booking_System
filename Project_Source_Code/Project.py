@@ -19,7 +19,6 @@ TO DO:
 
 1. Transfer information from the initial profile account table and final profile account table to the Customer Table if needed.
 Refer to this website - https://www.w3schools.com/python/python_mysql_insert.asp
-
 4. Try adding unique key constraint or primary key to Username in initial_info_account and full_info_account without getting errors of duplicate entry.
 5. Do Bug testing for all screens.
 
