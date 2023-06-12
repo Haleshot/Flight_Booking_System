@@ -267,8 +267,7 @@ class OTP_Screen(QDialog):
     def __init__(self):
         super(OTP_Screen, self).__init__()
         
-        loadUi(r"F:\New_Laptop_Documents\NMIMS_College_Docs\2nd_Year\1st_Semester\DBMS\Project\Project_Source_Code\OTP_Screen.ui", self)
-        # Relative Path - loadUi(r"OTP_Screen.ui", self")
+        loadUi(r"Project_Source_Code\OTP_Screen.ui", self)
         
         
         print(OTP_Generated)
