@@ -17,7 +17,7 @@ class Ui_Login_SignUp_Page(object):
     def setupUi(self, Login_SignUp_Page):
         if not Login_SignUp_Page.objectName():
             Login_SignUp_Page.setObjectName(u"Login_SignUp_Page")
-        Login_SignUp_Page.resize(1200, 862)
+        Login_SignUp_Page.resize(1200, 801)
         self.bgwidget = QWidget(Login_SignUp_Page)
         self.bgwidget.setObjectName(u"bgwidget")
         self.bgwidget.setGeometry(QRect(0, 0, 1201, 801))
