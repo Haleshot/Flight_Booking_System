@@ -110,4 +110,8 @@ Understood the importance of various applications that helps us in our day-to-da
  
  
 
-<p align="center"> <img src="https://media.tenor.com/hB9OTbewrikAAAAi/work-work-in-progress.gif" width="200" height="300" /> </p> -->
+<p align="center"> 
+ 
+ <img src="https://media.tenor.com/hB9OTbewrikAAAAi/work-work-in-progress.gif" width="200" height="300" /> 
+ 
+</p>
