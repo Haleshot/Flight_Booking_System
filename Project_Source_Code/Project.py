@@ -960,8 +960,7 @@ class Payment_Info(QDialog):
     def __init__(self):
         global Payment_ID
         super(Payment_Info, self).__init__()
-        loadUi(r"F:\New_Laptop_Documents\NMIMS_College_Docs\2nd_Year\1st_Semester\DBMS\Project\Project_Source_Code\Payment_Info_Screen.ui", self)
-        # Relative Path - loadUi(r"Project_Source_Code\Payment_Info_Screen.ui", self")
+        loadUi(r"Project_Source_Code\Payment_Info_Screen.ui", self)
 
         self.Confirm_Payment.clicked.connect(self.confirm)
 
