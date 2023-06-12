@@ -935,7 +935,6 @@ class Payment_Booking(QDialog):
 
             
             F_ID = result[0][0]
-            
             F_Dept_Location = result[0][1]
             F_Arr_Location = result[0][2]
             F_Company = result[0][3]
