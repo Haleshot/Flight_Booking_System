@@ -33,18 +33,59 @@ class Ui_Dialog(object):
         self.Login = QPushButton(self.bgwidget)
         self.Login.setObjectName(u"Login")
         self.Login.setGeometry(QRect(490, 570, 241, 71))
-        self.Login.setStyleSheet(u"border-radius: 20px;\n"
-"font: 12pt \"MS Shell Dlg 2\";\n"
-"background-color: rgb(170, 255, 127);\n"
-"")
+        self.Login.setStyleSheet(u"QPushButton {\n"
+"    border: 2px solid #8f8f91;\n"
+"    border-radius: 6px;\n"
+"    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,\n"
+"                                      stop: 0 #f6f7fa, stop: 1 #dadbde);\n"
+"	\n"
+"	background-color: rgb(85, 255, 127);\n"
+"    min-width: 80px;\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,\n"
+"                                      stop: 0 #dadbde, stop: 1 #f6f7fa);\n"
+"}\n"
+"\n"
+"QPushButton:flat {\n"
+"    border: none; /* no border for a flat push button */\n"
+"}\n"
+"\n"
+"QPushButton:default {\n"
+"    border-color: navy; /* make the default button prominent */\n"
+"}")
         self.Create_an_Account = QPushButton(self.bgwidget)
         self.Create_an_Account.setObjectName(u"Create_an_Account")
         self.Create_an_Account.setGeometry(QRect(490, 675, 241, 71))
-        self.Create_an_Account.setStyleSheet(u"\n"
+        self.Create_an_Account.setStyleSheet(u"/*\n"
 "border: 12px  solid rgb(170, 255, 127);\n"
 "border-width: 2px;\n"
 "font: 12pt \"MS Shell Dlg 2\";\n"
-"border-radius: 15px;")
+"border-radius: 15px;\n"
+"*/\n"
+"\n"
+"QPushButton {\n"
+"    border: 2px solid #8f8f91;\n"
+"    border-radius: 6px;\n"
+"    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,\n"
+"                                      stop: 0 #f6f7fa, stop: 1 #dadbde);\n"
+"	\n"
+"    min-width: 80px;\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,\n"
+"                                      stop: 0 #dadbde, stop: 1 #f6f7fa);\n"
+"}\n"
+"\n"
+"QPushButton:flat {\n"
+"    border: none; /* no border for a flat push button */\n"
+"}\n"
+"\n"
+"QPushButton:default {\n"
+"    border-color: navy; /* make the default button prominent */\n"
+"}")
 
         self.retranslateUi(Dialog)
 
@@ -55,6 +96,9 @@ class Ui_Dialog(object):
         Dialog.setWindowTitle(QCoreApplication.translate("Dialog", u"Dialog", None))
         self.Header_Title.setText(QCoreApplication.translate("Dialog", u"Flight Booking Management System", None))
         self.Login_Sign_Up_Label.setText(QCoreApplication.translate("Dialog", u"Login/Sign Up Page", None))
+#if QT_CONFIG(whatsthis)
+        self.Login.setWhatsThis(QCoreApplication.translate("Dialog", u"<html><head/><body><p><br/></p></body></html>", None))
+#endif // QT_CONFIG(whatsthis)
         self.Login.setText(QCoreApplication.translate("Dialog", u"Login", None))
         self.Create_an_Account.setText(QCoreApplication.translate("Dialog", u"Create an Account", None))
     # retranslateUi
