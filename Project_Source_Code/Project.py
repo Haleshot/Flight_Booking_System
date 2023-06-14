@@ -74,7 +74,7 @@ class Login_screen(QDialog):
 
     def Login_Function(self):
         global Email_Field
-        EmailField = self.EmailField.text()
+        EmailField = self.EmailField.text() # From the text box user entered in the GUI.
         PasswordField = self.PasswordField.text()
         
         Email_Field = EmailField
