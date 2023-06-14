@@ -126,7 +126,7 @@ class Login_screen(QDialog):
                     widget.setCurrentIndex(widget.currentIndex() + 1)
 
                 else:
-                    self.Error_Popup_Message.setText("Invalid Username or Password!") # Checking Validity of Password
+                    self.Error_Popup_Message.setText("Invalid Password!") # Checking Validity of Password
 
 
 
@@ -167,18 +167,19 @@ class Create_Screen(QDialog):
             if result != None:
                 self.Error_Popup_Message.setText("Account with this Username already exists! Change Username...") # If account doesn't exist
 
+            else:
 
-            cursor.execute('INSERT INTO Initial_Info_Account VALUES (%s, %s);', Customer_Info)
-            db.commit()
-            db.close()
+                cursor.execute('INSERT INTO Initial_Info_Account VALUES (%s, %s);', Customer_Info)
+                db.commit()
+                db.close()
 
-            fp = Full_Profile_Screen()
-            widget.addWidget(fp)
-            widget.setCurrentIndex(widget.currentIndex() + 1)
+                fp = Full_Profile_Screen()
+                widget.addWidget(fp)
+                widget.setCurrentIndex(widget.currentIndex() + 1)
 
-            print(EmailField, PasswordField)
-            return EmailField, PasswordField
-            
+                print(EmailField, PasswordField)
+                return EmailField, PasswordField
+                
 
         
 
