@@ -79,12 +79,12 @@ class Login_screen(QDialog):
         self.login.clicked.connect(self.Login_Function)
 
     def Login_Function(self):
-        global Email_Field
+        global Email_Field, Password_Field
         EmailField = self.EmailField.text() # From the text box user entered in the GUI.
         PasswordField = self.PasswordField.text()
         
         Email_Field = EmailField
-        Password_Field            = PasswordField
+        Password_Field = PasswordField
 
 
         if len(EmailField) == 0 or len(PasswordField) == 0:
