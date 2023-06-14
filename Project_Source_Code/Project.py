@@ -933,35 +933,36 @@ class Payment_Booking(QDialog):
             if cursor.rowcount == 0:
                 self.Error_Popup_Message.setText("No Data to fetch from!")
 
-            
-            F_ID = result[0][0]
-            F_Dept_Location = result[0][1]
-            F_Arr_Location = result[0][2]
-            F_Company = result[0][3]
-            F_Duration = result[0][4]
-            F_Dept_Time = result[0][5]
-            F_Arr_Time = result[0][6]
-            F_Seats = result[0][7]
-            C_ID = result[0][8]
+            else:
+                self.Error_Popup_Message.setText("")
+                F_ID = result[0][0]
+                F_Dept_Location = result[0][1]
+                F_Arr_Location = result[0][2]
+                F_Company = result[0][3]
+                F_Duration = result[0][4]
+                F_Dept_Time = result[0][5]
+                F_Arr_Time = result[0][6]
+                F_Seats = result[0][7]
+                C_ID = result[0][8]
 
-            FlightID = F_ID
-            Company_ID = C_ID
-            
+                FlightID = F_ID
+                Company_ID = C_ID
+                
 
-            F_Info_Customer = [F_ID, F_Dept_Location, F_Arr_Location, F_Company, F_Duration, str(F_Dept_Time), str(F_Arr_Time), F_Seats, C_ID]
-            cursor.execute('INSERT INTO Cust_Choice_Flight VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s);', F_Info_Customer)
+                F_Info_Customer = [F_ID, F_Dept_Location, F_Arr_Location, F_Company, F_Duration, str(F_Dept_Time), str(F_Arr_Time), F_Seats, C_ID]
+                cursor.execute('INSERT INTO Cust_Choice_Flight VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s);', F_Info_Customer)
 
-            db.commit()
-            db.close()
+                db.commit()
+                db.close()
 
-            print("Succesfully inserted values in the Customer Choice Flight relation") # Displaying in VS Terminal for the developers to know client side
+                print("Succesfully inserted values in the Customer Choice Flight relation") # Displaying in VS Terminal for the developers to know client side
 
-            print(cursor.statement)
+                print(cursor.statement)
 
-            
-            sum = Summary()
-            widget.addWidget(sum)
-            widget.setCurrentIndex(widget.currentIndex() + 1)
+                
+                sum = Summary()
+                widget.addWidget(sum)
+                widget.setCurrentIndex(widget.currentIndex() + 1)
 
 Payment_ID = 0 # Global variable for accessing generated Payment ID of customer across various classes.
 class Payment_Info(QDialog):
