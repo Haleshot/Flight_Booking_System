@@ -215,8 +215,8 @@ class Full_Profile_Screen(QDialog):
         
         
         
-        if Customer_Pincode.isalnum():
-            Customer_Pincode = random.randint(23334,53342)
+        if not Customer_Pincode.isdigit():
+            self.Error_Popup_Message.setText("Please input integer pincode!")
         
 
         if len(Customer_Name) == 0 or len(Customer_Gender) == 0 or len(Customer_State) == 0 or len(Customer_Country) == 0 or len(self.Customer_Pincode.text()) == 0 or len(Customer_DOB) == 0 or len(Customer_Phone_Number) == 0:
