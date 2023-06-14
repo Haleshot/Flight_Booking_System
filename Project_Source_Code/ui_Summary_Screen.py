@@ -20,7 +20,7 @@ class Ui_bgWidget(object):
         bgWidget.resize(1201, 801)
         self.HeaderLabel = QLabel(bgWidget)
         self.HeaderLabel.setObjectName(u"HeaderLabel")
-        self.HeaderLabel.setGeometry(QRect(440, 10, 271, 71))
+        self.HeaderLabel.setGeometry(QRect(470, 10, 271, 71))
         self.HeaderLabel.setStyleSheet(u"\n"
 "font: 36pt \"MS Shell Dlg 2\";")
         self.HeaderLabel.setAlignment(Qt.AlignCenter)
