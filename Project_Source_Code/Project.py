@@ -84,6 +84,7 @@ class Login_screen(QDialog):
         PasswordField = self.PasswordField.text()
         
         Email_Field = EmailField
+        Password_Field            = PasswordField
 
 
         if len(EmailField) == 0 or len(PasswordField) == 0:
