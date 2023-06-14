@@ -19,7 +19,6 @@ TO DO:
 
 1. Transfer information from the initial profile account table and final profile account table to the Customer Table if needed.
 Refer to this website - https://www.w3schools.com/python/python_mysql_insert.asp
-4. Try adding unique key constraint or primary key to Username in initial_info_account and full_info_account without getting errors of duplicate entry.
 5. Do Bug testing for all screens.
 6. Hash passwords and store them.
 
@@ -28,6 +27,7 @@ DONE:
 2. If SQL fetches no data, print no data near table pop up.
 3. Create a Rollable screen in which you display a Summary of Customer Details as well as Flight details and give buttons to modify both before proceeding
 to Payments Page.
+4. Try adding unique key constraint or primary key to Username in initial_info_account and full_info_account without getting errors of duplicate entry.
 6. If user enters string pincode, program crashes.
 
 """
