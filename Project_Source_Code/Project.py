@@ -215,7 +215,7 @@ class Full_Profile_Screen(QDialog):
         
         
         
-        if not Customer_Pincode.isdigit():
+        if not int(Customer_Pincode).isdigit():
             self.Error_Popup_Message.setText("Please input integer pincode!")
         
 
