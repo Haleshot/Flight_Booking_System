@@ -65,7 +65,12 @@ class Welcome_screen(QDialog):
         widget.addWidget(create)
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
+
+# Declaring these variables for inserting to the Customer table while inside the Full Profile class.
 Email_Field = ""
+Password_Field = ""
+
+
 class Login_screen(QDialog):
     
     def __init__(self):
