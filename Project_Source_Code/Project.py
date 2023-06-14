@@ -46,7 +46,8 @@ class Welcome_screen(QDialog):
   
         self.startAnimation()
         self.movie.start()
-  
+    
+    # For the Gif in the Welcome Screen to keep playing.
     def startAnimation(self):
         self.movie.start()
         self.Login.clicked.connect(self.gotoLogin)
