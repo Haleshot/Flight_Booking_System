@@ -150,6 +150,7 @@ class Create_Screen(QDialog):
             self.Error_Popup_Message.setText("Passwords do not match!")
         
         else:
+            
             db = mysql.connector.connect(host = 'localhost', database='DBMS_PROJECT', user = 'root', password = 'Haleshot@2003')
             cursor = db.cursor(buffered=True)
             Customer_Info = [EmailField, PasswordField]
