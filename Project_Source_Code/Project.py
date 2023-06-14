@@ -214,11 +214,6 @@ class Full_Profile_Screen(QDialog):
         Customer_DOB = year+ "-" + month+ "-" + day # # Reversing the DOB before inserting into the MySQL database to adhere to the MYSQL Syntax
         
         
-        
-        if Customer_Pincode.isalnum():
-            self.Error_Popup_Message.setText("Please input integer pincode!")
-        
-
         if len(Customer_Name) == 0 or len(Customer_Gender) == 0 or len(Customer_State) == 0 or len(Customer_Country) == 0 or len(self.Customer_Pincode.text()) == 0 or len(Customer_DOB) == 0 or len(Customer_Phone_Number) == 0:
             self.Error_Popup_Message.setText("Please input all * fields!")
 
