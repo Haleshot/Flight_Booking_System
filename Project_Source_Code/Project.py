@@ -155,6 +155,19 @@ class Create_Screen(QDialog):
             cursor = db.cursor(buffered=True)
             Customer_Info = [EmailField, PasswordField]
 
+            query = """
+            SELECT Username FROM Initial_Info_Account WHERE Username = %s
+            """
+
+            tpl = (EmailField, )   
+            cursor.execute(query, tpl)
+
+            result = cursor.fetchone()
+
+            if result != None:
+                self.Error_Popup_Message.setText("Account with this Username already exists! Change Username...") # If account doesn't exist
+
+
             cursor.execute('INSERT INTO Initial_Info_Account VALUES (%s, %s);', Customer_Info)
             db.commit()
             db.close()
