@@ -967,7 +967,7 @@ class Payment_Booking(QDialog):
                 widget.addWidget(sum)
                 widget.setCurrentIndex(widget.currentIndex() + 1)
 
-Payment_ID = 0 # Global variable for accessing generated Payment ID of customer across various classes.
+Payment_ID = random.randint(3244,54354) # Global variable for accessing generated Payment ID of customer across various classes.
 class Payment_Info(QDialog):
     def __init__(self):
         global Payment_ID
