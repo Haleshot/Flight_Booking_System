@@ -44,8 +44,8 @@ Welcome to the Flight Booking Management System! This project was developed as p
 
 
 
-<h2 id="Introduction"> :pencil: Introduction </h2>
-# Components of the Database Design
+<h2 id="Components of the Database Design"> :pencil: Components of the Database Design </h2>
+
 
 Description of all entities along with their attributes here along with the primary keys for each entity. 
 
@@ -70,15 +70,10 @@ DESC payment;
 ![image](https://user-images.githubusercontent.com/57552973/209421152-574e15f2-e9b9-48b3-91cf-d5fb55266c53.png)
 
 
+![image](https://github.com/Haleshot/Flight_Booking_System/assets/57552973/bc9fb9ad-f075-4964-b166-97dad8af8821)
 
 
-![image](https://user-images.githubusercontent.com/57552973/209421163-234b315e-cc24-467f-9450-f2bc52209379.png)
-
-
-
-![image](https://user-images.githubusercontent.com/57552973/209421165-63d749a6-f40f-42c8-961e-9de3c3ca9d7a.png)
-
-
+![image](https://github.com/Haleshot/Flight_Booking_System/assets/57552973/478bc416-ec6f-4e2b-abec-296a38f61256)
 
 
 ![image](https://user-images.githubusercontent.com/57552973/209421167-0872f91a-1ec8-482a-b2a6-337b593701f8.png)
