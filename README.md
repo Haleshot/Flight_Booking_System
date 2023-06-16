@@ -46,7 +46,7 @@ Welcome to the Flight Booking Management System! This project was developed as p
 
 
 <h2 id="Components of the Database Design"> :cloud: Components of the Database Design </h2>
-
+<p align="justify">
 
 Description of all entities along with their attributes here along with the primary keys for each entity. 
 
