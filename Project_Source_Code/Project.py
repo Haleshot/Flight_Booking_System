@@ -184,11 +184,13 @@ class Create_Screen(QDialog):
                 db.commit()
                 db.close()
 
+                print(EmailField, PasswordField)
+
+
                 fp = Full_Profile_Screen()
                 widget.addWidget(fp)
                 widget.setCurrentIndex(widget.currentIndex() + 1)
 
-                print(EmailField, PasswordField)
                 return EmailField, PasswordField
                 
 
