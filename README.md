@@ -140,8 +140,19 @@ DESC payment;
 <h2 id="Learning from the Project"> :cloud: Learning from the Project</h2>
 <p align="justify">
 
-![image](https://user-images.githubusercontent.com/57552973/209421286-ef8ab483-e3e0-455c-9029-e19910eca44b.png)
+Through the development of the Flight Booking Management System, several key learning points were obtained:
 
+- Understanding the Ticket Management/Booking system and its overall process.
+- Gaining insight into the integration of front-end (GUI) and back-end (Database) components.
+- Efficient retrieval and modification of data based on user preferences.
+- Clearer understanding of database management systems, including concepts such as normalization, weak entities, SQL commands, relationship cardinalities, and attribute constraints.
+- Exposure to new errors and problems not encountered in weekly labs, leading to enhanced problem-solving skills and a better grasp of MySQL.
+- Learning the PyQt5 + Qt Designer interface, enabling the creation of seamless UI screens (screenshots of respective screens shown above).
+- Integration of front-end with back-end, extracting user data through GUI elements (text boxes, interactive buttons), and merging them into the respective database relations.
+
+These aspects of the project have contributed to an expanded knowledge base and improved skills in building user-friendly interfaces and effectively managing data within a database system.
+</p>
+<hr>
 
 
 <h2 id="Challenges Faced"> :cloud: Challenges Faced</h2>
