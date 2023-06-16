@@ -244,7 +244,7 @@ Overall, the Flight Booking Management System has served as a valuable project, 
 
 See [the contributing guide](CONTRIBUTING.md) for detailed instructions on how to get started with our project.
 
-If you're looking for a way to contribute, you can scan through our [existing issues](https://github.com/Haleshot/Projects/issues) for something to work on. When ready, check out [Getting Started with Contributing](CONTRIBUTING.md) for detailed instructions.
+If you're looking for a way to contribute, you can scan through our [existing issues](https://github.com/Haleshot/Flight_Booking_System/issues) for something to work on. When ready, check out [Getting Started with Contributing](CONTRIBUTING.md) for detailed instructions.
 
 
 Click on these badges to see how you might be able to help:
