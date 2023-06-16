@@ -10,8 +10,8 @@
       <li><a href="#Flights">  Flights </a></li>
       <li><a href="#Cancellation">  Cancellation </a></li>
       <li><a href="#Company">  Company </a></li>
-      <li><a href="#Blurring">  Blurring </a></li>
-      <li><a href="#Low Pass Filtering (LPF)">  Low Pass Filtering (LPF) </a></li>
+      <li><a href="#Initial Account Info">  nitial Account Info </a></li>
+      <li><a href="#Full Account Info">  Full Account Info </a></li>
       <li><a href="#Gaussian Noise">  Gaussian Noise </a></li>
       <li><a href="#Facial Feature Detection">  Facial Feature Detection </a></li>
       <li><a href="#Laplacian Edge Detection">  Laplacian Filter </a></li>
