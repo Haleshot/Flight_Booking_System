@@ -22,11 +22,7 @@ TO DO:
 
 
 DONE:
-2. If SQL fetches no data, print no data near table pop up.
-3. Create a Rollable screen in which you display a Summary of Customer Details as well as Flight details and give buttons to modify both before proceeding
-to Payments Page.
-4. Try adding unique key constraint or primary key to Username in initial_info_account and full_info_account without getting errors of duplicate entry.
-6. If user enters string pincode, program crashes.
+
 
 """
 
