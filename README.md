@@ -113,7 +113,7 @@ Description of all relationships among various entities along with the specifica
 
 
 
-<h2 id="Nistara"> :cloud: Nistara </h2>
+<h2 id="Cust_Choice-Flight"> :cloud: Customer Choice Flight </h2>
 <p align="justify">
 
 ![image](https://user-images.githubusercontent.com/57552973/209421173-f2453cc5-9d0f-40b2-95d5-e4ceb4917ea0.png)
