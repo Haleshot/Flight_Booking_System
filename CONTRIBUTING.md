@@ -17,28 +17,28 @@ Refer to the following articles on the basics of Git and GitHub and can also con
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-- Take a look at the Existing [Issues](https://github.com/Haleshot/Image_Processing/issues) or create your own Issues!
+- Take a look at the Existing [Issues](https://github.com/Haleshot/Flight_Booking_System/issues) or create your own Issues!
 - Wait for the Issue to be assigned to you after which you can start working on it.
 - Fork the Repo and create a Branch for any Issue that you are working upon.
-- Read the [Code of Conduct](https://github.com/Haleshot/Image_Processing/blob/main/CODE_OF_CONDUCT.md)
+- Read the [Code of Conduct](https://github.com/Haleshot/Flight_Booking_System/blob/main/CODE_OF_CONDUCT.md)
 - Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
 - Add Screenshots to help us know what this Script is all about.
 
 ## ⭐Making a Pull Request:
 
-**1.** Fork [this](https://github.com/Haleshot/Image_Processing) repository.
+**1.** Fork [this](https://github.com/Haleshot/Flight_Booking_System) repository.
 
 
 **2.** Clone the forked repository. Open terminal and type:
 
 ```bash
-git clone https://github.com/<your-github-username>/Image_Processing.git
+git clone https://github.com/<your-github-username>/Flight_Booking_System.git
 ```
 
 **3.** Navigate to the project directory.
 
 ```bash
-cd Image_Processing
+cd Flight_Booking_System
 ```
 
 **4.** Make a feature branch
@@ -64,7 +64,7 @@ git push origin <brach-name>
 
 **8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
 
-**9.** **Congratulations!** Sit and relax, you've made your contribution to [Image_Processing](https://github.com/Haleshot/Image_Processing) project.
+**9.** **Congratulations!** Sit and relax, you've made your contribution to [Flight_Booking_Management](https://github.com/Haleshot/Flight_Booking_System) project.
 
 
 ***:trophy: After this, project leaders and mentors will review the changes and will merge your PR if they are found good, otherwise we will suggest the required changes.***
