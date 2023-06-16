@@ -12,10 +12,7 @@
       <li><a href="#Company">  Company </a></li>
       <li><a href="#Initial Account Info">  Initial Account Info </a></li>
       <li><a href="#Full Account Info">  Full Account Info </a></li>
-      <li><a href="#Indivo">  Indivo </a></li>
-      <li><a href="#Nistara">  Nistara </a></li>
-      <li><a href="#MetAirways">  MetAirways </a></li>
-      <li><a href="#Picejet">  Picejet </a></li>
+      <li><a href="#Indivo, Nistara, MetAirways, Picejet">  Indivo, Nistara, MetAirways, Picejet </a></li>
       <li><a href="#Cust_Choice-Flight">  Customer Choice Flight </a></li>
       <li><a href="#Customer">  Customer </a></li>
     </ul>
