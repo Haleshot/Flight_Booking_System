@@ -21,6 +21,8 @@
     </ul>
     <li><a href="#Entity Relationship Diagram">  Entity Relationship Diagram </a></li>
     <li><a href="#Relational Model"> Relational Model </a></li>
+    <li><a href="#Normalization"> Normalization </a></li>
+    <li><a href="#Learning from the Project"> Learning from the Project </a></li>
     <li><a href="#Conclusion"> Conclusion </a></li>
     <li><a href="#Contributing">  Contributing </a></li>
     <li><a href="#ToDo">  To Do </a></li>
@@ -110,7 +112,9 @@ DESC payment;
 </p>
 <hr>
 
-# Normalization 
+
+<h2 id="Normalization"> :cloud: Normalization  </h2>
+<p align="justify">
 
 ![image](https://user-images.githubusercontent.com/57552973/209421213-d47ee8d4-8094-4fc8-9300-b264b950985e.png)
 
@@ -127,6 +131,9 @@ DESC payment;
 
 
 ![image](https://user-images.githubusercontent.com/57552973/209421222-7b23b106-50a1-41b8-8d34-b148b2033482.png)
+
+</p>
+<hr>
 
 
 # Learning from the Project 
