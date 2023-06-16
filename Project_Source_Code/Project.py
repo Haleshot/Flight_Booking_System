@@ -17,8 +17,6 @@ https://www.youtube.com/watch?v=ksW59gYEl6Q&ab_channel=PyTutorials
 
 TO DO:
 
-1. Transfer information from the initial profile account table and final profile account table to the Customer Table if needed.
-Refer to this website - https://www.w3schools.com/python/python_mysql_insert.asp
 5. Do Bug testing for all screens.
 6. Hash passwords and store them.
 
