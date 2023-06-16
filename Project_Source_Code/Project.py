@@ -11,23 +11,6 @@ from PyQt5.QtCore import QCoreApplication
 import random
 from twilio.rest import Client
 
-"""
-Check out this video : 
-https://www.youtube.com/watch?v=ksW59gYEl6Q&ab_channel=PyTutorials
-
-TO DO:
-
-5. Do Bug testing for all screens.
-6. Hash passwords and store them.
-
-
-DONE:
-
-
-"""
-
-
-
 
 class Welcome_screen(QDialog):
     def __init__(self):
