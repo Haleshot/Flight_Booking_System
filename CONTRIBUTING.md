@@ -26,19 +26,19 @@ Refer to the following articles on the basics of Git and GitHub and can also con
 
 ## ⭐Making a Pull Request:
 
-**1.** Fork [this](https://github.com/Haleshot/Image_Processing) repository.
+**1.** Fork [this](https://github.com/Haleshot/Flight_Booking_System) repository.
 
 
 **2.** Clone the forked repository. Open terminal and type:
 
 ```bash
-git clone https://github.com/<your-github-username>/Image_Processing.git
+git clone https://github.com/<your-github-username>/Flight_Booking_System.git
 ```
 
 **3.** Navigate to the project directory.
 
 ```bash
-cd Image_Processing
+cd Flight_Booking_System
 ```
 
 **4.** Make a feature branch
