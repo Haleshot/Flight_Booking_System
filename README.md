@@ -10,7 +10,7 @@
       <li><a href="#Flights">  Flights </a></li>
       <li><a href="#Cancellation">  Cancellation </a></li>
       <li><a href="#Company">  Company </a></li>
-      <li><a href="#Initial Account Info">  nitial Account Info </a></li>
+      <li><a href="#Initial Account Info">  Initial Account Info </a></li>
       <li><a href="#Full Account Info">  Full Account Info </a></li>
       <li><a href="#Indivo">  Indivo </a></li>
       <li><a href="#Nistara">  Nistara </a></li>
