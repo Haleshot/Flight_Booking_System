@@ -295,8 +295,9 @@ to Payments Page.
 <hr>
 
 <h2 id="Video Demo"> Video Demo </h2>
-   <img src="https://media.tenor.com/hB9OTbewrikAAAAi/work-work-in-progress.gif" width="200" height="300" /> 
-</p>
+
+<img src="https://media.tenor.com/hB9OTbewrikAAAAi/work-work-in-progress.gif" width="200" height="300" /> 
+
 <hr>
 
 <!--
