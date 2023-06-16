@@ -27,14 +27,12 @@
   </ol>
 </details>
 <hr>
-<!--![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png) -->
 
 
 
 
 
 
-<!-- Introduction -->
 <h2 id="Introduction"> :pencil: Introduction </h2>
 
 <p align="justify">
@@ -46,7 +44,7 @@ Welcome to the Flight Booking Management System! This project was developed as p
 
 
 
-
+<h2 id="Introduction"> :pencil: Introduction </h2>
 # Components of the Database Design
 
 Description of all entities along with their attributes here along with the primary keys for each entity. 
