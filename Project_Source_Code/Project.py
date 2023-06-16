@@ -833,47 +833,6 @@ class Update_Customer_Information(QDialog):
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
 
-    # def gotoUpdate_Info(self):
-    #     # Update values entered by user before.
-        
-    #     # Won't be changing the Customer_ID
-    #     Customer_Name = self.Customer_Name.text()
-    #     Customer_Gender = self.Customer_Gender.currentText()
-    #     Customer_State = self.Customer_State.text()
-    #     Customer_Country = self.Customer_Country.text()
-    #     Customer_Pincode = self.Customer_Pincode.text()
-    #     Customer_Phone_Number = self.Customer_Phone_Number.text()
-    #     Customer_DOB = str(self.Customer_DOB.text())
-    #     l = []
-    #     l = Customer_DOB.split("-")
-    #     year = l[2]
-    #     month = l[1]
-    #     day = l[0]
-    #     Customer_DOB = year+ "-" + month+ "-" + day # # Reversing the DOB before inserting into the MySQL database to adhere to the MYSQL Syntax
-        
-        
-    #     if Customer_Pincode.isalpha():
-    #         Customer_Pincode = random.randint(23334,53342)
-        
-
-    #     if len(self.Customer_ID.text()) == 0 or len(Customer_Name) == 0 or len(Customer_Gender) == 0 or len(Customer_State) == 0 or len(Customer_Country) == 0 or len(self.Customer_Pincode.text()) == 0 or len(Customer_DOB) == 0 or len(Customer_Phone_Number) == 0:
-    #         self.Error_Popup_Message.setText("Please input all * fields!")
-
-    #     else:
-
-    #         db = mysql.connector.connect(host = 'localhost', database='DBMS_PROJECT', user = 'root', password = 'Haleshot@2003')
-    #         cursor = db.cursor(buffered=True)
-    #         Customer_info_Full_Profile_Account = [Customer_Name, Customer_State, Customer_Country, Customer_Pincode, Customer_DOB, Customer_Gender, Customer_Phone_Number]
-
-    #         query = ('UPDATE Full_Profile_Account SET Customer_Name = %s and Customer_State = %s and Customer_Country = %s and Customer_Pincode = %s and Date_Of_Birth = %s and Customer_Gender = %s and PhoneNumber = %s);')
-
-    #         cursor.execute(query, Customer_info_Full_Profile_Account)
-    #     # Customer_Name Customer_State Customer_Country Customer_Pincode Date_Of_Birth Customer_Gender PhoneNumber
-
-    #         db.commit()
-    #         db.close()
-
-
     
 Company_ID = 0 # Global variable for accessing chosen Company ID of customer across various classes.
 FlightID = 0 # Global variable for accessing chosen Flight ID of customer across various classes.
