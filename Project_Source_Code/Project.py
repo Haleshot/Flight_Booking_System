@@ -252,7 +252,11 @@ class Full_Profile_Screen(QDialog):
             Customer_info = [Customer_ID, Customer_Name, Customer_Gender, Customer_DOB, Customer_State, Customer_Country, Customer_Pincode, Email_Field, Password_Field, Customer_Phone_Number]
             print(Customer_info)
             cursor.execute('INSERT INTO Customer VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s);', Customer_info)
-
+            
+            print()
+            print("Succesfully inserted values in the Customer relation") # Displaying in VS Terminal for the developers to know client side
+            print(cursor.statement)
+            print()
 
             db.commit()
             db.close()
