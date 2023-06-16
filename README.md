@@ -84,7 +84,8 @@ DESC payment;
 
 ![image](https://user-images.githubusercontent.com/57552973/209421173-f2453cc5-9d0f-40b2-95d5-e4ceb4917ea0.png)
 
-
+</p>
+<hr>
 
 
 
