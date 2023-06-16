@@ -86,11 +86,15 @@ DESC payment;
 <hr>
 
 
+<h2 id="Entity Relationship Diagram "> :cloud: Entity Relationship Diagram  </h2>
+<p align="justify">
 
-# Entity Relationship Diagram 
-Note - needs to be updated to latest version.
+### Note - needs to be updated to latest version.
 
 ![image](https://user-images.githubusercontent.com/57552973/209421185-3885ed37-5ee9-4246-a15e-8cc76f49ea4a.png)
+
+</p>
+<hr>
 
 
 
