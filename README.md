@@ -12,9 +12,10 @@
       <li><a href="#Company">  Company </a></li>
       <li><a href="#Initial Account Info">  nitial Account Info </a></li>
       <li><a href="#Full Account Info">  Full Account Info </a></li>
-      <li><a href="#Gaussian Noise">  Gaussian Noise </a></li>
-      <li><a href="#Facial Feature Detection">  Facial Feature Detection </a></li>
-      <li><a href="#Laplacian Edge Detection">  Laplacian Filter </a></li>
+      <li><a href="#Indivo">  Indivo </a></li>
+      <li><a href="#Nistara">  Nistara </a></li>
+      <li><a href="#MetAirways">  MetAirways </a></li>
+      <li><a href="#Picejet">  Picejet </a></li>
     </ul>
     <li><a href="#Entity Relationship Diagram">  Entity Relationship Diagram </a></li>
     <li><a href="#Relational Model"> Conclusion </a></li>
