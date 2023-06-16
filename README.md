@@ -17,6 +17,7 @@
       <li><a href="#MetAirways">  MetAirways </a></li>
       <li><a href="#Picejet">  Picejet </a></li>
       <li><a href="#Cust_Choice-Flight">  Customer Choice Flight </a></li>
+      <li><a href="#Customer">  Customer </a></li>
     </ul>
     <li><a href="#Entity Relationship Diagram">  Entity Relationship Diagram </a></li>
     <li><a href="#Relational Model"> Conclusion </a></li>
