@@ -836,6 +836,7 @@ class Update_Customer_Information(QDialog):
     
 Company_ID = 0 # Global variable for accessing chosen Company ID of customer across various classes.
 FlightID = 0 # Global variable for accessing chosen Flight ID of customer across various classes.
+
 class Payment_Booking(QDialog):
     def __init__(self):
         super(Payment_Booking, self).__init__()
@@ -843,10 +844,6 @@ class Payment_Booking(QDialog):
         
         self.User_Input_Flight_ID.clicked.connect(self.Display_User_Flight_ID)
         self.Proceed_To_Summary_Button.clicked.connect(self.gotoSummary_Information)
-        
-        
-
-
 
         
     def Display_User_Flight_ID(self):
