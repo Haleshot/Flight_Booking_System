@@ -89,7 +89,7 @@ Description of all relationships among various entities along with the specifica
 </p>
 <hr>
 
-<h2 id="Initial info account"> :cloud: Initial info account </h2>
+<h2 id="Initial Account Info"> :cloud: Initial Account Info </h2>
 <p align="justify">
 
 ![image](https://github.com/Haleshot/Flight_Booking_System/assets/57552973/bc9fb9ad-f075-4964-b166-97dad8af8821)
@@ -97,7 +97,7 @@ Description of all relationships among various entities along with the specifica
 </p>
 <hr>
 
-<h2 id="Full info account"> :cloud: Full info account </h2>
+<h2 id="Full Account Info"> :cloud: Full Account Info </h2>
 <p align="justify">
 
 ![image](https://github.com/Haleshot/Flight_Booking_System/assets/57552973/478bc416-ec6f-4e2b-abec-296a38f61256)
@@ -106,17 +106,32 @@ Description of all relationships among various entities along with the specifica
 <hr>
 
 
-
+<h2 id="Indivo"> :cloud: Indivo </h2>
+<p align="justify">
 
 ![image](https://user-images.githubusercontent.com/57552973/209421167-0872f91a-1ec8-482a-b2a6-337b593701f8.png)
 
+</p>
+<hr>
 
 
+<h2 id="Nistara"> :cloud: Nistara </h2>
+<p align="justify">
 
 ![image](https://user-images.githubusercontent.com/57552973/209421173-f2453cc5-9d0f-40b2-95d5-e4ceb4917ea0.png)
 
 </p>
 <hr>
+
+
+<h2 id="Nistara"> :cloud: Nistara </h2>
+<p align="justify">
+
+![image](https://user-images.githubusercontent.com/57552973/209421173-f2453cc5-9d0f-40b2-95d5-e4ceb4917ea0.png)
+
+</p>
+<hr>
+
 
 
 <h2 id="Entity Relationship Diagram"> :cloud: Entity Relationship Diagram  </h2>
