@@ -86,7 +86,7 @@ DESC payment;
 <hr>
 
 
-<h2 id="Entity Relationship Diagram "> :cloud: Entity Relationship Diagram  </h2>
+<h2 id="Entity Relationship Diagram"> :cloud: Entity Relationship Diagram  </h2>
 <p align="justify">
 
 ### Note - needs to be updated to latest version.
