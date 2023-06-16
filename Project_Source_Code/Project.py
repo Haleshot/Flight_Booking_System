@@ -208,6 +208,8 @@ class Full_Profile_Screen(QDialog):
 
         
     def SignUp_Function(self):
+        global Email_Field, Password_Field
+        
         # Insert values of Username and Password from user into database like how it was done in Login_Function
         
         # Customer_ID = self.Customer_ID.text() as we should not take Customer ID as input from Customer, rather it is incremented by us from MAX Value in Customer ID.
