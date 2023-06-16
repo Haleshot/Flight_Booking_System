@@ -6,8 +6,9 @@
 <!--     <li><a href="#Installation"> Installation </a></li> -->
     <li><a href="#Introduction"> Introduction </a></li>
     <li><a href="#Components of the Database Design">  Components of the Database Design </a></li>
+    
     <ul>
-     <li><a href="#Down Sampling">  Down Sampling </a></li>
+    <li><a href="#Down Sampling">  Down Sampling </a></li>
     <li><a href="#Up Sampling">  Up Sampling </a></li>
     <li><a href="#Negative of an Image">  Negative of an Image </a></li>
     <li><a href="#Thresholding">  Thresholding </a></li>
