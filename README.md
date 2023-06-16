@@ -1,3 +1,4 @@
+<!---
 # Storyline 
 
 Flight Ticket Management System - 
@@ -128,11 +129,6 @@ Understood the importance of various applications that helps us in our day-to-da
 
 
 
-
-
-
-
-<!---
 <h1 align="center"> Image Processing Project </h1>
 
 <details open="open">
