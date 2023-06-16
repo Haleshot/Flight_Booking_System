@@ -106,7 +106,6 @@ Implemented Flight Ticket Booking system which helps a customer in booking fligh
 Learnt integration of front end (PyQt5) with backend (Database); enhanced coding in Python;improvised and implemented concepts learnt in the DBMS course in the project which led to better understanding of the queries in MySQL. 
 
 Understood the importance of various applications that helps us in our day-to-day life and the 		working at front end as well as the back end of these applications. 
- -->
 
 
 
@@ -133,7 +132,7 @@ Understood the importance of various applications that helps us in our day-to-da
 
 
 
-
+<!---
 <h1 align="center"> Image Processing Project </h1>
 
 <details open="open">
@@ -193,9 +192,6 @@ python .\Image_Processing_Options.py
 
 
 
-
-
-<!-- Introduction -->
 <h2 id="Introduction"> :pencil: Introduction </h2>
 
 <p align="justify">
@@ -224,8 +220,6 @@ limitations of edge detection techniques.
 </p>
 <hr>
 
-
-<!-- Objectives and Scope -->
 <h2 id="Objectives and Scope"> :cloud: Objectives and Scope</h2>
 
 <p align="justify">
@@ -243,7 +237,6 @@ variety of user-defined functions as well as built-in functions (LPF, Edge detec
 
 <hr>
 
-<!-- Methodology -->
 <h2 id="Methodology"> :cloud: Methodology </h2>
 
 <p align="justify">
@@ -275,7 +268,7 @@ determine the effectiveness of each technique in edge detection.
 
 <hr>
 
-<!-- Down Sampling -->
+
 <h2 id="Down Sampling"> :small_orange_diamond: Down Sampling </h2>
 
 <p align="justify">
@@ -308,7 +301,6 @@ on the sampling frequency. Due to this, resolution and size of the image decreas
 
 
 
-<!-- Up Sampling -->
 <h2 id="Up Sampling"> :small_orange_diamond: Up Sampling </h2>
 
 <p align="justify">
@@ -340,8 +332,6 @@ procedure in a mult-irate digital signal processing system.
 
 
 
-
-<!-- Negative of an Image -->
 <h2 id="Negative of an Image"> :small_orange_diamond: Negative of an Image </h2>
 
 <p align="justify">
@@ -368,8 +358,6 @@ in close proximity or by projecting a negative image onto the paper.
 <hr>
 
 
-
-<!-- Thresholding -->
 <h2 id="Thresholding"> :small_orange_diamond: Thresholding </h2>
 
 <p align="justify">
@@ -401,7 +389,6 @@ and background.
 <hr>
 
 
-<!-- Blurring -->
 <h2 id="Blurring"> :small_orange_diamond: Blurring </h2>
 
 <p align="justify">
@@ -429,7 +416,6 @@ to another smooth rather than sudden.
 
 
 
-<!-- LPF -->
 <h2 id="Low Pass Filtering (LPF)"> :small_orange_diamond: Low Pass Filtering (LPF) </h2>
 
 <p align="justify">
@@ -453,7 +439,6 @@ Low Pass Filtering (LPF):
 
 <hr>
 
-<!-- Gaussian Noise -->
 <h2 id="Gaussian Noise"> :small_orange_diamond: Gaussian Noise </h2>
 
 <p align="justify">
@@ -476,8 +461,6 @@ is passed through each pixel of the Region of Interest to get the desired effect
 <hr>
 
 
-
-<!-- Facial Feature Detection -->
 <h2 id="Facial Feature Detection"> :small_orange_diamond: Facial Feature Detection </h2>
 
 <p align="justify">
@@ -503,7 +486,6 @@ Facial feature detection is a computer vision technique that identifies and loca
 
 <hr>
 
-<!-- Laplace Edge Detection -->
 <h2 id="Laplacian Filter"> :small_orange_diamond: Laplacian Filter </h2>
 
 <p align="justify">
@@ -534,7 +516,6 @@ positive.
 
 
 
-<!-- Conclusion -->
 <h2 id="Conclusion"> :small_orange_diamond: Conclusion </h2>
 
 <p align="justify">
@@ -569,8 +550,6 @@ Laplacian filter, LPF, HPF, and thresholding.
 
 
 
-
-<!-- Contributing -->
 <h2 id="Contributing"> Contributing </h2>
 
 <p align="justify">
@@ -601,7 +580,6 @@ Simple terms:
 
 
 
-<!-- To Do -->
 <h2 id="ToDo"> To Do </h2>
 
 <p align="justify">
@@ -627,10 +605,7 @@ Simple terms:
 
 
 
-<!-- Video Demo -->
 <h2 id="Video Demo"> Video Demo </h2>
-<!-- 
-<p align="center"> <img src="https://media.tenor.com/hB9OTbewrikAAAAi/work-work-in-progress.gif" width="200" height="300" /> </p> -->
 The entire project demo can be seen here - https://youtu.be/O-x44AT6ylU
 
 <li><a href="##Down Sampling">  Down Sampling </a></li>
@@ -687,7 +662,7 @@ The entire project demo can be seen here - https://youtu.be/O-x44AT6ylU
 
 ![Laplace_Edge_Detection_Demo](https://github.com/Haleshot/Image_Processing/assets/57552973/eed16965-d6d1-4760-b51f-64b9231d17f9)
 
-
+--->
  
 
 <p align="center"> 
