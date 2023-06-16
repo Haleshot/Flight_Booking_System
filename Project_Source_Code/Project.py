@@ -184,14 +184,10 @@ class Create_Screen(QDialog):
                 db.commit()
                 db.close()
 
-                print(EmailField, PasswordField)
-
-
                 fp = Full_Profile_Screen()
                 widget.addWidget(fp)
                 widget.setCurrentIndex(widget.currentIndex() + 1)
 
-                return EmailField, PasswordField
                 
 
         
@@ -252,16 +248,7 @@ class Full_Profile_Screen(QDialog):
 
             cursor.execute('INSERT INTO Full_Profile_Account VALUES (%s, %s, %s, %s, %s, %s, %s, %s);', Customer_info_Full_Profile_Account)
 
-            # TRY INSERTING INTO THE CUSTOMER TABLE FROM INITIAL AND FULL PROFILE ACCOUNT INFOS.
-            # stro = "1234"
-            # values = Function_for_Returning_to_Full_Profile_Account()
-            # print(values.EmailField)
-            # print(values.PasswordField)
-            # print(values)
-            # print(list(values))
-            # print(list(Customer_Phone_Number))
-            # print(list(stro))
-            # print([Customer_ID, Customer_Name, Customer_Gender, Customer_DOB, Customer_State, Customer_Country, Customer_Pincode])
+            
             # Customer_info = [Customer_ID, Customer_Name, Customer_Gender, Customer_DOB, Customer_State, Customer_Country, Customer_Pincode] + list(values) + list[stro] + list(Customer_Phone_Number)
             # print(Customer_info)
             # cursor.execute("INSERT INTO Customer VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);', Customer_info")
