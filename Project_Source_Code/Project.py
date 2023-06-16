@@ -254,7 +254,7 @@ class Full_Profile_Screen(QDialog):
             cursor.execute("INSERT INTO Customer VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s);', Customer_info")
 
             # F_Info_Customer = [F_ID, F_Dept_Location, F_Arr_Location, F_Company, F_Duration, str(F_Dept_Time), str(F_Arr_Time), F_Seats, C_ID]
-            cursor.execute('INSERT INTO Cust_Choice_Flight VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s);', F_Info_Customer)
+            # cursor.execute('INSERT INTO Cust_Choice_Flight VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s);', F_Info_Customer)
 
 
             db.commit()
