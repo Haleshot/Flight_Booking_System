@@ -32,18 +32,16 @@
 
 
 
+<!-- Introduction -->
+<h2 id="Introduction"> :pencil: Introduction </h2>
+
+<p align="justify">
+Welcome to the Flight Booking Management System! This project was developed as part of my DBMS course, combining my knowledge of Python-SQL connectivity and the PyQt5 GUI library to create a user-friendly and visually appealing application. The system allows users to create accounts, log in, and confirm their identity through OTP verification (with occasional help from Twilio, if it's in the mood!). Once logged in, users can easily access and view flight details, including arrival and departure times and locations, presented in a well-organized table format. While the payment and cancellation functionalities are currently in prototype stage, they demonstrate the system's potential for future expansion. Through this project, I have gained valuable experience in working with MySQL and improving my understanding of Python-SQL connectivity, enhancing my skills in database management and application development.
+
+</p>
+<hr>
 
 
-
-
-
-# Storyline 
-
-Flight Ticket Management System - 
-
-In a world where tourism is on the rise and is a major addition to a country’s GDP, it is utterly important to have an assorted booking system. In our project we focus on only Flight booking system via python integrated SQL program with basic UI for easy and seamless flight booking for your perfect vacation or business-related travel.  
-
-Rajeev is a business advisor from Mumbai. He owns a firm that takes tasks related to business setup, financial plans, business expansion procedures, and many other business tasks. Since this job requires him to travel frequently, he would expect to use a platform that requires the least booking efforts is exactly what our flight booking platform, FlyHigh is designed for. Rajeev has to login/register, for login it takes 1 click and registering takes 3 clicks. This now directs him to the main booking page where he has to enter his flight details (origin, destination, time, company). After you click on the “Find Flights” it searches the companies database for available flights on that date and displays all the available option, he should note down the flight ID through which he wished to travel. He is asked if he wants to update his information, if he clicks next, we proceed to confirm flight details page where you must enter the flight id and load the details of that flight. After entering that he proceeds to summary page which asks additional questions and directs him to the payment page where he enters his payment details and confirms his booking. If he wishes to cancel his booking, he can do so with one effortless click. 
 
 
 
