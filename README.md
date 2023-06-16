@@ -23,6 +23,7 @@
     <li><a href="#Relational Model"> Relational Model </a></li>
     <li><a href="#Normalization"> Normalization </a></li>
     <li><a href="#Learning from the Project"> Learning from the Project </a></li>
+    <li><a href="#Challenges Faced"> Challenges Faced </a></li>
     <li><a href="#Conclusion"> Conclusion </a></li>
     <li><a href="#Contributing">  Contributing </a></li>
     <li><a href="#ToDo">  To Do </a></li>
@@ -142,11 +143,25 @@ DESC payment;
 ![image](https://user-images.githubusercontent.com/57552973/209421286-ef8ab483-e3e0-455c-9029-e19910eca44b.png)
 
 
-# Challenges Faced
 
+<h2 id="Challenges Faced"> :cloud: Challenges Faced</h2>
+<p align="justify">
+  
+During the development of the Flight Booking Management System, the following challenges were encountered:
 
-![image](https://user-images.githubusercontent.com/57552973/209421294-443493fe-5c0a-483d-9674-ab614c1b3b54.png)
+- Integrating the front end with the back end proved to be a complex task, requiring meticulous attention to detail.
+- OTP verification occasionally failed, requiring thorough debugging and refinement of the implementation.
+- Data loss and modification issues arose during the merging process to the back end, necessitating rigorous testing and validation procedures.
+- Connectivity issues with the MySQL Connector library posed obstacles, requiring extensive research and troubleshooting.
+- Some relations within the database fetched incorrect tuples, demanding careful examination and rectification.
+- Adding certain values resulted in unexpected program crashes due to primary key errors.
+- Ensuring the normalization of tables proved challenging and required meticulous design and restructuring of the database schema.
+- Certain buttons in the graphical user interface did not function as intended, and labels were not displayed correctly on their respective screens.
+- Importing the appropriate libraries for the project required attention to detail and resolution of any library-related issues.
 
+Overcoming these challenges contributed to the development of a more robust and functional Flight Booking Management System.
+</p>
+<hr>
 
 
 # Conclusion
