@@ -218,11 +218,21 @@ Overcoming these challenges contributed to the development of a more robust and 
 <hr>
 
 
-# Conclusion
-Implemented Flight Ticket Booking system which helps a customer in booking flights as per their 	requirement.  
-Learnt integration of front end (PyQt5) with backend (Database); enhanced coding in Python;improvised and implemented concepts learnt in the DBMS course in the project which led to better understanding of the queries in MySQL. 
+<h2 id="Challenges Faced"> :cloud: Challenges Faced</h2>
+<p align="justify">
 
-Understood the importance of various applications that helps us in our day-to-day life and the 		working at front end as well as the back end of these applications. 
+In conclusion, the Flight Booking Management System has been successfully implemented, providing customers with a convenient platform for booking flights according to their requirements. Throughout the development process, valuable lessons and accomplishments have been gained, including:
+
+- Acquiring knowledge and experience in integrating the front end (PyQt5) with the back end (Database), resulting in a seamless user interface.
+- Enhancing coding skills in Python and effectively applying concepts learned in the DBMS course to develop robust functionalities within the project.
+- Deepening understanding of MySQL queries and their implementation, leading to improved database management skills.
+- Recognizing the significance of various applications that play a crucial role in our day-to-day lives and comprehending the intricate workings of both front-end and back-end components.
+- This project has provided an opportunity for growth and improvement in both technical and problem-solving abilities, setting a solid foundation for future endeavors.
+
+Overall, the Flight Booking Management System has served as a valuable project, not only in terms of learning and implementing key concepts but also in delivering a practical solution for flight ticket booking needs.
+</p>
+<hr>
+
 
 
 
