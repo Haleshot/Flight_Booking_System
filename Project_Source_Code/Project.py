@@ -146,10 +146,13 @@ class Create_Screen(QDialog):
 
 
     def gotoSignUp(self):
-        global Email_Field
+        global Email_Field, Password_Field
         EmailField = self.EmailField.text()
-        Email_Field = EmailField
         PasswordField = self.PasswordField.text()
+
+        Email_Field = EmailField
+        Password_Field = PasswordField
+
         ConfirmPasswordField = self.Confirm_Your_Password_Field.text()
         if len(EmailField) == 0 or len(PasswordField) == 0 or len(ConfirmPasswordField) == 0:
             self.Error_Popup_Message.setText("Please input all * fields!")
