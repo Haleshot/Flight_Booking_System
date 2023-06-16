@@ -20,7 +20,8 @@
       <li><a href="#Customer">  Customer </a></li>
     </ul>
     <li><a href="#Entity Relationship Diagram">  Entity Relationship Diagram </a></li>
-    <li><a href="#Relational Model"> Conclusion </a></li>
+    <li><a href="#Relational Model"> Relational Model </a></li>
+    <li><a href="#Conclusion"> Conclusion </a></li>
     <li><a href="#Contributing">  Contributing </a></li>
     <li><a href="#ToDo">  To Do </a></li>
     <li><a href="#Video Demo">  Video Demo </a></li>
