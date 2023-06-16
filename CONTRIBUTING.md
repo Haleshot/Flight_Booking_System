@@ -20,7 +20,7 @@ Refer to the following articles on the basics of Git and GitHub and can also con
 - Take a look at the Existing [Issues](https://github.com/Haleshot/Flight_Booking_System/issues) or create your own Issues!
 - Wait for the Issue to be assigned to you after which you can start working on it.
 - Fork the Repo and create a Branch for any Issue that you are working upon.
-- Read the [Code of Conduct](https://github.com/Haleshot/Image_Processing/blob/main/CODE_OF_CONDUCT.md)
+- Read the [Code of Conduct](https://github.com/Haleshot/Flight_Booking_System/blob/main/CODE_OF_CONDUCT.md)
 - Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
 - Add Screenshots to help us know what this Script is all about.
 
