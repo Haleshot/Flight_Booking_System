@@ -1,4 +1,4 @@
-<!-- # Storyline 
+# Storyline 
 
 Flight Ticket Management System - 
 
@@ -108,7 +108,32 @@ Learnt integration of front end (PyQt5) with backend (Database); enhanced coding
 Understood the importance of various applications that helps us in our day-to-day life and the 		working at front end as well as the back end of these applications. 
  -->
 
-<!---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <h1 align="center"> Image Processing Project </h1>
 
 <details open="open">
@@ -137,14 +162,7 @@ Understood the importance of various applications that helps us in our day-to-da
   </ol>
 </details>
 <hr>
-<!--![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png) -->
 
-
-
-
-
-
-<!-- Installation -->
 <h2 id="Installation"> 📦: Installation </h2>
 
 See [the contributing guide](CONTRIBUTING.md) for detailed instructions on how to get started with our project.
@@ -670,7 +688,6 @@ The entire project demo can be seen here - https://youtu.be/O-x44AT6ylU
 ![Laplace_Edge_Detection_Demo](https://github.com/Haleshot/Image_Processing/assets/57552973/eed16965-d6d1-4760-b51f-64b9231d17f9)
 
 
---->
  
 
 <p align="center"> 
