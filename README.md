@@ -54,29 +54,58 @@ Description of all entities along with their attributes here along with the prim
 
 Description of all relationships among various entities along with the specification of the cardinality and participation for all relationships (present in ERD and Relational Schema). 
 
-DESC payment;
+
+<h2 id="Payment"> :cloud: Payment </h2>
+<p align="justify">
 
 ![image](https://user-images.githubusercontent.com/57552973/209421134-a697cee7-2f66-4ac9-92c5-75f3e1fed289.png)
 
+</p>
+<hr>
 
-
+<h2 id="Flights"> :cloud: Flights </h2>
+<p align="justify">
 
 ![image](https://user-images.githubusercontent.com/57552973/209421140-bb437b5b-6136-460c-bbf6-4ef833094841.png)
 
+</p>
+<hr>
 
+
+<h2 id="Cancellation"> :cloud: Cancellation </h2>
+<p align="justify">
 
 ![image](https://user-images.githubusercontent.com/57552973/209421148-75a19dd3-cfae-4fa1-bf6b-8c295cd70a6a.png)
 
+</p>
+<hr>
 
 
+<h2 id="Company"> :cloud: Company </h2>
+<p align="justify">
 
 ![image](https://user-images.githubusercontent.com/57552973/209421152-574e15f2-e9b9-48b3-91cf-d5fb55266c53.png)
 
+</p>
+<hr>
+
+<h2 id="Initial info account"> :cloud: Initial info account </h2>
+<p align="justify">
 
 ![image](https://github.com/Haleshot/Flight_Booking_System/assets/57552973/bc9fb9ad-f075-4964-b166-97dad8af8821)
 
+</p>
+<hr>
+
+<h2 id="Full info account"> :cloud: Full info account </h2>
+<p align="justify">
 
 ![image](https://github.com/Haleshot/Flight_Booking_System/assets/57552973/478bc416-ec6f-4e2b-abec-296a38f61256)
+
+</p>
+<hr>
+
+
 
 
 ![image](https://user-images.githubusercontent.com/57552973/209421167-0872f91a-1ec8-482a-b2a6-337b593701f8.png)
