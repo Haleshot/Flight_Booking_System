@@ -106,7 +106,7 @@ Description of all relationships among various entities along with the specifica
 <h2 id="Indivo, Nistara, MetAirways, Picejet"> :cloud: Indivo, Nistara, MetAirways, Picejet </h2>
 <p align="justify">
 
-![image](https://user-images.githubusercontent.com/57552973/209421167-0872f91a-1ec8-482a-b2a6-337b593701f8.png)
+![image](https://github.com/Haleshot/Flight_Booking_System/assets/57552973/91f256d9-6d74-4bff-90a8-604456f48471)
 
 </p>
 <hr>
