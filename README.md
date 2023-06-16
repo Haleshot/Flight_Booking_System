@@ -106,7 +106,7 @@ Description of all relationships among various entities along with the specifica
 <hr>
 
 
-<h2 id="Indivo"> :cloud: Indivo </h2>
+<h2 id="Indivo, Nistara, MetAirways, Picejet"> :cloud: Indivo, Nistara, MetAirways, Picejet </h2>
 <p align="justify">
 
 ![image](https://user-images.githubusercontent.com/57552973/209421167-0872f91a-1ec8-482a-b2a6-337b593701f8.png)
