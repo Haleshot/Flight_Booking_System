@@ -136,7 +136,8 @@ DESC payment;
 <hr>
 
 
-# Learning from the Project 
+<h2 id="Learning from the Project"> :cloud: Learning from the Project</h2>
+<p align="justify">
 
 ![image](https://user-images.githubusercontent.com/57552973/209421286-ef8ab483-e3e0-455c-9029-e19910eca44b.png)
 
