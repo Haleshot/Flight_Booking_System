@@ -16,7 +16,6 @@
       <li><a href="#Facial Feature Detection">  Facial Feature Detection </a></li>
       <li><a href="#Laplacian Edge Detection">  Laplacian Filter </a></li>
     </ul>
-   
     <li><a href="#Entity Relationship Diagram">  Entity Relationship Diagram </a></li>
     <li><a href="#Relational Model"> Conclusion </a></li>
     <li><a href="#Contributing">  Contributing </a></li>
