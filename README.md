@@ -236,6 +236,66 @@ Overall, the Flight Booking Management System has served as a valuable project, 
 
 
 
+
+<!-- Contributing -->
+<h2 id="Contributing"> Contributing </h2>
+
+<p align="justify">
+
+See [the contributing guide](CONTRIBUTING.md) for detailed instructions on how to get started with our project.
+
+If you're looking for a way to contribute, you can scan through our [existing issues](https://github.com/Haleshot/Projects/issues) for something to work on. When ready, check out [Getting Started with Contributing](CONTRIBUTING.md) for detailed instructions.
+
+
+Click on these badges to see how you might be able to help:
+
+<div align="center" markdown="1">
+
+[![GitHub repo Issues](https://img.shields.io/github/issues/Haleshot/Image_Processing?style=flat&logo=github&logoColor=red&label=Issues)](https://github.com/Haleshot/Image_Processing/issues) [![GitHub repo PRs](https://img.shields.io/github/issues-pr/Haleshot/Image_Processing?style=flat&logo=github&logoColor=orange&label=PRs)](https://github.com/Haleshot/Image_Processing/pulls) [![GitHub repo Merged PRs](https://img.shields.io/github/issues-search/Haleshot/Image_Processing?style=flat&logo=github&logoColor=green&label=Merged%20PRs&query=is%3Amerged)](https://github.com/Haleshot/Image_Processing/pulls?q=is%3Apr+is%3Amerged)
+
+</div>
+
+Simple terms:
+
+1. `Fork` this repository
+2. Create a `branch`
+3. `Commit` your changes
+4. `Push` your `commits` to the `branch`
+5. Submit a `pull request`
+
+</p>
+<hr>
+
+
+
+<!-- To Do -->
+<h2 id="ToDo"> To Do </h2>
+
+<p align="justify">
+
+
+- [ ] Refine UI more, add Video processing and Erosion/Dilation features
+  - [ ] PyQt5 Editor
+- [ ] Do Bug testing for all screens.
+
+### In Progress
+
+- [ ] Showing user, which file to run as main file - portraying user flow.
+- [ ] Add a Video demo in the form of Gif Link for viewers to easily see the working.
+
+### Done ✓
+- [x] Improve README guides, contributing guides, etc.
+ Transfer information from the initial profile account table and final profile account table to the Customer Table.
+- [x] If SQL fetches no data, print no data near table pop up.
+- [x] Create a Rollable screen in which you display a Summary of Customer Details as well as Flight details and give buttons to modify both before proceeding
+to Payments Page.
+- [x] Try adding unique key constraint or primary key to Username in initial_info_account and full_info_account without getting errors of duplicate entry.
+- [x] If user enters string pincode, program crashes, handle that.
+
+</p>
+<hr>
+
+
 <!--
 <p align="center"> 
  
