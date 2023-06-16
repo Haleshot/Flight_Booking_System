@@ -249,9 +249,9 @@ class Full_Profile_Screen(QDialog):
             cursor.execute('INSERT INTO Full_Profile_Account VALUES (%s, %s, %s, %s, %s, %s, %s, %s);', Customer_info_Full_Profile_Account)
 
             
-            # Customer_info = [Customer_ID, Customer_Name, Customer_Gender, Customer_DOB, Customer_State, Customer_Country, Customer_Pincode] + list(values) + list[stro] + list(Customer_Phone_Number)
-            # print(Customer_info)
-            # cursor.execute("INSERT INTO Customer VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);', Customer_info")
+            Customer_info = [Customer_ID, Customer_Name, Customer_Gender, Customer_DOB, Customer_State, Customer_Country, Customer_Pincode, Email_Field, Password_Field, Customer_Phone_Number]
+            print(Customer_info)
+            cursor.execute("INSERT INTO Customer VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s);', Customer_info")
 
 
             db.commit()
