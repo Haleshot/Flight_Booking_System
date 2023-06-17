@@ -273,7 +273,7 @@ Simple terms:
 <p align="justify">
 
 
-- [ ] Refine UI more, add Video processing and Erosion/Dilation features
+- [ ] Refine UI more
   - [ ] PyQt5 Editor
 - [ ] Do Bug testing for all screens.
 
