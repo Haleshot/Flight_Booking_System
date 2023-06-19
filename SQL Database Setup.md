@@ -1,5 +1,21 @@
 ## SQL Database Setup
 
+<h1 align="center"> Flight Booking Management Project </h1>
+
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#Database Creation"> Database Creation </a></li>
+    <li><a href="#Table Creation"> Table Creation </a></li>
+    <li><a href="Insert Sample Data"> Insert Sample Data </a></li> 
+    <li><a href="#Configuration"> Configuration </a></li>
+
+
+  </ol>
+</details>
+<hr>
+
+
 <p align="justify">
   
 To set up the SQL database and create the necessary tables for the Flight Booking Management System, please follow these steps:
