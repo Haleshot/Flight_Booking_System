@@ -1,3 +1,6 @@
+<h2 id="Installation"> 📦 Installation </h2>
+
+<p align="justify">
 ## SQL Database Setup
 
 To set up the SQL database and create the necessary tables for the Flight Booking Management System, please follow these steps:
@@ -181,3 +184,10 @@ Add data from all 4 text files.
 5. **Configuration**: Update the Python file of the project to specify the MySQL connection details.
 
 By following these steps, you will have successfully set up the SQL database and created the required tables for the Flight Booking Management System.
+
+
+
+
+
+</p>
+<hr>
