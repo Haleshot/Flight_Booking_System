@@ -15,7 +15,7 @@
 <hr>
 
 
-<h2 id="Database Creation"> 📦 Database Creation </h2>
+<h2 id="Database Creation"> 🔧 Database Creation </h2>
 
 <p align="justify">
 To set up the SQL database and create the necessary tables for the Flight Booking Management System, please follow these steps:
