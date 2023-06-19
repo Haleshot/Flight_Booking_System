@@ -424,8 +424,7 @@ VALUES
 
 <h2 id="Configuration"> ☁️ Configuration </h2>
 <p align="justify">
-  
-## Configuration
+
 
 To configure the Flight Booking Management System project with your MySQL connection details, follow these steps:
 
