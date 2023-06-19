@@ -318,7 +318,7 @@ Simple terms:
 ### In Progress
 
 - [ ] Showing user, which file to run as main file - portraying user flow.
-- [ ] Add a Video demo in the form of Gif Link for viewers to easily see the working.
+
 
 ### Done ✓
 - [x] Improve README guides, contributing guides, etc.
@@ -328,6 +328,7 @@ Simple terms:
 to Payments Page.
 - [x] Try adding unique key constraint or primary key to Username in initial_info_account and full_info_account without getting errors of duplicate entry.
 - [x] If user enters string pincode, program crashes, handle that.
+- [x] Add a Video demo in the form of Gif Link for viewers to easily see the working.
 
 </p>
 <hr>
