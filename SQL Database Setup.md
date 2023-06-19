@@ -286,6 +286,43 @@ Boeing 707,
 ```
 
 
+## Nistara:
+
+```bash
+INSERT INTO `dbms_project`.`nistara`
+(`C_ID`,
+`COMPANY_NAME`,
+`COMPANY_HISTORY`,
+`C_TYPE`)
+VALUES
+(4,
+"Nistara",
+'Tata SIA Airlines Limited, operating as Nistara, is an Indian full-service airline, based in Gurgaon, with its hub at Indira Gandhi International Airport.',
+"Airbus 380"
+);
+
+
+
+
+INSERT INTO `dbms_project`.`nistara`
+(`C_ID`,
+`COMPANY_NAME`,
+`COMPANY_HISTORY`,
+`C_TYPE`)
+VALUES
+(8,
+"Nistara:,
+'Tata SIA Airlines Limited, operating as Nistara, is an Indian full-service airline, based in Gurgaon, with its hub at Indira Gandhi International Airport.',
+"Airbus 380"
+);
+
+```
+
+
+## Indivo:
+```bash
+
+```
 
 
 </p>
