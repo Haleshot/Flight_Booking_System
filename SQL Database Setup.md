@@ -1,5 +1,5 @@
 <p align="justify">
-SQL Database Setup
+## SQL Database Setup
   
 To set up the SQL database and create the necessary tables for the Flight Booking Management System, please follow these steps:
 
