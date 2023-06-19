@@ -336,28 +336,44 @@ to Payments Page.
 
 The entire project demo can be seen here - https://youtu.be/O-x44AT6ylU
 
-<li><a href="##Down Sampling"> Down Sampling </a></li>
-<li><a href="##Up Sampling"> Up Sampling </a></li>
-<li><a href="##Negative of an Image"> Negative of an Image </a></li>
-<li><a href="##Thresholding With Background"> Thresholding With Background </a></li>
-<li><a href="##Thresholding Without Background"> Thresholding Without Background </a></li>
-<li><a href="##Blurring"> Blurring </a></li>
-<li><a href="##Low Pass Filtering (LPF)"> Low Pass Filtering (LPF) </a></li>
-<li><a href="##Gaussian Noise"> Gaussian Noise </a></li>
-<li><a href="##Facial Feature Detection"> Facial Feature Detection </a></li>
-<li><a href="##Laplacian Edge Detection"> Laplacian Filter </a></li>
+<li><a href="##Login Screen"> Login Screen </a></li>
+<li><a href="##Create Account Screen"> Create Account Screen </a></li>
+<li><a href="##Flight Details + Customer Update Information Screen"> Flight Details + Customer Update Information Screen </a></li>
+<li><a href="##Flight Chosen Screen"> Flight Chosen Screen </a></li>
+<li><a href="##Summary Payment Screen"> Summary Payment Screen </a></li>
+<li><a href="##Cancellation Screen"> Cancellation Screen </a></li>
+
+<h3 id="#Login Screen"> Login Screen </h3>
+
+![Login_Screen_Demo](https://github.com/Haleshot/Image_Processing/assets/57552973/32e21ac5-8508-41e3-a542-10a8ed06a110)
 
 
-<h3 id="#Down Sampling"> Down Sampling </h3>
 
-![Down_Sampling_Demo](https://github.com/Haleshot/Image_Processing/assets/57552973/382ed130-5229-4f8b-8df5-1a02af4e71ed)
+<h3 id="#Create Account Screen"> Create Account Screen </h3>
 
-<hr>
+![Create_Account_Screen_Demo](https://github.com/Haleshot/Image_Processing/assets/57552973/c222d995-3901-40cd-8ae9-bf7b3249b3a2)
 
-<!--
-<p align="center"> 
- 
- <img src="https://media.tenor.com/hB9OTbewrikAAAAi/work-work-in-progress.gif" width="200" height="300" /> 
- 
-</p>
---->
+
+<h3 id="#Flight Details + Customer Update Information Screen"> Flight Details + Customer Update Information Screen </h3>
+
+![Create_Account_Screen_Demo](https://github.com/Haleshot/Image_Processing/assets/57552973/c222d995-3901-40cd-8ae9-bf7b3249b3a2)
+
+
+<h3 id="#Flight Chosen Screen"> Flight Chosen Screen </h3>
+
+![Flight_Chosen_Demo](https://github.com/Haleshot/Image_Processing/assets/57552973/fd2a2ccd-b307-4480-88c0-e99201826472)
+
+
+
+<h3 id="#Summary Payment Screen"> Summary Payment Screen </h3>
+
+![Summary_Payment_Screens_Demo](https://github.com/Haleshot/Image_Processing/assets/57552973/314ce941-9796-450c-b8de-690293b4803a)
+
+
+
+<h3 id="#Cancellation Screen"> Cancellation Screen </h3>
+
+![Cancellation_Screen_Demo](https://github.com/Haleshot/Image_Processing/assets/57552973/ad8cff3b-0296-4975-a3ec-05b4ee0a439d)
+
+
+
