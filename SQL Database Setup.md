@@ -9,6 +9,8 @@ To set up the SQL database and create the necessary tables for the Flight Bookin
 ```bash
 CREATE DATABASE `dbms_project` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 ```
+</p>
+<hr>
 
 2. **Table Creation**: Execute the SQL statements to create the required tables.
 
@@ -172,12 +174,14 @@ CREATE TABLE `customer` (
 ) ENGINE=InnoDB AUTO_INCREMENT=35 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 ```
+<hr>
 
 3. **Insert Sample Data**:
 
 Insert Data for the following tables:
 Flights:
 The data for flights insertion can be found [here](https://github.com/Haleshot/Flight_Booking_System/tree/main/Project_Source_Code/SQL_Entries_Flight)
+
 Add data from all 4 text files.
 
 5. **Configuration**: Update the Python file of the project to specify the MySQL connection details.
