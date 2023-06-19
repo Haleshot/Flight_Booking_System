@@ -358,7 +358,7 @@ The entire project demo can be seen here - https://youtu.be/ZBlwj9LVAVs
 
 <h3 id="#Flight Details + Customer Update Information Screen"> Flight Details + Customer Update Information Screen </h3>
 
-![Create_Account_Screen_Demo](https://github.com/Haleshot/Image_Processing/assets/57552973/c222d995-3901-40cd-8ae9-bf7b3249b3a2)
+![Flight_Details_Customer_Reenter_Screens_Demo](https://github.com/Haleshot/Flight_Booking_System/assets/57552973/c01c36a6-87ea-47ed-97d1-64f954ea6132)
 
 
 <h3 id="#Flight Chosen Screen"> Flight Chosen Screen </h3>
