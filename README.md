@@ -3,7 +3,7 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#Installtion"> Installtion </a></li>
+    <li><a href="#Installation"> Installtion </a></li>
     <li><a href="#Introduction"> Introduction </a></li>
     <li><a href="#Components of the Database Design">  Components of the Database Design </a></li>
     <ul>
