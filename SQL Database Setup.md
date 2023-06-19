@@ -185,10 +185,109 @@ CREATE TABLE `customer` (
 3. **Insert Sample Data**:
 
 Insert Data for the following tables:
-Flights:
+
+## Flights:
 The data for flights insertion can be found [here](https://github.com/Haleshot/Flight_Booking_System/tree/main/Project_Source_Code/SQL_Entries_Flight)
 
 Add data from all 4 text files.
+
+
+## Initial Profile Account:
+
+```bash
+INSERT INTO initial_info_account VALUES("Haleshot", "ggs");
+```
+
+
+## Full Profile Account:
+
+```bash
+INSERT INTO full_profile_account VALUES(1, "Haleshot", "TN", "IND", 4007, "2003-09-09", "Male", "995745");
+```
+
+
+## Company:
+
+```bash
+INSERT INTO `dbms_project`.`company`
+(`C_Name`,
+`C_Type`,
+`C_ID`)
+VALUES
+(Indivo,
+Airbus 380,
+1);
+
+INSERT INTO `dbms_project`.`company`
+(`C_Name`,
+`C_Type`,
+`C_ID`)
+VALUES
+(MetAirways,
+Airbus 380,
+2);
+
+INSERT INTO `dbms_project`.`company`
+(`C_Name`,
+`C_Type`,
+`C_ID`)
+VALUES
+(Picejet,
+Airbus 380,
+3);
+
+INSERT INTO `dbms_project`.`company`
+(`C_Name`,
+`C_Type`,
+`C_ID`)
+VALUES
+(Nistara,
+Airbus 380,
+4);
+
+INSERT INTO `dbms_project`.`company`
+(`C_Name`,
+`C_Type`,
+`C_ID`)
+VALUES
+(Indivo,
+Boeing 707,
+5);
+
+INSERT INTO `dbms_project`.`company`
+(`C_Name`,
+`C_Type`,
+`C_ID`)
+VALUES
+(MetAirways,
+Boeing 707,
+6);
+
+INSERT INTO `dbms_project`.`company`
+(`C_Name`,
+`C_Type`,
+`C_ID`)
+VALUES
+(Picejet,
+Boeing 707,
+8);
+
+INSERT INTO `dbms_project`.`company`
+(`C_Name`,
+`C_Type`,
+`C_ID`)
+VALUES
+(Nistara,
+Boeing 707,
+8);
+
+
+
+```
+
+
+
+
 </p>
 <hr>
 
