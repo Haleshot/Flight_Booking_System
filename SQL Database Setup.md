@@ -347,6 +347,33 @@ VALUES
 
 ```
 
+## Met Airways:
+
+```bash
+
+INSERT INTO `dbms_project`.`metairways`
+(`C_ID`,
+`COMPANY_NAME`,
+`COMPANY_HISTORY`,
+`C_TYPE`)
+VALUES
+(2,
+"Met Airways",
+'Launched in 1993, Met Airways grew to become the airline of choice for discerning travellers in India. The famous tagline “The Joy of Flying” became synonymous with Jet Airways',
+"Airbus 380");
+
+INSERT INTO `dbms_project`.`metairways`
+(`C_ID`,
+`COMPANY_NAME`,
+`COMPANY_HISTORY`,
+`C_TYPE`)
+VALUES
+(6,
+"Met Airways",
+'Launched in 1993, Met Airways grew to become the airline of choice for discerning travellers in India. The famous tagline “The Joy of Flying” became synonymous with Jet Airways',
+"Boeing 707");
+```
+
 
 </p>
 <hr>
