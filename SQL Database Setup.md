@@ -28,7 +28,7 @@ CREATE DATABASE `dbms_project` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE ut
 </p>
 <hr>
 
-<h2 id="Table Creation"> 📦 Table Creation </h2>
+<h2 id="Table Creation"> ☁️ Table Creation </h2>
 <p align="justify">
 
 Execute the SQL statements to create the required tables.
@@ -197,7 +197,7 @@ CREATE TABLE `customer` (
 </p>
 <hr>
 
-<h2 id="Insert Sample Data"> 📦 Insert Sample Data </h2>
+<h2 id="Insert Sample Data"> ☁️ Insert Sample Data </h2>
 <p align="justify">
 
 
@@ -422,7 +422,7 @@ VALUES
 </p>
 <hr>
 
-<h2 id="Configuration"> 📦 Configuration </h2>
+<h2 id="Configuration"> ☁️ Configuration </h2>
 <p align="justify">
   
 Update the Python file of the project to specify the MySQL connection details.
