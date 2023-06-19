@@ -428,7 +428,7 @@ VALUES
 
 To configure the Flight Booking Management System project with your MySQL connection details, follow these steps:
 
-1. Open the Python file (`Project.py`) of the project in a text editor.
+1. Open the Python file `Project.py` of the project in a text editor.
 
 2. Locate the section where the MySQL connection details are specified. It should look similar to the following:
 
