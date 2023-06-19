@@ -209,15 +209,7 @@ class Full_Profile_Screen(QDialog):
             db = mysql.connector.connect(host = 'localhost', database='DBMS_PROJECT', user = 'root', password = 'Haleshot@2003')
             cursor = db.cursor(buffered=True)
 
-            cursor.execute("SELECT MAX(Customer_ID) FROM full_profile_account;")
-            result = cursor.fetchall()
-            print(result)
-
-            
-            Customer_ID_to_be_converted = result[0]
-            print(Customer_ID_to_be_converted)
-
-            Customer_ID = int(str(Customer_ID_to_be_converted[0])) + 1 # Works as Auto_Increment in SQL.
+            Customer_ID = random.randint(234234, 9345345)
 
 
             print(Customer_ID)
