@@ -54,9 +54,11 @@ To install and set up the Flight Booking Management System project, please follo
 
 3. **SQL Database Setup**: I have provided an SQL script that includes the necessary commands to create the database and tables. Open the SQL script file and execute each statement one by one in your MySQL Workbench or preferred MySQL client. The database name used in the script is `dbms_project`.
 
-4. **Configure MySQL Connection**: Open the Python file of the project and locate the section where the MySQL connection details are specified. Update the values for the root username and password, as well as the localhost information, to match your MySQL configuration.
+   The file for the SQL database setup can be found here - [SQL Database Setup Instructions](SQL Database Setup.md)
 
-5. **Run the Application**: You are now ready to run the Flight Booking Management System. Execute the Python file in your preferred Python environment by running the following command:
+5. **Configure MySQL Connection**: Open the Python file of the project and locate the section where the MySQL connection details are specified. Update the values for the root username and password, as well as the localhost information, to match your MySQL configuration.
+
+6. **Run the Application**: You are now ready to run the Flight Booking Management System. Execute the Python file in your preferred Python environment by running the following command:
 
    ```bash
    python main.py
