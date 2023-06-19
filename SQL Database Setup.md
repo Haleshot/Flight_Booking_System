@@ -172,7 +172,10 @@ CREATE TABLE `customer` (
 ```
 
 3. **Insert Sample Data**:
-   Insert Data
+
+Insert Data for the following tables:
+Flights:
+The data for flights insertion can be found here.
 
 5. **Configuration**: Update the Python file of the project to specify the MySQL connection details.
 
