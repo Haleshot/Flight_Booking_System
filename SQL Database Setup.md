@@ -176,6 +176,7 @@ CREATE TABLE `customer` (
 Insert Data for the following tables:
 Flights:
 The data for flights insertion can be found [here](https://github.com/Haleshot/Flight_Booking_System/tree/main/Project_Source_Code/SQL_Entries_Flight)
+Add data from all 4 text files.
 
 5. **Configuration**: Update the Python file of the project to specify the MySQL connection details.
 
