@@ -1,8 +1,6 @@
-<h2 id="Installation"> 📦 Installation </h2>
-
 <p align="justify">
-## SQL Database Setup
-
+SQL Database Setup
+  
 To set up the SQL database and create the necessary tables for the Flight Booking Management System, please follow these steps:
 
 1. **Database Creation**: Execute the SQL statement to create the database.
