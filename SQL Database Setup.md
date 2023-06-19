@@ -1,6 +1,5 @@
 ## SQL Database Setup
 
-<h1 align="center"> Flight Booking Management Project </h1>
 
 <details open="open">
   <summary>Table of Contents</summary>
