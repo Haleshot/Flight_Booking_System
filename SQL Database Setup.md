@@ -374,6 +374,33 @@ VALUES
 "Boeing 707");
 ```
 
+## PiceJetL
+
+```bash
+
+INSERT INTO `dbms_project`.`picejet`
+(`C_ID`,
+`COMPANY_NAME`,
+`COMPANY_HISTORY`,
+`C_TYPE`)
+VALUES
+(3,
+"PiceJet",
+'The origins of PiceJet can be tracked back to March 1984 when the company was established by Indian industrialist S. K. Modi to provide private air taxi services.',
+"Airbus 380");
+
+INSERT INTO `dbms_project`.`picejet`
+(`C_ID`,
+`COMPANY_NAME`,
+`COMPANY_HISTORY`,
+`C_TYPE`)
+VALUES
+(6,
+"PiceJet",
+'The origins of PiceJet can be tracked back to March 1984 when the company was established by Indian industrialist S. K. Modi to provide private air taxi services.',
+"Boeing 707");
+```
+
 
 </p>
 <hr>
