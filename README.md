@@ -5,17 +5,17 @@
   <ol>
     <li><a href="#Installation"> Installation </a></li>
     <li><a href="#Introduction"> Introduction </a></li>
-    <li><a href="#Components of the Database Design">  Components of the Database Design </a></li>
+    <li><a href="#Components of the Database Design"> Components of the Database Design </a></li>
     <ul>
-      <li><a href="#Payment">  Payment </a></li>
-      <li><a href="#Flights">  Flights </a></li>
-      <li><a href="#Cancellation">  Cancellation </a></li>
-      <li><a href="#Company">  Company </a></li>
-      <li><a href="#Initial Account Info">  Initial Account Info </a></li>
-      <li><a href="#Full Account Info">  Full Account Info </a></li>
-      <li><a href="#Indivo, Nistara, MetAirways, Picejet">  Indivo, Nistara, MetAirways, Picejet </a></li>
-      <li><a href="#Cust_Choice-Flight">  Customer Choice Flight </a></li>
-      <li><a href="#Customer">  Customer </a></li>
+      <li><a href="#Payment"> Payment </a></li>
+      <li><a href="#Flights"> Flights </a></li>
+      <li><a href="#Cancellation"> Cancellation </a></li>
+      <li><a href="#Company"> Company </a></li>
+      <li><a href="#Initial Account Info"> Initial Account Info </a></li>
+      <li><a href="#Full Account Info"> Full Account Info </a></li>
+      <li><a href="#Indivo, Nistara, MetAirways, Picejet"> Indivo, Nistara, MetAirways, Picejet </a></li>
+      <li><a href="#Cust_Choice-Flight"> Customer Choice Flight </a></li>
+      <li><a href="#Customer"> Customer </a></li>
     </ul>
     <li><a href="#Entity Relationship Diagram">  Entity Relationship Diagram </a></li>
     <li><a href="#Relational Model"> Relational Model </a></li>
