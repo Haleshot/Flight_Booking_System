@@ -171,8 +171,9 @@ CREATE TABLE `customer` (
 
 ```
 
-3. **Insert Sample Data (Optional)**: If desired, insert sample data into the tables for testing purposes.
+3. **Insert Sample Data**:
+   Insert Data
 
-4. **Configuration**: Update the Python file of the project to specify the MySQL connection details.
+5. **Configuration**: Update the Python file of the project to specify the MySQL connection details.
 
 By following these steps, you will have successfully set up the SQL database and created the required tables for the Flight Booking Management System.
