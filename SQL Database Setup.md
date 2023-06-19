@@ -9,7 +9,7 @@ CREATE DATABASE `dbms_project` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE ut
 ```
 
 2. **Table Creation**: Execute the SQL statements to create the required tables.
-3. 
+
 Payment:
 ```bash
 CREATE TABLE `payment` (
