@@ -7,7 +7,7 @@
   <ol>
     <li><a href="#Database Creation"> Database Creation </a></li>
     <li><a href="#Table Creation"> Table Creation </a></li>
-    <li><a href="Insert Sample Data"> Insert Sample Data </a></li> 
+    <li><a href="#Insert Sample Data"> Insert Sample Data </a></li> 
     <li><a href="#Configuration"> Configuration </a></li>
 
 
