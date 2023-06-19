@@ -3,6 +3,7 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
+    <li><a href="#Installtion"> Installtion </a></li>
     <li><a href="#Introduction"> Introduction </a></li>
     <li><a href="#Components of the Database Design">  Components of the Database Design </a></li>
     <ul>
@@ -30,6 +31,43 @@
 </details>
 <hr>
 
+
+
+
+<h2 id="Installation"> 📦 Installation </h2>
+
+<p align="justify">
+
+## Installation
+
+To install and set up the Flight Booking Management System project, please follow these steps:
+
+1. **Requirements**: Make sure you have Python installed on your machine. You can check if Python is installed by running `python --version` in your command prompt or terminal. Additionally, ensure that you have MySQL Workbench or a compatible MySQL client installed.
+
+2. **Download Dependencies**: The project's required Python packages and libraries are listed in the `requirements.txt` file. You can install these dependencies by running the following command in your command prompt or terminal:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+   This will automatically download and install all the necessary packages.
+
+3. **SQL Database Setup**: I have provided an SQL script that includes the necessary commands to create the database and tables. Open the SQL script file and execute each statement one by one in your MySQL Workbench or preferred MySQL client. The database name used in the script is `dbms_project`.
+
+4. **Configure MySQL Connection**: Open the Python file of the project and locate the section where the MySQL connection details are specified. Update the values for the root username and password, as well as the localhost information, to match your MySQL configuration.
+
+5. **Run the Application**: You are now ready to run the Flight Booking Management System. Execute the Python file in your preferred Python environment by running the following command:
+
+   ```bash
+   python main.py
+   ```
+
+   The application will start, and you can begin exploring its features.
+
+By following these steps, you will have successfully installed and set up the Flight Booking Management System on your local machine. Enjoy using the application to manage flight bookings!
+
+</p>
+<hr>
 
 
 
