@@ -9,6 +9,7 @@ CREATE DATABASE `dbms_project` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE ut
 ```
 
 2. **Table Creation**: Execute the SQL statements to create the required tables.
+
 Payment:
 ```bash
 CREATE TABLE `payment` (
@@ -170,8 +171,12 @@ CREATE TABLE `customer` (
 
 ```
 
-3. **Insert Sample Data (Optional)**: If desired, insert sample data into the tables for testing purposes.
+3. **Insert Sample Data**:
 
-4. **Configuration**: Update the Python file of the project to specify the MySQL connection details.
+Insert Data for the following tables:
+Flights:
+The data for flights insertion can be found here.
+
+5. **Configuration**: Update the Python file of the project to specify the MySQL connection details.
 
 By following these steps, you will have successfully set up the SQL database and created the required tables for the Flight Booking Management System.
