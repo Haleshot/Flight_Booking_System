@@ -53,9 +53,7 @@ To install and set up the Flight Booking Management System project, please follo
    This will automatically download and install all the necessary packages.
 
 3. **SQL Database Setup**: I have provided an SQL script that includes the necessary commands to create the database and tables. Open the SQL script file and execute each statement one by one in your MySQL Workbench or preferred MySQL client. The database name used in the script is `dbms_project`.
-
-   The file for the SQL database setup can be found here - 
-See [the contributing guide](CONTRIBUTING.md) for detailed instructions on how to get started with our project.
+The file for the SQL database setup can be found [here](https://github.com/Haleshot/Flight_Booking_System/blob/main/SQL%20Database%20Setup.md) - 
 
 5. **Configure MySQL Connection**: Open the Python file of the project and locate the section where the MySQL connection details are specified. Update the values for the root username and password, as well as the localhost information, to match your MySQL configuration.
 
