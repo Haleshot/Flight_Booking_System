@@ -20,8 +20,8 @@
 
 <p align="justify">
 To set up the SQL database and create the necessary tables for the Flight Booking Management System, please follow these steps:
-
-1. **Database Creation**: Execute the SQL statement to create the database.
+  
+Execute the SQL statement to create the database.
 
 ```bash
 CREATE DATABASE `dbms_project` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
