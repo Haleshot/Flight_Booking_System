@@ -425,7 +425,34 @@ VALUES
 <h2 id="Configuration"> ☁️ Configuration </h2>
 <p align="justify">
   
-Update the Python file of the project to specify the MySQL connection details.
+## Configuration
+
+To configure the Flight Booking Management System project with your MySQL connection details, follow these steps:
+
+1. Open the Python file (`Project.py`) of the project in a text editor.
+
+2. Locate the section where the MySQL connection details are specified. It should look similar to the following:
+
+```python
+db = mysql.connector.connect(host='localhost', database='DBMS_PROJECT', user='root', password='Haleshot@2003')
+```
+
+3. Replace the placeholders with your MySQL connection details:
+
+   - Update the `host` parameter with the hostname or IP address of your MySQL server.
+   - Update the `database` parameter with the name of the database you created for the project.
+   - Update the `user` parameter if your MySQL username is different from `'root'`.
+   - Update the `password` parameter with the password you set for your MySQL user.
+
+   The modified code should resemble the following example:
+
+```python
+db = mysql.connector.connect(host='your_host', database='your_database', user='your_username', password='your_password')
+```
+
+4. Save the changes to the Python file.
+
+By following these steps and updating the necessary MySQL connection details, you will have successfully configured the Flight Booking Management System project to connect to your MySQL database.
 
 By following these steps, you will have successfully set up the SQL database and created the required tables for the Flight Booking Management System.
 
