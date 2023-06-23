@@ -61,6 +61,14 @@ class Admin_Screen(QDialog):
             if text.lower() == "nistara":
                 # You proceed to Nistara Admin screen
                 print("Inside Nistara Admin Screen")
+            else:
+                msg = QMessageBox()
+                msg.setWindowTitle("Error!")
+                msg.setText("Incorrect Password!")
+                msg.setStandardButtons(QMessageBox.Ok)
+                msg.setDefaultButton(QMessageBox.Ok)
+                msg.setIcon(QMessageBox.Warning)
+                x = msg.exec_()
 
     def gotoMetAirways(self):
         text, ok = QInputDialog.getText(self, "Input Dialog", "Enter Password")
@@ -69,7 +77,13 @@ class Admin_Screen(QDialog):
                 # You proceed to MetAirways Admin screen
                 print("Inside MetAirways Admin Screen")
             else:
-                self.Dialog_Password
+                msg = QMessageBox()
+                msg.setWindowTitle("Error!")
+                msg.setText("Incorrect Password!")
+                msg.setStandardButtons(QMessageBox.Ok)
+                msg.setDefaultButton(QMessageBox.Ok)
+                msg.setIcon(QMessageBox.Warning)
+                x = msg.exec_()
 
     def gotoPiceJet(self):
         text, ok = QInputDialog.getText(self, "Input Dialog", "Enter Password")
@@ -77,6 +91,14 @@ class Admin_Screen(QDialog):
             if text.lower() == "picejet":
                 # You proceed to PiceJet Admin screen
                 print("Inside PiceJet Admin Screen")
+            else:
+                msg = QMessageBox()
+                msg.setWindowTitle("Error!")
+                msg.setText("Incorrect Password!")
+                msg.setStandardButtons(QMessageBox.Ok)
+                msg.setDefaultButton(QMessageBox.Ok)
+                msg.setIcon(QMessageBox.Warning)
+                x = msg.exec_()
 
     def gotoIndivo(self):
         text, ok = QInputDialog.getText(self, "Input Dialog", "Enter Password")
@@ -84,12 +106,14 @@ class Admin_Screen(QDialog):
             if text.lower() == "indivo":
                 # You proceed to Indivo Admin screen
                 print("Inside Indivo Admin Screen")
-
-    def Dialog_Password(self):
-        msg = QMessageBox()
-        msg.setWindowTitle("Password")
-        msg.setIcon(QMessageBox.Critical)
-        x = msg.exec_()
+            else:
+                msg = QMessageBox()
+                msg.setWindowTitle("Error!")
+                msg.setText("Incorrect Password!")
+                msg.setStandardButtons(QMessageBox.Ok)
+                msg.setDefaultButton(QMessageBox.Ok)
+                msg.setIcon(QMessageBox.Warning)
+                x = msg.exec_()
 
 
 class Welcome_screen(QDialog):
