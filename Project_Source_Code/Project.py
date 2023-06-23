@@ -12,6 +12,45 @@ import random
 from twilio.rest import Client
 
 
+class Customer_Admin_Option_Screen(QDialog):
+    def __init__(self):
+        super(Customer_Admin_Option_Screen, self).__init__()
+        loadUi(r"Project_Source_Code\Customer_Admin_Option_Screen.ui", self)
+
+        # Displaying the Flight Gif on the label
+        self.movie = QMovie("Project_Source_Code\Flight Gif.gif")
+        self.Flight_Gif_Label.setMovie(self.movie)
+  
+        self.startAnimation()
+        self.movie.start()
+    
+    # For the Gif in the Welcome Screen to keep playing.
+    def startAnimation(self):
+        self.movie.start()
+        self.Customer.clicked.connect(self.gotoCustomer)
+        self.Admin.clicked.connect(self.gotoAdmin)
+
+    def gotoCustomer(self):
+        customer = Welcome_screen()
+        widget.addWidget(customer)
+        widget.setCurrentIndex(widget.currentIndex() + 1) # Creating a whole bunch/ list of widgets across windows/ screens
+        # Helps in displaying the next window on being clicked
+    
+    def gotoAdmin(self):
+        admin = Admin_Screen()
+        widget.addWidget(admin)
+        widget.setCurrentIndex(widget.currentIndex() + 1)
+
+
+
+
+
+class Admin_Screen(QDialog):
+    pass
+
+
+
+
 class Welcome_screen(QDialog):
     def __init__(self):
         super(Welcome_screen, self).__init__()
