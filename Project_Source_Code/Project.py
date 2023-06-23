@@ -1369,10 +1369,10 @@ class Cancellation(QDialog):
 
 # Main
 app = QApplication(sys.argv) # Launching the app with this variable
-welcome = Welcome_screen() # Creating an instance for the class created above
+choice_option = Customer_Admin_Option_Screen() # Creating an instance for the class created above
 
 widget = QStackedWidget() # Helps in moving between various screens/windows
-widget.addWidget(welcome)
+widget.addWidget(choice_option)
 widget.setFixedHeight(801) # Fixing the Height of the GUI Window to 800
 widget.setFixedWidth(1201) # Fixing the Width of the GUI Window to 1200
 widget.show() # Displaying the whole Application
