@@ -87,7 +87,7 @@ class Admin_Screen(QDialog):
 
     def Dialog_Password(self):
         msg = QMessageBox()
-        msg = QMessageBox.setWindowTitle("Password")
+        msg.setWindowTitle("Password")
         msg.setIcon(QMessageBox.Critical)
         x = msg.exec_()
 
