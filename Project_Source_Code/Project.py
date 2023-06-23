@@ -1392,7 +1392,7 @@ widget = QStackedWidget() # Helps in moving between various screens/windows
 widget.addWidget(choice_option)
 widget.setFixedHeight(801) # Fixing the Height of the GUI Window to 800
 widget.setFixedWidth(1201) # Fixing the Width of the GUI Window to 1200
-widget.setWindowTitle("Flight Booking")
+widget.setWindowTitle("Flight Booking") # Setting Window Title
 widget.show() # Displaying the whole Application
 
 try: # In case the app doesn't exit.
