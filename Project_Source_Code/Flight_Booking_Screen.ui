@@ -201,7 +201,7 @@ font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
   <widget class="QComboBox" name="Timings_Combo_Box">
    <property name="geometry">
     <rect>
-     <x>120</x>
+     <x>110</x>
      <y>220</y>
      <width>281</width>
      <height>51</height>
@@ -229,7 +229,7 @@ font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
   <widget class="QComboBox" name="Airlines_Combo_Box">
    <property name="geometry">
     <rect>
-     <x>450</x>
+     <x>460</x>
      <y>220</y>
      <width>281</width>
      <height>51</height>
@@ -267,7 +267,7 @@ font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
   <widget class="QLabel" name="From_Label_2">
    <property name="geometry">
     <rect>
-     <x>120</x>
+     <x>110</x>
      <y>180</y>
      <width>61</width>
      <height>31</height>
@@ -284,7 +284,7 @@ font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
   <widget class="QLabel" name="From_Label_3">
    <property name="geometry">
     <rect>
-     <x>450</x>
+     <x>460</x>
      <y>180</y>
      <width>121</width>
      <height>31</height>
