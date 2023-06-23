@@ -2,8 +2,8 @@
 import sys
 from PyQt5.uic import loadUi
 from PyQt5.QtGui import QMovie
-from PyQt5 import QtWidgets
-from PyQt5.QtWidgets import QDialog, QApplication, QStackedWidget
+from PyQt5 import QtWidgets, QtGui
+from PyQt5.QtWidgets import QDialog, QApplication, QStackedWidget, QMessageBox, QInputDialog
 import mysql.connector
 from datetime import date
 from PyQt5.QtWidgets import * 
@@ -56,7 +56,15 @@ class Admin_Screen(QDialog):
         self.Indivo.clicked.connect(self.gotoIndivo)
 
     def gotoNistara(self):
-        pass
+        msg = QMessageBox()
+        msg.setWindowTitle("Enter Password")
+        msg.setText("Password Field")
+        msg.setIcon(QMessageBox.Question)
+        msg.setStandardButtons(QMessageBox.Cancel | QMessageBox.Ok)
+        msg.setDefaultButton(QMessageBox.Cancel)
+        
+        x = msg.exec_()
+
 
     def gotoMetAirways(self):
         pass
@@ -67,6 +75,16 @@ class Admin_Screen(QDialog):
     def gotoIndivo(self):
         pass
 
+    def InputDialog(self):
+        pass
+
+    def showPopup(self):
+        msg = QMessageBox()
+        msg.setWindowTitle("Enter Password")
+        msg.setText("Password Field")
+        msg.setIcon(QMessageBox.Question)
+        msg.setStandardButtons(QMessageBox.Cancel | QMessageBox.Ok)
+        msg.setDefault(QMessageBox.Cancel)
 
 class Welcome_screen(QDialog):
     def __init__(self):
