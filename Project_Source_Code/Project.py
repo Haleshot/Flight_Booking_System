@@ -46,7 +46,9 @@ class Customer_Admin_Option_Screen(QDialog):
 
 
 class Admin_Screen(QDialog):
-    pass
+    def __init__(self):
+        super(Admin_Screen, self).__init__()
+        loadUi(r"Project_Source_Code\Customer_Admin_Option_Screen.ui", self)
 
 
 
