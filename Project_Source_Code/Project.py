@@ -48,7 +48,7 @@ class Customer_Admin_Option_Screen(QDialog):
 class Admin_Screen(QDialog):
     def __init__(self):
         super(Admin_Screen, self).__init__()
-        loadUi(r"Project_Source_Code\Customer_Admin_Option_Screen.ui", self)
+        loadUi(r"Project_Source_Code\Admin_Screen.ui", self)
 
         self.Nistara.clicked.connect(self.gotoNistara)
         self.MetAirways.clicked.connect(self.gotoMetAirways)
