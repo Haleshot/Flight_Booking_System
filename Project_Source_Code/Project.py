@@ -461,9 +461,6 @@ class Flight_Booking_Screen(QDialog):
             self.Error_Popup_Message.setText("")
             self.Available_Flights_Table_Widget.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
             if Timing == "Select" and Airline_Company == "Select":
-                # query = 'SELECT Password FROM Initial_Info_Account WHERE Username =\''+EmailField+"\'"
-
-                # query = 'SELECT F_arr_Location FROM flights WHERE F_Dept_Location =\''+Departure+"\'"
                 query = "SELECT * FROM flights WHERE F_Dept_Location = %s AND F_Arr_Location = %s"
                 print()
                 tuple_1 = (Departure, Arrival)
