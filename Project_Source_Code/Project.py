@@ -56,35 +56,34 @@ class Admin_Screen(QDialog):
         self.Indivo.clicked.connect(self.gotoIndivo)
 
     def gotoNistara(self):
-        msg = QMessageBox()
-        msg.setWindowTitle("Enter Password")
-        msg.setText("Password Field")
-        msg.setIcon(QMessageBox.Question)
-        msg.setStandardButtons(QMessageBox.Cancel | QMessageBox.Ok)
-        msg.setDefaultButton(QMessageBox.Cancel)
-        
-        x = msg.exec_()
+        text, ok = QInputDialog.getText(self, "Input Dialog", "Enter Password")
+        if ok:
+            if text.lower() == "nistara":
+                # You proceed to Nistara Admin screen
+                print("Inside Nistara Admin Screen")
 
 
     def gotoMetAirways(self):
-        pass
+        text, ok = QInputDialog.getText(self, "Input Dialog", "Enter Password")
+        if ok:
+            if text.lower() == "metairways":
+                # You proceed to Nistara Admin screen
+                print("Inside MetAirways Admin Screen")
 
     def gotoPiceJet(self):
-        pass
+        text, ok = QInputDialog.getText(self, "Input Dialog", "Enter Password")
+        if ok:
+            if text.lower() == "picejet":
+                # You proceed to Nistara Admin screen
+                print("Inside PiceJet Admin Screen")
 
     def gotoIndivo(self):
-        pass
+        text, ok = QInputDialog.getText(self, "Input Dialog", "Enter Password")
+        if ok:
+            if text.lower() == "indivo":
+                # You proceed to Nistara Admin screen
+                print("Inside Indivo Admin Screen")
 
-    def InputDialog(self):
-        pass
-
-    def showPopup(self):
-        msg = QMessageBox()
-        msg.setWindowTitle("Enter Password")
-        msg.setText("Password Field")
-        msg.setIcon(QMessageBox.Question)
-        msg.setStandardButtons(QMessageBox.Cancel | QMessageBox.Ok)
-        msg.setDefault(QMessageBox.Cancel)
 
 class Welcome_screen(QDialog):
     def __init__(self):
