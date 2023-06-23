@@ -17,7 +17,7 @@ class Ui_Dialog(object):
     def setupUi(self, Dialog):
         if not Dialog.objectName():
             Dialog.setObjectName(u"Dialog")
-        Dialog.resize(1201, 801)
+        Dialog.resize(1201, 803)
         self.Available_Flights_Table_Widget = QTableWidget(Dialog)
         if (self.Available_Flights_Table_Widget.columnCount() < 9):
             self.Available_Flights_Table_Widget.setColumnCount(9)
@@ -40,7 +40,7 @@ class Ui_Dialog(object):
         __qtablewidgetitem8 = QTableWidgetItem()
         self.Available_Flights_Table_Widget.setHorizontalHeaderItem(8, __qtablewidgetitem8)
         self.Available_Flights_Table_Widget.setObjectName(u"Available_Flights_Table_Widget")
-        self.Available_Flights_Table_Widget.setGeometry(QRect(6, 282, 1171, 421))
+        self.Available_Flights_Table_Widget.setGeometry(QRect(14, 310, 1171, 421))
         self.From_Combo_Box = QComboBox(Dialog)
         self.From_Combo_Box.addItem("")
         self.From_Combo_Box.addItem("")
@@ -48,7 +48,7 @@ class Ui_Dialog(object):
         self.From_Combo_Box.addItem("")
         self.From_Combo_Box.addItem("")
         self.From_Combo_Box.setObjectName(u"From_Combo_Box")
-        self.From_Combo_Box.setGeometry(QRect(106, 102, 281, 51))
+        self.From_Combo_Box.setGeometry(QRect(46, 102, 281, 51))
         self.From_Combo_Box.setStyleSheet(u"font: 10pt \"MS Shell Dlg 2\";")
         self.HeaderLabel = QLabel(Dialog)
         self.HeaderLabel.setObjectName(u"HeaderLabel")
@@ -58,18 +58,18 @@ class Ui_Dialog(object):
         self.HeaderLabel.setAlignment(Qt.AlignCenter)
         self.From_Label_2 = QLabel(Dialog)
         self.From_Label_2.setObjectName(u"From_Label_2")
-        self.From_Label_2.setGeometry(QRect(106, 172, 61, 31))
+        self.From_Label_2.setGeometry(QRect(46, 172, 61, 31))
         self.From_Label_2.setStyleSheet(u"font: 12pt \"MS Shell Dlg 2\";\n"
 "font: 10pt \"MS Shell Dlg 2\";")
         self.Next_Button = QPushButton(Dialog)
         self.Next_Button.setObjectName(u"Next_Button")
-        self.Next_Button.setGeometry(QRect(456, 722, 281, 51))
+        self.Next_Button.setGeometry(QRect(470, 740, 281, 51))
         self.Next_Button.setStyleSheet(u"font: 16pt \"MS Shell Dlg 2\";\n"
 "background-color: rgb(0, 255, 0);\n"
 "")
         self.label = QLabel(Dialog)
         self.label.setObjectName(u"label")
-        self.label.setGeometry(QRect(156, 72, 21, 16))
+        self.label.setGeometry(QRect(96, 72, 21, 16))
         self.label.setStyleSheet(u"color:rgb(255, 0, 0)")
         self.To_Combo_Box = QComboBox(Dialog)
         self.To_Combo_Box.addItem("")
@@ -78,17 +78,17 @@ class Ui_Dialog(object):
         self.To_Combo_Box.addItem("")
         self.To_Combo_Box.addItem("")
         self.To_Combo_Box.setObjectName(u"To_Combo_Box")
-        self.To_Combo_Box.setGeometry(QRect(806, 102, 281, 51))
+        self.To_Combo_Box.setGeometry(QRect(873, 102, 281, 51))
         self.To_Combo_Box.setStyleSheet(u"font: 10pt \"MS Shell Dlg 2\";")
         self.Find_Flights_Button = QPushButton(Dialog)
         self.Find_Flights_Button.setObjectName(u"Find_Flights_Button")
-        self.Find_Flights_Button.setGeometry(QRect(806, 212, 281, 51))
+        self.Find_Flights_Button.setGeometry(QRect(873, 212, 281, 51))
         self.Find_Flights_Button.setStyleSheet(u"font: 16pt \"MS Shell Dlg 2\";\n"
 "background-color: rgb(0, 255, 0);\n"
 "")
         self.label_2 = QLabel(Dialog)
         self.label_2.setObjectName(u"label_2")
-        self.label_2.setGeometry(QRect(826, 72, 16, 16))
+        self.label_2.setGeometry(QRect(893, 72, 16, 16))
         self.label_2.setStyleSheet(u"color:rgb(255, 0, 0)")
         self.Error_Popup_Message = QLabel(Dialog)
         self.Error_Popup_Message.setObjectName(u"Error_Popup_Message")
@@ -98,7 +98,7 @@ class Ui_Dialog(object):
         self.Error_Popup_Message.setAlignment(Qt.AlignCenter)
         self.To_Label = QLabel(Dialog)
         self.To_Label.setObjectName(u"To_Label")
-        self.To_Label.setGeometry(QRect(803, 62, 31, 41))
+        self.To_Label.setGeometry(QRect(870, 62, 31, 41))
         self.To_Label.setStyleSheet(u"font: 12pt \"MS Shell Dlg 2\";\n"
 "font: 10pt \"MS Shell Dlg 2\";")
         self.Timings_Combo_Box = QComboBox(Dialog)
@@ -106,11 +106,11 @@ class Ui_Dialog(object):
         self.Timings_Combo_Box.addItem("")
         self.Timings_Combo_Box.addItem("")
         self.Timings_Combo_Box.setObjectName(u"Timings_Combo_Box")
-        self.Timings_Combo_Box.setGeometry(QRect(106, 212, 281, 51))
+        self.Timings_Combo_Box.setGeometry(QRect(46, 212, 281, 51))
         self.Timings_Combo_Box.setStyleSheet(u"font: 10pt \"MS Shell Dlg 2\";")
         self.From_Label = QLabel(Dialog)
         self.From_Label.setObjectName(u"From_Label")
-        self.From_Label.setGeometry(QRect(110, 70, 51, 31))
+        self.From_Label.setGeometry(QRect(50, 70, 51, 31))
         self.From_Label.setStyleSheet(u"font: 12pt \"MS Shell Dlg 2\";\n"
 "font: 10pt \"MS Shell Dlg 2\";")
 
