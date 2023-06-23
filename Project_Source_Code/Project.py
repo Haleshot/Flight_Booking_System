@@ -62,13 +62,14 @@ class Admin_Screen(QDialog):
                 # You proceed to Nistara Admin screen
                 print("Inside Nistara Admin Screen")
 
-
     def gotoMetAirways(self):
         text, ok = QInputDialog.getText(self, "Input Dialog", "Enter Password")
         if ok:
             if text.lower() == "metairways":
                 # You proceed to Nistara Admin screen
                 print("Inside MetAirways Admin Screen")
+            else:
+                self.Dialog_Password
 
     def gotoPiceJet(self):
         text, ok = QInputDialog.getText(self, "Input Dialog", "Enter Password")
@@ -83,6 +84,12 @@ class Admin_Screen(QDialog):
             if text.lower() == "indivo":
                 # You proceed to Nistara Admin screen
                 print("Inside Indivo Admin Screen")
+
+    def Dialog_Password(self):
+        msg = QMessageBox()
+        msg = QMessageBox.setWindowTitle("Password")
+        msg.setIcon(QMessageBox.Critical)
+        x = msg.exec_()
 
 
 class Welcome_screen(QDialog):
