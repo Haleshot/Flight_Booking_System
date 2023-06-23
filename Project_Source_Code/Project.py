@@ -1334,8 +1334,8 @@ welcome = Welcome_screen() # Creating an instance for the class created above
 
 widget = QStackedWidget() # Helps in moving between various screens/windows
 widget.addWidget(welcome)
-widget.setFixedHeight(800) # Fixing the Height of the GUI Window to 800
-widget.setFixedWidth(1200) # Fixing the Width of the GUI Window to 1200
+widget.setFixedHeight(801) # Fixing the Height of the GUI Window to 800
+widget.setFixedWidth(1201) # Fixing the Width of the GUI Window to 1200
 widget.show() # Displaying the whole Application
 
 try: # In case the app doesn't exit.
