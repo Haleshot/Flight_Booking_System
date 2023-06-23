@@ -315,6 +315,7 @@ Simple terms:
 - [ ] Refine UI more
   - [ ] PyQt5 Editor
 - [ ] Do Bug testing for all screens.
+- [ ] Admin Mode.
 
 ### In Progress
 
