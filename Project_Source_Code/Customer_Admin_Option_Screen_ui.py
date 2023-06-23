@@ -21,7 +21,7 @@ class Ui_Dialog(object):
         self.bgwidget = QWidget(Dialog)
         self.bgwidget.setObjectName(u"bgwidget")
         self.bgwidget.setGeometry(QRect(0, 0, 1201, 801))
-        self.bgwidget.setStyleSheet(u"background-color: white;")
+        self.bgwidget.setStyleSheet(u"")
         self.Header_Title = QLabel(self.bgwidget)
         self.Header_Title.setObjectName(u"Header_Title")
         self.Header_Title.setGeometry(QRect(350, 80, 531, 91))

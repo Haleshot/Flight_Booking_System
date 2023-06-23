@@ -23,7 +23,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: white;</string>
+    <string notr="true"/>
    </property>
    <widget class="QLabel" name="Header_Title">
     <property name="geometry">
