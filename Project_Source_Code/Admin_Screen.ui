@@ -22,6 +22,36 @@
      <height>91</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">/*
+border: 12px  solid rgb(170, 255, 127);
+border-width: 2px;
+font: 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 15px;
+*/
+
+QPushButton {
+    border: 2px solid #8f8f91;
+    border-radius: 6px;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #f6f7fa, stop: 1 #dadbde);
+	
+    min-width: 80px;
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #dadbde, stop: 1 #f6f7fa);
+}
+
+QPushButton:flat {
+    border: none; /* no border for a flat push button */
+}
+
+QPushButton:default {
+    border-color: navy; /* make the default button prominent */
+}</string>
+   </property>
    <property name="text">
     <string>Nistara</string>
    </property>
@@ -34,6 +64,36 @@
      <width>211</width>
      <height>91</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/*
+border: 12px  solid rgb(170, 255, 127);
+border-width: 2px;
+font: 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 15px;
+*/
+
+QPushButton {
+    border: 2px solid #8f8f91;
+    border-radius: 6px;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #f6f7fa, stop: 1 #dadbde);
+	
+    min-width: 80px;
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #dadbde, stop: 1 #f6f7fa);
+}
+
+QPushButton:flat {
+    border: none; /* no border for a flat push button */
+}
+
+QPushButton:default {
+    border-color: navy; /* make the default button prominent */
+}</string>
    </property>
    <property name="text">
     <string>PiceJet</string>
@@ -48,6 +108,36 @@
      <height>91</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">/*
+border: 12px  solid rgb(170, 255, 127);
+border-width: 2px;
+font: 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 15px;
+*/
+
+QPushButton {
+    border: 2px solid #8f8f91;
+    border-radius: 6px;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #f6f7fa, stop: 1 #dadbde);
+	
+    min-width: 80px;
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #dadbde, stop: 1 #f6f7fa);
+}
+
+QPushButton:flat {
+    border: none; /* no border for a flat push button */
+}
+
+QPushButton:default {
+    border-color: navy; /* make the default button prominent */
+}</string>
+   </property>
    <property name="text">
     <string>MetAirways</string>
    </property>
@@ -60,6 +150,36 @@
      <width>211</width>
      <height>91</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/*
+border: 12px  solid rgb(170, 255, 127);
+border-width: 2px;
+font: 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 15px;
+*/
+
+QPushButton {
+    border: 2px solid #8f8f91;
+    border-radius: 6px;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #f6f7fa, stop: 1 #dadbde);
+	
+    min-width: 80px;
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #dadbde, stop: 1 #f6f7fa);
+}
+
+QPushButton:flat {
+    border: none; /* no border for a flat push button */
+}
+
+QPushButton:default {
+    border-color: navy; /* make the default button prominent */
+}</string>
    </property>
    <property name="text">
     <string>Indivo</string>
