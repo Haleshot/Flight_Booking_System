@@ -50,21 +50,21 @@ class Admin_Screen(QDialog):
         super(Admin_Screen, self).__init__()
         loadUi(r"Project_Source_Code\Customer_Admin_Option_Screen.ui", self)
 
-        self.Nistara.clicked.connect(self.Nistara)
-        self.MetAirways.clicked.connect(self.MetAirways)
-        self.PiceJet.clicked.connect(self.PiceJet)
-        self.Indivo.clicked.connect(self.Indivo)
+        self.Nistara.clicked.connect(self.gotoNistara)
+        self.MetAirways.clicked.connect(self.gotoMetAirways)
+        self.PiceJet.clicked.connect(self.gotoPiceJet)
+        self.Indivo.clicked.connect(self.gotoIndivo)
 
-    def Nistara(self):
+    def gotoNistara(self):
         pass
 
-    def MetAirways(self):
+    def gotoMetAirways(self):
         pass
 
-    def PiceJet(self):
+    def gotoPiceJet(self):
         pass
 
-    def Indivo(self):
+    def gotoIndivo(self):
         pass
 
 
