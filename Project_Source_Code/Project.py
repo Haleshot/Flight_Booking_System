@@ -360,7 +360,7 @@ class MetAirways_Admin_Options(QDialog):
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
     def gotoNistaraPayments(self):
-        payments_info = Nistara_Payments_Info()
+        payments_info = MetAirways_Payments_Info()
         widget.addWidget(payments_info)
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
@@ -487,7 +487,43 @@ class MetAirways_Flight_Options(QDialog):
         widget.addWidget(metairways)
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
+class MetAirways_Payments_Info(QDialog):
+    def __init__(self):
+        super(MetAirways_Payments_Info, self).__init__()
+        loadUi(r"Project_Source_Code\MetAirways_Payments_Info.ui", self)
 
+        self.Back_Button.clicked.connect(self.gotoAdminNistaraPage)
+
+        db = mysql.connector.connect(host = 'localhost', database='DBMS_PROJECT', user = 'root', password = 'Haleshot@2003')
+        cursor = db.cursor(buffered=True)
+
+        self.Payments_Info_TableWidget.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
+        query = "SELECT * FROM payment WHERE F_Company = %s"
+        print()
+        tuple_1 = ("MetAirways", )
+        cursor.execute(query, tuple_1)
+
+        print(cursor.statement)
+        print()
+        self.Payments_Info_TableWidget.setRowCount(0) # Setting the rowcount as zero so the QTableWidget refreshes everytime according to the applied filters.
+        self.Payments_Info_TableWidget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
+
+
+        result = cursor.fetchall()
+        if cursor.rowcount == 0:
+            self.Error_Popup_Message.setText("No Data to fetch from!")
+        for row_number, row_data in enumerate(result):
+            self.Payments_Info_TableWidget.insertRow(row_number)
+
+            for column_number, data in enumerate(row_data):
+                self.Payments_Info_TableWidget.setItem(row_number, column_number, QtWidgets.QTableWidgetItem(str(data)))
+
+        db.commit()
+
+    def gotoAdminNistaraPage(self):
+        nistara = Nistara_Admin_Options()
+        widget.addWidget(nistara)
+        widget.setCurrentIndex(widget.currentIndex() + 1)
 
 
 class Welcome_screen(QDialog):
@@ -519,6 +555,7 @@ class Welcome_screen(QDialog):
         create = Create_Screen()
         widget.addWidget(create)
         widget.setCurrentIndex(widget.currentIndex() + 1)
+
 
 
 # Declaring these variables for inserting to the Customer table while inside the Full Profile class.
