@@ -311,7 +311,7 @@ class Nistara_Cancellation_Info(QDialog):
         cursor = db.cursor(buffered=True)
 
         self.Payments_Info_TableWidget.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
-        query = "SELECT * FROM payment WHERE F_Company = %s"
+        query = "SELECT * FROM cancellation WHERE F_Company = %s"
         print()
         tuple_1 = ("Nistara", )
         cursor.execute(query, tuple_1)
