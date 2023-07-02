@@ -140,8 +140,6 @@ class Nistara_Flight_Options(QDialog):
 
     def gotoFindFlights(self):
 
-
-
         db = mysql.connector.connect(host = 'localhost', database='DBMS_PROJECT', user = 'root', password = 'Haleshot@2003')
         cursor = db.cursor(buffered=True)
 
@@ -154,8 +152,6 @@ class Nistara_Flight_Options(QDialog):
 
         if Departure == "Select" or Arrival == "Select":
             self.Error_Popup_Message.setText("Please input all * fields!")
-
-
 
 
         else:
@@ -181,8 +177,6 @@ class Nistara_Flight_Options(QDialog):
 
                     for column_number, data in enumerate(row_data):
                         self.Available_Flights_Table_Widget.setItem(row_number, column_number, QtWidgets.QTableWidgetItem(str(data)))
-
-
 
                 db.commit()
 
