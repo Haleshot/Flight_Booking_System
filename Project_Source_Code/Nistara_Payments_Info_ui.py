@@ -40,7 +40,7 @@ class Ui_Dialog(object):
         __qtablewidgetitem7 = QTableWidgetItem()
         self.Payments_Info_TableWidget.setHorizontalHeaderItem(7, __qtablewidgetitem7)
         self.Payments_Info_TableWidget.setObjectName(u"Payments_Info_TableWidget")
-        self.Payments_Info_TableWidget.setGeometry(QRect(30, 190, 1151, 111))
+        self.Payments_Info_TableWidget.setGeometry(QRect(30, 190, 1151, 431))
         self.HeaderLabel = QLabel(Dialog)
         self.HeaderLabel.setObjectName(u"HeaderLabel")
         self.HeaderLabel.setGeometry(QRect(210, 30, 771, 71))
@@ -49,10 +49,16 @@ class Ui_Dialog(object):
         self.HeaderLabel.setAlignment(Qt.AlignCenter)
         self.Back_To_Summary_Button = QPushButton(Dialog)
         self.Back_To_Summary_Button.setObjectName(u"Back_To_Summary_Button")
-        self.Back_To_Summary_Button.setGeometry(QRect(470, 660, 281, 51))
+        self.Back_To_Summary_Button.setGeometry(QRect(470, 700, 281, 51))
         self.Back_To_Summary_Button.setStyleSheet(u"font: 16pt \"MS Shell Dlg 2\";\n"
 "background-color: rgb(0, 255, 0);\n"
 "")
+        self.label = QLabel(Dialog)
+        self.label.setObjectName(u"label")
+        self.label.setGeometry(QRect(310, 130, 551, 31))
+        self.label.setStyleSheet(u"font: 10pt \"MS Shell Dlg 2\";\n"
+"color: rgb(255, 0, 0);")
+        self.label.setAlignment(Qt.AlignCenter)
 
         self.retranslateUi(Dialog)
 
@@ -79,5 +85,6 @@ class Ui_Dialog(object):
         ___qtablewidgetitem7.setText(QCoreApplication.translate("Dialog", u"Flight Company", None));
         self.HeaderLabel.setText(QCoreApplication.translate("Dialog", u"Nistara Payments Info", None))
         self.Back_To_Summary_Button.setText(QCoreApplication.translate("Dialog", u"Back", None))
+        self.label.setText("")
     # retranslateUi
 
