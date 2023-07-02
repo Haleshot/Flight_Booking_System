@@ -104,7 +104,7 @@ background-color: rgb(0, 255, 0);
 </string>
    </property>
    <property name="text">
-    <string>Back to Summary</string>
+    <string>Back</string>
    </property>
   </widget>
  </widget>

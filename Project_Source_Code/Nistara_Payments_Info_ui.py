@@ -78,6 +78,6 @@ class Ui_Dialog(object):
         ___qtablewidgetitem7 = self.Flight_Info_TableWidget.horizontalHeaderItem(7)
         ___qtablewidgetitem7.setText(QCoreApplication.translate("Dialog", u"Flight Company", None));
         self.HeaderLabel.setText(QCoreApplication.translate("Dialog", u"Nistara Payments Info", None))
-        self.Back_To_Summary_Button.setText(QCoreApplication.translate("Dialog", u"Back to Summary", None))
+        self.Back_To_Summary_Button.setText(QCoreApplication.translate("Dialog", u"Back", None))
     # retranslateUi
 
