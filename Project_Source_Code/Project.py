@@ -115,6 +115,9 @@ class Admin_Screen(QDialog):
             if text.lower() == "indivo":
                 # You proceed to Indivo Admin screen
                 print("Inside Indivo Admin Screen")
+                indivo = Indivo_Admin_Options()
+                widget.addWidget(indivo)
+                widget.setCurrentIndex(widget.currentIndex() + 1)
 
             else:
                 msg = QMessageBox()
@@ -840,7 +843,7 @@ class Indivo_Flight_Options(QDialog):
         self.Airlines_Combo_Box.addItems(airlines_list)
   
         # item
-        item ="Picejet"
+        item ="Indivo"
   
         # setting current item
         self.Airlines_Combo_Box.setCurrentText(item)
