@@ -256,6 +256,22 @@ class Nistara_Flight_Options(QDialog):
         widget.addWidget(nistara)
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
+class Nistara_Payments_Info(QDialog):
+    def __init__(self):
+        super(Nistara_Payments_Info, self).__init__()
+        loadUi(r"Project_Source_Code\Nistara_Payments_Info.ui", self)
+        
+
+
+
+
+
+
+
+
+
+
+
 class Welcome_screen(QDialog):
     def __init__(self):
         super(Welcome_screen, self).__init__()
