@@ -1059,7 +1059,7 @@ class Payment_Info(QDialog):
 
             Payment_Info_Customer = [Payment_ID, Customer_ID, self.Payment_Cost, self.Payment_tax, self.Payment_Date, Customer_Card_Type, Customer_Number, F_Company]
 
-            cursor.execute('INSERT INTO Payment VALUES (%s, %s, %s, %s, %s, %s, %s);', Payment_Info_Customer)
+            cursor.execute('INSERT INTO Payment VALUES (%s, %s, %s, %s, %s, %s, %s, %s);', Payment_Info_Customer)
 
 
             db.commit()
@@ -1418,9 +1418,9 @@ class Cancellation(QDialog):
 
 
 
-        Refund_Info_Customer = [self.Cancellation_ID, Payment_ID, self.Refund_Cost, self.Cancellation_Date]
+        Refund_Info_Customer = [self.Cancellation_ID, Payment_ID, self.Refund_Cost, self.Cancellation_Date, F_Company]
 
-        cursor.execute('INSERT INTO Cancellation VALUES (%s, %s, %s, %s);', Refund_Info_Customer)
+        cursor.execute('INSERT INTO Cancellation VALUES (%s, %s, %s, %s, %s);', Refund_Info_Customer)
 
 
         db.commit()
