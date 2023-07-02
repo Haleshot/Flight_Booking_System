@@ -492,7 +492,7 @@ class MetAirways_Payments_Info(QDialog):
         super(MetAirways_Payments_Info, self).__init__()
         loadUi(r"Project_Source_Code\MetAirways_Payments_Info.ui", self)
 
-        self.Back_Button.clicked.connect(self.gotoAdminNistaraPage)
+        self.Back_Button.clicked.connect(self.gotoAdminMetAirwaysPage)
 
         db = mysql.connector.connect(host = 'localhost', database='DBMS_PROJECT', user = 'root', password = 'Haleshot@2003')
         cursor = db.cursor(buffered=True)
@@ -520,9 +520,9 @@ class MetAirways_Payments_Info(QDialog):
 
         db.commit()
 
-    def gotoAdminNistaraPage(self):
-        nistara = Nistara_Admin_Options()
-        widget.addWidget(nistara)
+    def gotoAdminMetAirwaysPage(self):
+        metairways = MetAirways_Admin_Options()
+        widget.addWidget(metairways)
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
 
@@ -531,7 +531,7 @@ class MetAirways_Cancellation_Info(QDialog):
         super(MetAirways_Cancellation_Info, self).__init__()
         loadUi(r"Project_Source_Code\MetAirways_Cancellation_Info.ui", self)
 
-        self.Back_Button.clicked.connect(self.gotoAdminNistaraPage)
+        self.Back_Button.clicked.connect(self.gotoAdminMetAirwaysPage)
 
         db = mysql.connector.connect(host = 'localhost', database='DBMS_PROJECT', user = 'root', password = 'Haleshot@2003')
         cursor = db.cursor(buffered=True)
@@ -539,7 +539,7 @@ class MetAirways_Cancellation_Info(QDialog):
         self.Payments_Info_TableWidget.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
         query = "SELECT * FROM cancellation WHERE F_Company = %s"
         print()
-        tuple_1 = ("Nistara", )
+        tuple_1 = ("MetAirways", )
         cursor.execute(query, tuple_1)
 
         print(cursor.statement)
@@ -559,9 +559,9 @@ class MetAirways_Cancellation_Info(QDialog):
 
         db.commit()
 
-    def gotoAdminNistaraPage(self):
-        nistara = Nistara_Admin_Options()
-        widget.addWidget(nistara)
+    def gotoAdminMetAirwaysPage(self):
+        metairways = MetAirways_Admin_Options()
+        widget.addWidget(metairways)
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
 
