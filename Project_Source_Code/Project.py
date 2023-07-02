@@ -136,7 +136,9 @@ class Nistara_Admin_Options(QDialog):
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
     def gotoNistaraPayments(self):
-        pass
+        nistara = Nistara_Payments_Info()
+        widget.addWidget(nistara)
+        widget.setCurrentIndex(widget.currentIndex() + 1)
 
     def gotoNistaraCancellations(self):
         pass
