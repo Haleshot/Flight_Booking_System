@@ -260,8 +260,33 @@ class Nistara_Payments_Info(QDialog):
     def __init__(self):
         super(Nistara_Payments_Info, self).__init__()
         loadUi(r"Project_Source_Code\Nistara_Payments_Info.ui", self)
-        
 
+        db = mysql.connector.connect(host = 'localhost', database='DBMS_PROJECT', user = 'root', password = 'Haleshot@2003')
+        cursor = db.cursor(buffered=True)
+
+        self.Error_Popup_Message.setText("")
+        self.Payments_Info_TableWidget.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
+        query = "SELECT * FROM payment WHERE F_Company = %s"
+        print()
+        tuple_1 = ("Nistara")
+        cursor.execute(query, tuple_1)
+
+        print(cursor.statement)
+        print()
+        self.Payments_Info_TableWidget.setRowCount(0) # Setting the rowcount as zero so the QTableWidget refreshes everytime according to the applied filters.
+        self.Payments_Info_TableWidget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
+
+
+        result = cursor.fetchall()
+        if cursor.rowcount == 0:
+            self.Error_Popup_Message.setText("No Data to fetch from!")
+        for row_number, row_data in enumerate(result):
+            self.Payments_Info_TableWidget.insertRow(row_number)
+
+            for column_number, data in enumerate(row_data):
+                self.Payments_Info_TableWidget.setItem(row_number, column_number, QtWidgets.QTableWidgetItem(str(data)))
+
+        db.commit()
 
 
 
