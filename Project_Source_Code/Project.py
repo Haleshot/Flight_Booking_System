@@ -149,6 +149,8 @@ class Nistara_Flight_Options(QDialog):
         super(Nistara_Flight_Options, self).__init__()
         loadUi(r"Project_Source_Code\Nistara_Flight_Options.ui", self)
 
+        self.Next_Button.clicked.connect(self.gotoAdminNistaraPage)
+
         # Airlines list
         airlines_list = ["Nistara", "PiceJet", "MetAirways", "Indivo"]
   
@@ -167,6 +169,7 @@ class Nistara_Flight_Options(QDialog):
 
 
     def gotoFindFlights(self):
+
 
         db = mysql.connector.connect(host = 'localhost', database='DBMS_PROJECT', user = 'root', password = 'Haleshot@2003')
         cursor = db.cursor(buffered=True)
@@ -251,7 +254,7 @@ class Nistara_Flight_Options(QDialog):
                         for column_number, data in enumerate(row_data):
                             self.Available_Flights_Table_Widget.setItem(row_number, column_number, QtWidgets.QTableWidgetItem(str(data)))
 
-            self.Next_Button.clicked.connect(self.gotoAdminNistaraPage)
+            
 
     def gotoAdminNistaraPage(self):
         nistara = Nistara_Admin_Options()
