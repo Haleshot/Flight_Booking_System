@@ -763,7 +763,7 @@ class Picejet_Cancellation_Info(QDialog):
         super(Picejet_Cancellation_Info, self).__init__()
         loadUi(r"Project_Source_Code\Picejet_Cancellation_Info.ui", self)
 
-        self.Back_Button.clicked.connect(self.gotoAdminMetAirwaysPage)
+        self.Back_Button.clicked.connect(self.gotoAdminPiceJetPage)
 
         db = mysql.connector.connect(host = 'localhost', database='DBMS_PROJECT', user = 'root', password = 'Haleshot@2003')
         cursor = db.cursor(buffered=True)
@@ -791,9 +791,9 @@ class Picejet_Cancellation_Info(QDialog):
 
         db.commit()
 
-    def gotoAdminMetAirwaysPage(self):
-        metairways = MetAirways_Admin_Options()
-        widget.addWidget(metairways)
+    def gotoAdminPiceJetPage(self):
+        picejet = PiceJet_Admin_Options()
+        widget.addWidget(picejet)
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
 
@@ -802,8 +802,8 @@ class Picejet_Cancellation_Info(QDialog):
 
 class Indivo_Admin_Options(QDialog):
     def __init__(self):
-        super(PiceJet_Admin_Options, self).__init__()
-        loadUi(r"Project_Source_Code\PiceJet_Admin_Options.ui", self)
+        super(Indivo_Admin_Options, self).__init__()
+        loadUi(r"Project_Source_Code\Indivo_Admin_Options.ui", self)
 
         self.Check_Flights_Button.clicked.connect(self.gotoCheckFlights)
         self.Payments_Button.clicked.connect(self.gotoNistaraPayments)
