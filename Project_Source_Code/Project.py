@@ -116,6 +116,33 @@ class Admin_Screen(QDialog):
                 x = msg.exec_()
 
 
+class Nistara_Flight_Options(QDialog):
+    def __init__(self):
+        super(Nistara_Flight_Options, self).__init__()
+        loadUi(r"Project_Source_Code\Nistara_Flight_Options.ui", self)
+
+        # Airlines list
+        airlines_list = ["Nistara", "PiceJet", "MetAirways", "Indivo"]
+  
+        # adding list of items to combo box
+        self.Airlines_Combo_Box.addItems(airlines_list)
+  
+        # item
+        item ="Nistara"
+  
+        # setting current item
+        self.Airlines_Combo_Box.setCurrentText(item)
+
+        self.Airlines_Combo_Box.setEnabled(False) # Disable Combo Box and locking Nistara Flight as default Airlines.
+
+
+
+
+
+
+
+
+
 class Welcome_screen(QDialog):
     def __init__(self):
         super(Welcome_screen, self).__init__()
