@@ -127,6 +127,8 @@ class Nistara_Admin_Options(QDialog):
         loadUi(r"Project_Source_Code\Nistara_Admin_Options.ui", self)
 
         self.Check_Flights_Button.clicked.connect(self.gotoCheckFlights)
+        self.Payments_Button.clicked.connect(self.gotoNistaraPayments)
+        self.Cancellations_Button.clicked.connect(self.gotoNistaraCancellations)
 
     def gotoCheckFlights(self):
         nistara = Nistara_Flight_Options()
@@ -245,8 +247,8 @@ class Nistara_Flight_Options(QDialog):
             self.Next_Button.clicked.connect(self.gotoAdminNistaraPage)
 
     def gotoAdminNistaraPage(self):
-        conf = Confirm_Customer_Information()
-        widget.addWidget(conf)
+        nistara = Nistara_Admin_Options()
+        widget.addWidget(nistara)
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
 class Welcome_screen(QDialog):
