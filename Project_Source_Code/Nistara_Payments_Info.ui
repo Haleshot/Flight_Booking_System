@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QTableWidget" name="Flight_Info_TableWidget">
+  <widget class="QTableWidget" name="Payments_Info_TableWidget">
    <property name="geometry">
     <rect>
      <x>30</x>
