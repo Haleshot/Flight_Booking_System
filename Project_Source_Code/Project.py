@@ -136,8 +136,8 @@ class Nistara_Admin_Options(QDialog):
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
     def gotoNistaraPayments(self):
-        nistara = Nistara_Payments_Info()
-        widget.addWidget(nistara)
+        payments_info = Nistara_Payments_Info()
+        widget.addWidget(payments_info)
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
     def gotoNistaraCancellations(self):
@@ -266,11 +266,10 @@ class Nistara_Payments_Info(QDialog):
         db = mysql.connector.connect(host = 'localhost', database='DBMS_PROJECT', user = 'root', password = 'Haleshot@2003')
         cursor = db.cursor(buffered=True)
 
-        self.Error_Popup_Message.setText("")
         self.Payments_Info_TableWidget.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
         query = "SELECT * FROM payment WHERE F_Company = %s"
         print()
-        tuple_1 = ("Nistara")
+        tuple_1 = ("Nistara", )
         cursor.execute(query, tuple_1)
 
         print(cursor.statement)
