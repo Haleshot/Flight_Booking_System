@@ -870,10 +870,10 @@ class Indivo_Flight_Options(QDialog):
         else:
             self.Error_Popup_Message.setText("")
             self.Available_Flights_Table_Widget.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
-            if Timing == "Select" and Airline_Company == "Picejet":
+            if Timing == "Select" and Airline_Company == "Indivo":
                 query = "SELECT * FROM flights WHERE F_Dept_Location = %s AND F_Arr_Location = %s AND F_Company = %s"
                 print()
-                tuple_1 = (Departure, Arrival, "Picejet")
+                tuple_1 = (Departure, Arrival, "Indivo")
                 cursor.execute(query, tuple_1)
 
                 print(cursor.statement)
@@ -893,7 +893,7 @@ class Indivo_Flight_Options(QDialog):
 
                 db.commit()
 
-            elif Timing != "Select" and Airline_Company == "Picejet":
+            elif Timing != "Select" and Airline_Company == "Indivo":
                 if Timing == "Day":
                     query = "SELECT * FROM flights WHERE F_Dept_Location = %s AND F_Arr_Location = %s AND (F_Dept_Time LIKE '%10:10%' or F_Dept_Time LIKE '%06:00%' or F_Dept_Time LIKE '%08:00%' or F_Dept_Time LIKE '%14:00%' or F_Dept_Time LIKE '%16:00%' or F_Dept_Time LIKE '%12:00%' or F_Dept_Time LIKE '%04:00%' or F_Dept_Time LIKE '%12:45%' or F_Dept_Time LIKE '%14:20%' or F_Dept_Time LIKE '%04:00%' or F_Dept_Time LIKE '%10:00%' or F_Dept_Time LIKE '%14:20%' or F_Dept_Time LIKE '%10:30%' or F_Dept_Time LIKE '%14:10%' or F_Dept_Time LIKE '%12:40%' or F_Dept_Time LIKE '%15:20%') and F_Dept_Time NOT LIKE '%18:10%'"
                 
@@ -942,6 +942,49 @@ class Indivo_Flight_Options(QDialog):
         indivo = Indivo_Admin_Options()
         widget.addWidget(indivo)
         widget.setCurrentIndex(widget.currentIndex() + 1)
+
+
+class Indivo_Payments_Info(QDialog):
+    def __init__(self):
+        super(Indivo_Payments_Info, self).__init__()
+        loadUi(r"Project_Source_Code\Indivo_Payments_Info.ui", self)
+
+        self.Back_Button.clicked.connect(self.gotoAdminIndivoPage)
+
+        db = mysql.connector.connect(host = 'localhost', database='DBMS_PROJECT', user = 'root', password = 'Haleshot@2003')
+        cursor = db.cursor(buffered=True)
+
+        self.Payments_Info_TableWidget.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
+        query = "SELECT * FROM payment WHERE F_Company = %s ORDER BY Payment_Date DESC"
+        print()
+        tuple_1 = ("Indivo", )
+        cursor.execute(query, tuple_1)
+
+        print(cursor.statement)
+        print()
+        self.Payments_Info_TableWidget.setRowCount(0) # Setting the rowcount as zero so the QTableWidget refreshes everytime according to the applied filters.
+        self.Payments_Info_TableWidget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
+
+
+        result = cursor.fetchall()
+        if cursor.rowcount == 0:
+            self.Error_Popup_Message.setText("No Data to fetch from!")
+        for row_number, row_data in enumerate(result):
+            self.Payments_Info_TableWidget.insertRow(row_number)
+
+            for column_number, data in enumerate(row_data):
+                self.Payments_Info_TableWidget.setItem(row_number, column_number, QtWidgets.QTableWidgetItem(str(data)))
+
+        db.commit()
+
+    def gotoAdminIndivoPage(self):
+        indivo = Indivo_Admin_Options()
+        widget.addWidget(indivo)
+        widget.setCurrentIndex(widget.currentIndex() + 1)
+
+
+
+
 
 
 
