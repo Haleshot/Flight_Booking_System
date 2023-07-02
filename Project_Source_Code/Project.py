@@ -526,6 +526,21 @@ class MetAirways_Payments_Info(QDialog):
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
 class Welcome_screen(QDialog):
     def __init__(self):
         super(Welcome_screen, self).__init__()
