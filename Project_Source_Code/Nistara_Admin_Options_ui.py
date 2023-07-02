@@ -24,10 +24,10 @@ class Ui_Dialog(object):
         self.HeaderLabel.setStyleSheet(u"\n"
 "font: 30pt \"MS Shell Dlg 2\";")
         self.HeaderLabel.setAlignment(Qt.AlignCenter)
-        self.PiceJet = QPushButton(Dialog)
-        self.PiceJet.setObjectName(u"PiceJet")
-        self.PiceJet.setGeometry(QRect(490, 300, 211, 91))
-        self.PiceJet.setStyleSheet(u"/*\n"
+        self.Payments_Button = QPushButton(Dialog)
+        self.Payments_Button.setObjectName(u"Payments_Button")
+        self.Payments_Button.setGeometry(QRect(490, 300, 211, 91))
+        self.Payments_Button.setStyleSheet(u"/*\n"
 "border: 12px  solid rgb(170, 255, 127);\n"
 "border-width: 2px;\n"
 "font: 12pt \"MS Shell Dlg 2\";\n"
@@ -55,10 +55,10 @@ class Ui_Dialog(object):
 "QPushButton:default {\n"
 "    border-color: navy; /* make the default button prominent */\n"
 "}")
-        self.MetAirways = QPushButton(Dialog)
-        self.MetAirways.setObjectName(u"MetAirways")
-        self.MetAirways.setGeometry(QRect(490, 420, 211, 91))
-        self.MetAirways.setStyleSheet(u"/*\n"
+        self.Cancellations_Button = QPushButton(Dialog)
+        self.Cancellations_Button.setObjectName(u"Cancellations_Button")
+        self.Cancellations_Button.setGeometry(QRect(490, 420, 211, 91))
+        self.Cancellations_Button.setStyleSheet(u"/*\n"
 "border: 12px  solid rgb(170, 255, 127);\n"
 "border-width: 2px;\n"
 "font: 12pt \"MS Shell Dlg 2\";\n"
@@ -86,10 +86,10 @@ class Ui_Dialog(object):
 "QPushButton:default {\n"
 "    border-color: navy; /* make the default button prominent */\n"
 "}")
-        self.Nistara = QPushButton(Dialog)
-        self.Nistara.setObjectName(u"Nistara")
-        self.Nistara.setGeometry(QRect(490, 180, 211, 91))
-        self.Nistara.setStyleSheet(u"/*\n"
+        self.Check_Flights_Button = QPushButton(Dialog)
+        self.Check_Flights_Button.setObjectName(u"Check_Flights_Button")
+        self.Check_Flights_Button.setGeometry(QRect(490, 180, 211, 91))
+        self.Check_Flights_Button.setStyleSheet(u"/*\n"
 "border: 12px  solid rgb(170, 255, 127);\n"
 "border-width: 2px;\n"
 "font: 12pt \"MS Shell Dlg 2\";\n"
@@ -126,8 +126,8 @@ class Ui_Dialog(object):
     def retranslateUi(self, Dialog):
         Dialog.setWindowTitle(QCoreApplication.translate("Dialog", u"Dialog", None))
         self.HeaderLabel.setText(QCoreApplication.translate("Dialog", u"NISTARA ADMIN ", None))
-        self.PiceJet.setText(QCoreApplication.translate("Dialog", u"Payments", None))
-        self.MetAirways.setText(QCoreApplication.translate("Dialog", u"Cancellations", None))
-        self.Nistara.setText(QCoreApplication.translate("Dialog", u"Check Flights", None))
+        self.Payments_Button.setText(QCoreApplication.translate("Dialog", u"Payments", None))
+        self.Cancellations_Button.setText(QCoreApplication.translate("Dialog", u"Cancellations", None))
+        self.Check_Flights_Button.setText(QCoreApplication.translate("Dialog", u"Check Flights", None))
     # retranslateUi
 

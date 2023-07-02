@@ -33,7 +33,7 @@ font: 30pt &quot;MS Shell Dlg 2&quot;;</string>
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QPushButton" name="PiceJet">
+  <widget class="QPushButton" name="Payments_Button">
    <property name="geometry">
     <rect>
      <x>490</x>
@@ -76,7 +76,7 @@ QPushButton:default {
     <string>Payments</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="MetAirways">
+  <widget class="QPushButton" name="Cancellations_Button">
    <property name="geometry">
     <rect>
      <x>490</x>
@@ -119,7 +119,7 @@ QPushButton:default {
     <string>Cancellations</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="Nistara">
+  <widget class="QPushButton" name="Check_Flights_Button">
    <property name="geometry">
     <rect>
      <x>490</x>

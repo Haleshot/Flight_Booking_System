@@ -61,7 +61,7 @@ class Admin_Screen(QDialog):
             if text.lower() == "nistara":
                 # You proceed to Nistara Admin screen
                 print("Inside Nistara Admin Screen")
-                nistara = Nistara_Flight_Options()
+                nistara = Nistara_Admin_Options()
                 widget.addWidget(nistara)
                 widget.setCurrentIndex(widget.currentIndex() + 1)
             else:
@@ -120,6 +120,21 @@ class Admin_Screen(QDialog):
                 x = msg.exec_()
 
 
+
+class Nistara_Admin_Options(QDialog):
+    def __init__(self):
+        super(Nistara_Admin_Options, self).__init__()
+        loadUi(r"Project_Source_Code\Nistara_Admin_Options.ui", self)
+
+        self.Check_Flights_Button.clicked.connect(self.gotoCheckFlights)
+
+    def gotoCheckFlights(self):
+        nistara = Nistara_Flight_Options()
+        widget.addWidget(nistara)
+        widget.setCurrentIndex(widget.currentIndex() + 1)
+
+
+
 class Nistara_Flight_Options(QDialog):
     def __init__(self):
         super(Nistara_Flight_Options, self).__init__()
@@ -162,7 +177,7 @@ class Nistara_Flight_Options(QDialog):
             self.Error_Popup_Message.setText("")
             self.Available_Flights_Table_Widget.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
             if Timing == "Select" and Airline_Company == "Nistara":
-                query = "SELECT * FROM flights WHERE F_Dept_Location = %s AND F_Arr_Location = %s WHERE F_Company = %s "
+                query = "SELECT * FROM flights WHERE F_Dept_Location = %s AND F_Arr_Location = %s AND F_Company = %s"
                 print()
                 tuple_1 = (Departure, Arrival, "Nistara")
                 cursor.execute(query, tuple_1)
@@ -227,7 +242,12 @@ class Nistara_Flight_Options(QDialog):
                         for column_number, data in enumerate(row_data):
                             self.Available_Flights_Table_Widget.setItem(row_number, column_number, QtWidgets.QTableWidgetItem(str(data)))
 
+            self.Next_Button.clicked.connect(self.gotoAdminNistaraPage)
 
+    def gotoAdminNistaraPage(self):
+        conf = Confirm_Customer_Information()
+        widget.addWidget(conf)
+        widget.setCurrentIndex(widget.currentIndex() + 1)
 
 class Welcome_screen(QDialog):
     def __init__(self):
