@@ -365,7 +365,7 @@ class MetAirways_Admin_Options(QDialog):
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
     def gotoNistaraCancellations(self):
-        cancellation_info = Nistara_Cancellation_Info()
+        cancellation_info = MetAirways_Cancellation_Info()
         widget.addWidget(cancellation_info)
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
