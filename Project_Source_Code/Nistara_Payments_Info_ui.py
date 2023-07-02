@@ -47,10 +47,10 @@ class Ui_Dialog(object):
         self.HeaderLabel.setStyleSheet(u"\n"
 "font: 36pt \"MS Shell Dlg 2\";")
         self.HeaderLabel.setAlignment(Qt.AlignCenter)
-        self.Back_To_Summary_Button = QPushButton(Dialog)
-        self.Back_To_Summary_Button.setObjectName(u"Back_To_Summary_Button")
-        self.Back_To_Summary_Button.setGeometry(QRect(470, 700, 281, 51))
-        self.Back_To_Summary_Button.setStyleSheet(u"font: 16pt \"MS Shell Dlg 2\";\n"
+        self.Back_Button = QPushButton(Dialog)
+        self.Back_Button.setObjectName(u"Back_Button")
+        self.Back_Button.setGeometry(QRect(470, 700, 281, 51))
+        self.Back_Button.setStyleSheet(u"font: 16pt \"MS Shell Dlg 2\";\n"
 "background-color: rgb(0, 255, 0);\n"
 "")
         self.label = QLabel(Dialog)
@@ -84,7 +84,7 @@ class Ui_Dialog(object):
         ___qtablewidgetitem7 = self.Payments_Info_TableWidget.horizontalHeaderItem(7)
         ___qtablewidgetitem7.setText(QCoreApplication.translate("Dialog", u"Flight Company", None));
         self.HeaderLabel.setText(QCoreApplication.translate("Dialog", u"Nistara Payments Info", None))
-        self.Back_To_Summary_Button.setText(QCoreApplication.translate("Dialog", u"Back", None))
+        self.Back_Button.setText(QCoreApplication.translate("Dialog", u"Back", None))
         self.label.setText("")
     # retranslateUi
 

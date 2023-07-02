@@ -89,7 +89,7 @@ font: 36pt &quot;MS Shell Dlg 2&quot;;</string>
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QPushButton" name="Back_To_Summary_Button">
+  <widget class="QPushButton" name="Back_Button">
    <property name="geometry">
     <rect>
      <x>470</x>

@@ -263,6 +263,8 @@ class Nistara_Payments_Info(QDialog):
         super(Nistara_Payments_Info, self).__init__()
         loadUi(r"Project_Source_Code\Nistara_Payments_Info.ui", self)
 
+        self.Back_Button.clicked.connect(self.gotoAdminNistaraPage)
+
         db = mysql.connector.connect(host = 'localhost', database='DBMS_PROJECT', user = 'root', password = 'Haleshot@2003')
         cursor = db.cursor(buffered=True)
 
@@ -288,6 +290,11 @@ class Nistara_Payments_Info(QDialog):
                 self.Payments_Info_TableWidget.setItem(row_number, column_number, QtWidgets.QTableWidgetItem(str(data)))
 
         db.commit()
+
+    def gotoAdminNistaraPage(self):
+        nistara = Nistara_Admin_Options()
+        widget.addWidget(nistara)
+        widget.setCurrentIndex(widget.currentIndex() + 1)
 
 
 
