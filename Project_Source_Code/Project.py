@@ -1054,7 +1054,6 @@ class Payment_Info(QDialog):
         else:
             db = mysql.connector.connect(host = 'localhost', database='DBMS_PROJECT', user = 'root', password = 'Haleshot@2003')
             cursor = db.cursor(buffered=True)
-            Payment_ID = random.randint(3244,54354)
 
             Payment_Info_Customer = [Payment_ID, Customer_ID, self.Payment_Cost, self.Payment_tax, self.Payment_Date, Customer_Card_Type, Customer_Number]
 
