@@ -818,12 +818,12 @@ class Indivo_Admin_Options(QDialog):
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
     def gotoNistaraPayments(self):
-        payments_info = PiceJet_Payments_Info()
+        payments_info = Indivo_Payments_Info()
         widget.addWidget(payments_info)
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
     def gotoNistaraCancellations(self):
-        cancellation_info = Picejet_Cancellation_Info()
+        cancellation_info = Indivo_Cancellation_Info()
         widget.addWidget(cancellation_info)
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
