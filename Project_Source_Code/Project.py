@@ -589,7 +589,7 @@ class PiceJet_Admin_Options(QDialog):
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
     def gotoNistaraCancellations(self):
-        cancellation_info = MetAirways_Cancellation_Info()
+        cancellation_info = Picejet_Cancellation_Info()
         widget.addWidget(cancellation_info)
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
@@ -771,7 +771,7 @@ class Picejet_Cancellation_Info(QDialog):
         self.Payments_Info_TableWidget.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
         query = "SELECT * FROM cancellation WHERE F_Company = %s ORDER BY Canc_Date DESC"
         print()
-        tuple_1 = ("MetAirways", )
+        tuple_1 = ("Picejet", )
         cursor.execute(query, tuple_1)
 
         print(cursor.statement)
