@@ -277,7 +277,7 @@ class Nistara_Payments_Info(QDialog):
         cursor = db.cursor(buffered=True)
 
         self.Payments_Info_TableWidget.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
-        query = "SELECT * FROM payment WHERE F_Company = %s"
+        query = "SELECT * FROM payment WHERE F_Company = %s ORDER BY Payment_Date DESC"
         print()
         tuple_1 = ("Nistara", )
         cursor.execute(query, tuple_1)
@@ -316,7 +316,7 @@ class Nistara_Cancellation_Info(QDialog):
         cursor = db.cursor(buffered=True)
 
         self.Payments_Info_TableWidget.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
-        query = "SELECT * FROM cancellation WHERE F_Company = %s"
+        query = "SELECT * FROM cancellation WHERE F_Company = %s ORDER BY Canc_Date DESC"
         print()
         tuple_1 = ("Nistara", )
         cursor.execute(query, tuple_1)
@@ -498,7 +498,7 @@ class MetAirways_Payments_Info(QDialog):
         cursor = db.cursor(buffered=True)
 
         self.Payments_Info_TableWidget.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
-        query = "SELECT * FROM payment WHERE F_Company = %s"
+        query = "SELECT * FROM payment WHERE F_Company = %s ORDER BY Payment_Date DESC"
         print()
         tuple_1 = ("MetAirways", )
         cursor.execute(query, tuple_1)
@@ -537,7 +537,7 @@ class MetAirways_Cancellation_Info(QDialog):
         cursor = db.cursor(buffered=True)
 
         self.Payments_Info_TableWidget.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
-        query = "SELECT * FROM cancellation WHERE F_Company = %s"
+        query = "SELECT * FROM cancellation WHERE F_Company = %s ORDER BY Canc_Date DESC"
         print()
         tuple_1 = ("MetAirways", )
         cursor.execute(query, tuple_1)
