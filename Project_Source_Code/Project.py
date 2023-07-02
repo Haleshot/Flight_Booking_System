@@ -97,6 +97,9 @@ class Admin_Screen(QDialog):
             if text.lower() == "picejet":
                 # You proceed to PiceJet Admin screen
                 print("Inside PiceJet Admin Screen")
+                picejet = PiceJet_Admin_Options()
+                widget.addWidget(picejet)
+                widget.setCurrentIndex(widget.currentIndex() + 1)
             else:
                 msg = QMessageBox()
                 msg.setWindowTitle("Error!")
@@ -719,7 +722,7 @@ class PiceJet_Payments_Info(QDialog):
         super(PiceJet_Payments_Info, self).__init__()
         loadUi(r"Project_Source_Code\PiceJet_Payments_Info.ui", self)
 
-        self.Back_Button.clicked.connect(self.gotoAdminMetAirwaysPage)
+        self.Back_Button.clicked.connect(self.gotoAdminPiceJetPage)
 
         db = mysql.connector.connect(host = 'localhost', database='DBMS_PROJECT', user = 'root', password = 'Haleshot@2003')
         cursor = db.cursor(buffered=True)
@@ -747,9 +750,9 @@ class PiceJet_Payments_Info(QDialog):
 
         db.commit()
 
-    def gotoAdminMetAirwaysPage(self):
-        metairways = MetAirways_Admin_Options()
-        widget.addWidget(metairways)
+    def gotoAdminPiceJetPage(self):
+        picejet = PiceJet_Admin_Options()
+        widget.addWidget(picejet)
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
 
