@@ -469,7 +469,7 @@ class Flight_Booking_Screen(QDialog):
                 print(cursor.statement)
                 print()
                 self.Available_Flights_Table_Widget.setRowCount(0) # Setting the rowcount as zero so the QTableWidget refreshes everytime according to the applied filters.
-                self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  #Hiding the Row Count Numbers displayed on the side.
+                self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
 
 
                 result = cursor.fetchall()
@@ -495,7 +495,7 @@ class Flight_Booking_Screen(QDialog):
                     print(cursor.statement)
                     print()
                     self.Available_Flights_Table_Widget.setRowCount(0)
-                    self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  #Hiding the Row Count Numbers displayed on the side.
+                    self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
     
 
                     result = cursor.fetchall()
@@ -516,7 +516,7 @@ class Flight_Booking_Screen(QDialog):
                     print(cursor.statement)
                     print()
                     self.Available_Flights_Table_Widget.setRowCount(0)
-                    self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  #Hiding the Row Count Numbers displayed on the side.
+                    self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
     
 
                     result = cursor.fetchall()
@@ -539,7 +539,7 @@ class Flight_Booking_Screen(QDialog):
                     print(cursor.statement)
                     print()
                     self.Available_Flights_Table_Widget.setRowCount(0)
-                    self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  #Hiding the Row Count Numbers displayed on the side.
+                    self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
     
 
                     result = cursor.fetchall()
@@ -562,7 +562,7 @@ class Flight_Booking_Screen(QDialog):
                     print(cursor.statement)
                     print()
                     self.Available_Flights_Table_Widget.setRowCount(0)
-                    self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  #Hiding the Row Count Numbers displayed on the side.
+                    self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
     
 
                     result = cursor.fetchall()
@@ -584,7 +584,7 @@ class Flight_Booking_Screen(QDialog):
                     print(cursor.statement)
                     print()
                     self.Available_Flights_Table_Widget.setRowCount(0)
-                    self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  #Hiding the Row Count Numbers displayed on the side.
+                    self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
     
 
                     result = cursor.fetchall()
@@ -606,7 +606,7 @@ class Flight_Booking_Screen(QDialog):
                     print(cursor.statement)
                     print()
                     self.Available_Flights_Table_Widget.setRowCount(0)
-                    self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  #Hiding the Row Count Numbers displayed on the side.
+                    self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
     
 
                     result = cursor.fetchall()
@@ -632,7 +632,7 @@ class Flight_Booking_Screen(QDialog):
                         print(cursor.statement)
                         print()
                         self.Available_Flights_Table_Widget.setRowCount(0)
-                        self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  #Hiding the Row Count Numbers displayed on the side.
+                        self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
         
 
                         result = cursor.fetchall()
@@ -653,7 +653,7 @@ class Flight_Booking_Screen(QDialog):
                         print(cursor.statement)
                         print()
                         self.Available_Flights_Table_Widget.setRowCount(0)
-                        self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  #Hiding the Row Count Numbers displayed on the side.
+                        self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
         
 
                         result = cursor.fetchall()
@@ -674,7 +674,7 @@ class Flight_Booking_Screen(QDialog):
                         print(cursor.statement)
                         print()
                         self.Available_Flights_Table_Widget.setRowCount(0)
-                        self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  #Hiding the Row Count Numbers displayed on the side.
+                        self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
         
 
                         result = cursor.fetchall()
@@ -695,7 +695,7 @@ class Flight_Booking_Screen(QDialog):
                         print(cursor.statement)
                         print()
                         self.Available_Flights_Table_Widget.setRowCount(0)
-                        self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  #Hiding the Row Count Numbers displayed on the side.
+                        self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
         
 
                         result = cursor.fetchall()
@@ -720,7 +720,7 @@ class Flight_Booking_Screen(QDialog):
                         print(cursor.statement)
                         print()
                         self.Available_Flights_Table_Widget.setRowCount(0)
-                        self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  #Hiding the Row Count Numbers displayed on the side.
+                        self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
         
 
                         result = cursor.fetchall()
@@ -741,7 +741,7 @@ class Flight_Booking_Screen(QDialog):
                         print(cursor.statement)
                         print()
                         self.Available_Flights_Table_Widget.setRowCount(0)
-                        self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  #Hiding the Row Count Numbers displayed on the side.
+                        self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
         
 
                         result = cursor.fetchall()
@@ -763,7 +763,7 @@ class Flight_Booking_Screen(QDialog):
                         print(cursor.statement)
                         print()
                         self.Available_Flights_Table_Widget.setRowCount(0)
-                        self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  #Hiding the Row Count Numbers displayed on the side.
+                        self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
         
 
                         result = cursor.fetchall()
@@ -784,7 +784,7 @@ class Flight_Booking_Screen(QDialog):
                         print(cursor.statement)
                         print()
                         self.Available_Flights_Table_Widget.setRowCount(0)
-                        self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  #Hiding the Row Count Numbers displayed on the side.
+                        self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
         
 
                         result = cursor.fetchall()
@@ -837,7 +837,7 @@ class Confirm_Customer_Information(QDialog):
         print(cursor.statement)
         print()
         self.Customer_Info_TableWidget.setRowCount(0)
-        self.Customer_Info_TableWidget.verticalHeader().setVisible(False)  #Hiding the Row Count Numbers displayed on the side.
+        self.Customer_Info_TableWidget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
 
 
         result = cursor.fetchall()
@@ -897,7 +897,7 @@ class Update_Customer_Information(QDialog):
     
 Company_ID = 0 # Global variable for accessing chosen Company ID of customer across various classes.
 FlightID = 0 # Global variable for accessing chosen Flight ID of customer across various classes.
-
+F_Company = "" # Global variable for inserting into Payment and Cancellation relations
 class Payment_Booking(QDialog):
     def __init__(self):
         super(Payment_Booking, self).__init__()
@@ -925,7 +925,7 @@ class Payment_Booking(QDialog):
             print(cursor.statement)
 
             self.User_Flight_Details.setRowCount(0) # Setting the rowcount as zero so the QTableWidget refreshes everytime according to the applied filters.
-            self.User_Flight_Details.verticalHeader().setVisible(False)  #Hiding the Row Count Numbers displayed on the side.
+            self.User_Flight_Details.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
 
 
             result = cursor.fetchall()
@@ -946,6 +946,7 @@ class Payment_Booking(QDialog):
     def gotoSummary_Information(self):
         global FlightID
         global Company_ID
+        global F_Company
         db = mysql.connector.connect(host = 'localhost', database='DBMS_PROJECT', user = 'root', password = 'Haleshot@2003')
         cursor = db.cursor(buffered=True)
         User_input_Flight_ID = self.Flight_ID.text()
@@ -1016,7 +1017,7 @@ class Payment_Info(QDialog):
         print()
         
         self.Total_Cost_Info_TableWidget.setRowCount(0) # Setting the rowcount as zero so the QTableWidget refreshes everytime according to the applied filters.
-        self.Total_Cost_Info_TableWidget.verticalHeader().setVisible(False)  #Hiding the Row Count Numbers displayed on the side.
+        self.Total_Cost_Info_TableWidget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
 
 
         data = [{"Ticket Fare" : self.Payment_Cost, "Net Tax" : self.Payment_tax, "Date" : self.Payment_Date}]
@@ -1035,6 +1036,7 @@ class Payment_Info(QDialog):
 
 
     def confirm(self):
+        global F_Company
         Customer_ID = self.Customer_ID.text()
         Customer_Card_Type = self.Customer_Card_Type.currentText()
         Customer_Number = self.Customer_Number.text()
@@ -1055,7 +1057,7 @@ class Payment_Info(QDialog):
             db = mysql.connector.connect(host = 'localhost', database='DBMS_PROJECT', user = 'root', password = 'Haleshot@2003')
             cursor = db.cursor(buffered=True)
 
-            Payment_Info_Customer = [Payment_ID, Customer_ID, self.Payment_Cost, self.Payment_tax, self.Payment_Date, Customer_Card_Type, Customer_Number]
+            Payment_Info_Customer = [Payment_ID, Customer_ID, self.Payment_Cost, self.Payment_tax, self.Payment_Date, Customer_Card_Type, Customer_Number, F_Company]
 
             cursor.execute('INSERT INTO Payment VALUES (%s, %s, %s, %s, %s, %s, %s);', Payment_Info_Customer)
 
@@ -1099,7 +1101,7 @@ class Update_Flight_Info(QDialog):
 
             self.User_Flight_Details.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
             self.User_Flight_Details.setRowCount(0) # Setting the rowcount as zero so the QTableWidget refreshes everytime according to the applied filters.
-            self.User_Flight_Details.verticalHeader().setVisible(False)  #Hiding the Row Count Numbers displayed on the side.
+            self.User_Flight_Details.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
 
 
             result = cursor.fetchall()
@@ -1117,6 +1119,7 @@ class Update_Flight_Info(QDialog):
     def gotoSummary_Information(self):
         global FlightID
         global Company_ID
+        global F_Company
         db = mysql.connector.connect(host = 'localhost', database='DBMS_PROJECT', user = 'root', password = 'Haleshot@2003')
         cursor = db.cursor(buffered=True)
         User_input_Flight_ID = self.Flight_ID.text()
@@ -1132,7 +1135,7 @@ class Update_Flight_Info(QDialog):
             F_ID = User_input_Flight_ID
             F_Dept_Location = result[0][1]
             F_Arr_Location = result[0][2]
-            F_Company = result[0][3]
+            # F_Company = result[0][3]
             F_Duration = result[0][4]
             F_Dept_Time = result[0][5]
             F_Arr_Time = result[0][6]
@@ -1220,7 +1223,7 @@ class Summary(QDialog):
         print(cursor.statement)
         print()
         self.Customer_Info_TableWidget.setRowCount(0)
-        self.Customer_Info_TableWidget.verticalHeader().setVisible(False)  #Hiding the Row Count Numbers displayed on the side.
+        self.Customer_Info_TableWidget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
 
 
         result = cursor.fetchall()
@@ -1241,7 +1244,7 @@ class Summary(QDialog):
         print(cursor.statement)
 
         self.User_Selected_Flights_TableWidget.setRowCount(0) # Setting the rowcount as zero so the QTableWidget refreshes everytime according to the applied filters.
-        self.User_Selected_Flights_TableWidget.verticalHeader().setVisible(False)  #Hiding the Row Count Numbers displayed on the side.
+        self.User_Selected_Flights_TableWidget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
 
 
         result = cursor.fetchall()
@@ -1333,7 +1336,7 @@ class Additional_Info(QDialog):
 
 
         self.Flight_Info_TableWidget.setRowCount(0)
-        self.Flight_Info_TableWidget.verticalHeader().setVisible(False)  #Hiding the Row Count Numbers displayed on the side.
+        self.Flight_Info_TableWidget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
 
 
         print(result)
@@ -1377,6 +1380,7 @@ class Cancellation(QDialog):
         self.Quit_Button.clicked.connect(QCoreApplication.instance().quit)
 
         global Payment_ID
+        global F_Company
 
         self.Cancellation_Info_TableWidget.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
         self.Cancellation_Info_TableWidget.setColumnWidth(0, 350)
@@ -1392,7 +1396,7 @@ class Cancellation(QDialog):
 
         
         self.Cancellation_Info_TableWidget.setRowCount(0) # Setting the rowcount as zero so the QTableWidget refreshes everytime according to the applied filters.
-        self.Cancellation_Info_TableWidget.verticalHeader().setVisible(False)  #Hiding the Row Count Numbers displayed on the side.
+        self.Cancellation_Info_TableWidget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
 
 
         data = [{"Cancellation ID" : self.Cancellation_ID, "Cancellation Payment ID" : Payment_ID, "Cancellation Refund": self.Refund_Cost, "Cancellation Date" : self.Cancellation_Date}]
