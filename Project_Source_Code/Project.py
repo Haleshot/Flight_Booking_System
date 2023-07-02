@@ -704,9 +704,9 @@ class PiceJet_Flight_Options(QDialog):
 
             
 
-    def gotoAdminMetAirwaysPage(self):
-        metairways = MetAirways_Admin_Options()
-        widget.addWidget(metairways)
+    def gotoAdminPiceJetPage(self):
+        picejet = PiceJet_Admin_Options()
+        widget.addWidget(picejet)
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
 
