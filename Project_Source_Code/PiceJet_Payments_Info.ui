@@ -83,7 +83,7 @@
 font: 36pt &quot;MS Shell Dlg 2&quot;;</string>
    </property>
    <property name="text">
-    <string>MetAirways Payments Info</string>
+    <string>Picejet Payments Info</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>

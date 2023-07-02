@@ -83,7 +83,7 @@ class Ui_Dialog(object):
         ___qtablewidgetitem6.setText(QCoreApplication.translate("Dialog", u"Payment Card Number", None));
         ___qtablewidgetitem7 = self.Payments_Info_TableWidget.horizontalHeaderItem(7)
         ___qtablewidgetitem7.setText(QCoreApplication.translate("Dialog", u"Flight Company", None));
-        self.HeaderLabel.setText(QCoreApplication.translate("Dialog", u"MetAirways Payments Info", None))
+        self.HeaderLabel.setText(QCoreApplication.translate("Dialog", u"Picejet Payments Info", None))
         self.label.setText("")
         self.Back_Button.setText(QCoreApplication.translate("Dialog", u"Back", None))
     # retranslateUi
