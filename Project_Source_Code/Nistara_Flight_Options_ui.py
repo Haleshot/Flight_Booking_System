@@ -164,7 +164,7 @@ class Ui_Dialog(object):
         self.From_Combo_Box.setItemText(3, QCoreApplication.translate("Dialog", u"Delhi", None))
         self.From_Combo_Box.setItemText(4, QCoreApplication.translate("Dialog", u"Bangalore", None))
 
-        self.Next_Button.setText(QCoreApplication.translate("Dialog", u"Next", None))
+        self.Next_Button.setText(QCoreApplication.translate("Dialog", u"Back", None))
         self.To_Combo_Box.setItemText(0, QCoreApplication.translate("Dialog", u"Select", None))
         self.To_Combo_Box.setItemText(1, QCoreApplication.translate("Dialog", u"Chennai", None))
         self.To_Combo_Box.setItemText(2, QCoreApplication.translate("Dialog", u"Mumbai", None))

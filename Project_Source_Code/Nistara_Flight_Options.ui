@@ -169,7 +169,7 @@ background-color: rgb(0, 255, 0);
 </string>
    </property>
    <property name="text">
-    <string>Next</string>
+    <string>Back</string>
    </property>
   </widget>
   <widget class="QComboBox" name="To_Combo_Box">
