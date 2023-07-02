@@ -61,6 +61,9 @@ class Admin_Screen(QDialog):
             if text.lower() == "nistara":
                 # You proceed to Nistara Admin screen
                 print("Inside Nistara Admin Screen")
+                nistara = Nistara_Flight_Options()
+                widget.addWidget(nistara)
+                widget.setCurrentIndex(widget.currentIndex() + 1)
             else:
                 msg = QMessageBox()
                 msg.setWindowTitle("Error!")
@@ -106,6 +109,7 @@ class Admin_Screen(QDialog):
             if text.lower() == "indivo":
                 # You proceed to Indivo Admin screen
                 print("Inside Indivo Admin Screen")
+
             else:
                 msg = QMessageBox()
                 msg.setWindowTitle("Error!")
@@ -158,9 +162,9 @@ class Nistara_Flight_Options(QDialog):
             self.Error_Popup_Message.setText("")
             self.Available_Flights_Table_Widget.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
             if Timing == "Select" and Airline_Company == "Nistara":
-                query = "SELECT * FROM flights WHERE F_Dept_Location = %s AND F_Arr_Location = %s WHERE F_Company == 'Nistara' "
+                query = "SELECT * FROM flights WHERE F_Dept_Location = %s AND F_Arr_Location = %s WHERE F_Company = %s "
                 print()
-                tuple_1 = (Departure, Arrival)
+                tuple_1 = (Departure, Arrival, "Nistara")
                 cursor.execute(query, tuple_1)
 
                 print(cursor.statement)
