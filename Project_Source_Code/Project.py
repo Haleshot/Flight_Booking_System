@@ -79,6 +79,9 @@ class Admin_Screen(QDialog):
             if text.lower() == "metairways":
                 # You proceed to MetAirways Admin screen
                 print("Inside MetAirways Admin Screen")
+                metairways = MetAirways_Admin_Options()
+                widget.addWidget(metairways)
+                widget.setCurrentIndex(widget.currentIndex() + 1)
             else:
                 msg = QMessageBox()
                 msg.setWindowTitle("Error!")
@@ -342,7 +345,29 @@ class Nistara_Cancellation_Info(QDialog):
 
 
 
+class MetAirways_Admin_Options(QDialog):
+    def __init__(self):
+        super(MetAirways_Admin_Options, self).__init__()
+        loadUi(r"Project_Source_Code\MetAirways_Admin_Options.ui", self)
 
+        self.Check_Flights_Button.clicked.connect(self.gotoCheckFlights)
+        self.Payments_Button.clicked.connect(self.gotoNistaraPayments)
+        self.Cancellations_Button.clicked.connect(self.gotoNistaraCancellations)
+
+    def gotoCheckFlights(self):
+        nistara = Nistara_Flight_Options()
+        widget.addWidget(nistara)
+        widget.setCurrentIndex(widget.currentIndex() + 1)
+
+    def gotoNistaraPayments(self):
+        payments_info = Nistara_Payments_Info()
+        widget.addWidget(payments_info)
+        widget.setCurrentIndex(widget.currentIndex() + 1)
+
+    def gotoNistaraCancellations(self):
+        cancellation_info = Nistara_Cancellation_Info()
+        widget.addWidget(cancellation_info)
+        widget.setCurrentIndex(widget.currentIndex() + 1)
 
 
 
