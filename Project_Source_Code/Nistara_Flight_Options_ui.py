@@ -113,6 +113,20 @@ class Ui_Dialog(object):
         self.To_Label.setGeometry(QRect(810, 70, 31, 41))
         self.To_Label.setStyleSheet(u"font: 12pt \"MS Shell Dlg 2\";\n"
 "font: 10pt \"MS Shell Dlg 2\";")
+        self.Airlines_Combo_Box = QComboBox(Dialog)
+        self.Airlines_Combo_Box.addItem("")
+        self.Airlines_Combo_Box.addItem("")
+        self.Airlines_Combo_Box.addItem("")
+        self.Airlines_Combo_Box.addItem("")
+        self.Airlines_Combo_Box.addItem("")
+        self.Airlines_Combo_Box.setObjectName(u"Airlines_Combo_Box")
+        self.Airlines_Combo_Box.setGeometry(QRect(460, 220, 281, 51))
+        self.Airlines_Combo_Box.setStyleSheet(u"font: 10pt \"MS Shell Dlg 2\";")
+        self.From_Label_3 = QLabel(Dialog)
+        self.From_Label_3.setObjectName(u"From_Label_3")
+        self.From_Label_3.setGeometry(QRect(460, 180, 121, 31))
+        self.From_Label_3.setStyleSheet(u"font: 12pt \"MS Shell Dlg 2\";\n"
+"font: 10pt \"MS Shell Dlg 2\";")
 
         self.retranslateUi(Dialog)
 
@@ -164,5 +178,12 @@ class Ui_Dialog(object):
         self.From_Label.setText(QCoreApplication.translate("Dialog", u"FROM", None))
         self.From_Label_2.setText(QCoreApplication.translate("Dialog", u"Timings", None))
         self.To_Label.setText(QCoreApplication.translate("Dialog", u"TO", None))
+        self.Airlines_Combo_Box.setItemText(0, QCoreApplication.translate("Dialog", u"Select", None))
+        self.Airlines_Combo_Box.setItemText(1, QCoreApplication.translate("Dialog", u"Indivo", None))
+        self.Airlines_Combo_Box.setItemText(2, QCoreApplication.translate("Dialog", u"MetAirways", None))
+        self.Airlines_Combo_Box.setItemText(3, QCoreApplication.translate("Dialog", u"Picejet", None))
+        self.Airlines_Combo_Box.setItemText(4, QCoreApplication.translate("Dialog", u"Nistara", None))
+
+        self.From_Label_3.setText(QCoreApplication.translate("Dialog", u"Airline Company", None))
     # retranslateUi
 
