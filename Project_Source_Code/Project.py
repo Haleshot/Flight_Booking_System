@@ -579,8 +579,8 @@ class PiceJet_Admin_Options(QDialog):
         self.Cancellations_Button.clicked.connect(self.gotoNistaraCancellations)
 
     def gotoCheckFlights(self):
-        metairways = PiceJet_Flight_Options()
-        widget.addWidget(metairways)
+        picejet = PiceJet_Flight_Options()
+        widget.addWidget(picejet)
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
     def gotoNistaraPayments(self):
@@ -810,8 +810,8 @@ class Indivo_Admin_Options(QDialog):
         self.Cancellations_Button.clicked.connect(self.gotoNistaraCancellations)
 
     def gotoCheckFlights(self):
-        metairways = PiceJet_Flight_Options()
-        widget.addWidget(metairways)
+        indivo = Indivo_Flight_Options()
+        widget.addWidget(indivo)
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
     def gotoNistaraPayments(self):
@@ -826,7 +826,122 @@ class Indivo_Admin_Options(QDialog):
 
 
 
+class Indivo_Flight_Options(QDialog):
+    def __init__(self):
+        super(Indivo_Flight_Options, self).__init__()
+        loadUi(r"Project_Source_Code\Indivo_Flight_Options.ui", self)
 
+        self.Next_Button.clicked.connect(self.gotoAdminIndivoPage)
+
+        # Airlines list
+        airlines_list = ["Nistara", "Picejet", "MetAirways", "Indivo"]
+  
+        # adding list of items to combo box
+        self.Airlines_Combo_Box.addItems(airlines_list)
+  
+        # item
+        item ="Picejet"
+  
+        # setting current item
+        self.Airlines_Combo_Box.setCurrentText(item)
+
+        self.Airlines_Combo_Box.setEnabled(False) # Disable Combo Box and locking Nistara Flight as default Airlines.
+
+        self.Find_Flights_Button.clicked.connect(self.gotoFindFlights)
+
+
+    def gotoFindFlights(self):
+
+
+        db = mysql.connector.connect(host = 'localhost', database='DBMS_PROJECT', user = 'root', password = 'Haleshot@2003')
+        cursor = db.cursor(buffered=True)
+
+        Departure = self.From_Combo_Box.currentText()
+        Arrival = self.To_Combo_Box.currentText()
+
+        Timing = self.Timings_Combo_Box.currentText()
+        Airline_Company = self.Airlines_Combo_Box.currentText()
+
+
+        if Departure == "Select" or Arrival == "Select":
+            self.Error_Popup_Message.setText("Please input all * fields!")
+
+
+        else:
+            self.Error_Popup_Message.setText("")
+            self.Available_Flights_Table_Widget.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
+            if Timing == "Select" and Airline_Company == "Picejet":
+                query = "SELECT * FROM flights WHERE F_Dept_Location = %s AND F_Arr_Location = %s AND F_Company = %s"
+                print()
+                tuple_1 = (Departure, Arrival, "Picejet")
+                cursor.execute(query, tuple_1)
+
+                print(cursor.statement)
+                print()
+                self.Available_Flights_Table_Widget.setRowCount(0) # Setting the rowcount as zero so the QTableWidget refreshes everytime according to the applied filters.
+                self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
+
+
+                result = cursor.fetchall()
+                if cursor.rowcount == 0:
+                    self.Error_Popup_Message.setText("No Data to fetch from!")
+                for row_number, row_data in enumerate(result):
+                    self.Available_Flights_Table_Widget.insertRow(row_number)
+
+                    for column_number, data in enumerate(row_data):
+                        self.Available_Flights_Table_Widget.setItem(row_number, column_number, QtWidgets.QTableWidgetItem(str(data)))
+
+                db.commit()
+
+            elif Timing != "Select" and Airline_Company == "Picejet":
+                if Timing == "Day":
+                    query = "SELECT * FROM flights WHERE F_Dept_Location = %s AND F_Arr_Location = %s AND (F_Dept_Time LIKE '%10:10%' or F_Dept_Time LIKE '%06:00%' or F_Dept_Time LIKE '%08:00%' or F_Dept_Time LIKE '%14:00%' or F_Dept_Time LIKE '%16:00%' or F_Dept_Time LIKE '%12:00%' or F_Dept_Time LIKE '%04:00%' or F_Dept_Time LIKE '%12:45%' or F_Dept_Time LIKE '%14:20%' or F_Dept_Time LIKE '%04:00%' or F_Dept_Time LIKE '%10:00%' or F_Dept_Time LIKE '%14:20%' or F_Dept_Time LIKE '%10:30%' or F_Dept_Time LIKE '%14:10%' or F_Dept_Time LIKE '%12:40%' or F_Dept_Time LIKE '%15:20%') and F_Dept_Time NOT LIKE '%18:10%'"
+                
+                    tuple_1 = (Departure, Arrival)
+                    cursor.execute(query, tuple_1)
+
+                    print(cursor.statement)
+                    print()
+                    self.Available_Flights_Table_Widget.setRowCount(0)
+                    self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
+    
+
+                    result = cursor.fetchall()
+                    if cursor.rowcount == 0:
+                        self.Error_Popup_Message.setText("No Data to fetch from!")
+                    for row_number, row_data in enumerate(result):
+                        self.Available_Flights_Table_Widget.insertRow(row_number)
+
+                        for column_number, data in enumerate(row_data):
+                            self.Available_Flights_Table_Widget.setItem(row_number, column_number, QtWidgets.QTableWidgetItem(str(data)))
+
+                elif Timing == "Evening/Night":
+                    query = "SELECT * FROM flights WHERE F_Dept_Location = %s AND F_Arr_Location = %s AND (F_Dept_Time LIKE '%18:10%' or F_Dept_Time LIKE '%19:30%' or F_Dept_Time LIKE '%20:00%' or F_Dept_Time LIKE '%21:00%')"
+                
+                    tuple_1 = (Departure, Arrival)
+                    cursor.execute(query, tuple_1)
+
+                    print(cursor.statement)
+                    print()
+                    self.Available_Flights_Table_Widget.setRowCount(0)
+                    self.Available_Flights_Table_Widget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
+    
+
+                    result = cursor.fetchall()
+                    if cursor.rowcount == 0:
+                        self.Error_Popup_Message.setText("No Data to fetch from!")
+                    for row_number, row_data in enumerate(result):
+                        self.Available_Flights_Table_Widget.insertRow(row_number)
+
+                        for column_number, data in enumerate(row_data):
+                            self.Available_Flights_Table_Widget.setItem(row_number, column_number, QtWidgets.QTableWidgetItem(str(data)))
+
+            
+
+    def gotoAdminIndivoPage(self):
+        indivo = Indivo_Admin_Options()
+        widget.addWidget(indivo)
+        widget.setCurrentIndex(widget.currentIndex() + 1)
 
 
 
