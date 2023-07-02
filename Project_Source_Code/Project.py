@@ -141,7 +141,9 @@ class Nistara_Admin_Options(QDialog):
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
     def gotoNistaraCancellations(self):
-        pass
+        cancellation_info = Nistara_Cancellation_Info()
+        widget.addWidget(cancellation_info)
+        widget.setCurrentIndex(widget.currentIndex() + 1)
 
 
 class Nistara_Flight_Options(QDialog):
