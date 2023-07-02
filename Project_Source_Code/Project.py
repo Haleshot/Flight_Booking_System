@@ -483,8 +483,8 @@ class MetAirways_Flight_Options(QDialog):
             
 
     def gotoAdminMetAirwaysPage(self):
-        nistara = Nistara_Admin_Options()
-        widget.addWidget(nistara)
+        metairways = MetAirways_Admin_Options()
+        widget.addWidget(metairways)
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
 
