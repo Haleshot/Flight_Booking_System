@@ -357,20 +357,20 @@ class MetAirways_Admin_Options(QDialog):
         loadUi(r"Project_Source_Code\MetAirways_Admin_Options.ui", self)
 
         self.Check_Flights_Button.clicked.connect(self.gotoCheckFlights)
-        self.Payments_Button.clicked.connect(self.gotoNistaraPayments)
-        self.Cancellations_Button.clicked.connect(self.gotoNistaraCancellations)
+        self.Payments_Button.clicked.connect(self.gotoMetAirwaysPayments)
+        self.Cancellations_Button.clicked.connect(self.gotoMetAirwaysCancellations)
 
     def gotoCheckFlights(self):
         metairways = MetAirways_Flight_Options()
         widget.addWidget(metairways)
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
-    def gotoNistaraPayments(self):
+    def gotoMetAirwaysPayments(self):
         payments_info = MetAirways_Payments_Info()
         widget.addWidget(payments_info)
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
-    def gotoNistaraCancellations(self):
+    def gotoMetAirwaysCancellations(self):
         cancellation_info = MetAirways_Cancellation_Info()
         widget.addWidget(cancellation_info)
         widget.setCurrentIndex(widget.currentIndex() + 1)
