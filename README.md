@@ -391,3 +391,8 @@ The entire project demo can be seen here - https://youtu.be/ZBlwj9LVAVs
 
 
 
+<h3 id="#Admin Screens"> Admin Screen </h3>
+
+
+![Admin Screens](https://github.com/Haleshot/Flight_Booking_System/assets/57552973/c730bd6f-91c0-40b4-9754-7d67dcdf7669)
+
