@@ -338,7 +338,7 @@ to Payments Page.
 
 <h2 id="Video Demo"> Video Demo </h2>
 
-The entire project demo can be seen here - https://youtu.be/ZBlwj9LVAVs
+The entire project demo can be seen here (except Admin Screens which was incorporated later, this can be found in the gifs down below) - https://youtu.be/ZBlwj9LVAVs
 
 
 <li><a href="##Welcome Screen"> Welcome Screen </a></li>
