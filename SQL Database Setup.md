@@ -394,7 +394,7 @@ VALUES
 "Boeing 707");
 ```
 
-## PiceJetL
+## PiceJet
 
 ```bash
 
