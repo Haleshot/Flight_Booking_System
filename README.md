@@ -94,7 +94,7 @@ Description of all relationships among various entities along with the specifica
 <h2 id="Payment"> :cloud: Payment </h2>
 <p align="justify">
 
-![image](https://user-images.githubusercontent.com/57552973/209421134-a697cee7-2f66-4ac9-92c5-75f3e1fed289.png)
+![image](https://github.com/Haleshot/Flight_Booking_System/assets/57552973/573a194b-80f1-46a4-9523-7891fe381843)
 
 </p>
 <hr>
@@ -111,7 +111,7 @@ Description of all relationships among various entities along with the specifica
 <h2 id="Cancellation"> :cloud: Cancellation </h2>
 <p align="justify">
 
-![image](https://user-images.githubusercontent.com/57552973/209421148-75a19dd3-cfae-4fa1-bf6b-8c295cd70a6a.png)
+![image](https://github.com/Haleshot/Flight_Booking_System/assets/57552973/d4835cfc-f152-4991-8e88-37729104989b)
 
 </p>
 <hr>
