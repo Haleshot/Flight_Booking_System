@@ -352,6 +352,7 @@ The entire project demo can be seen here - https://youtu.be/ZBlwj9LVAVs
 
 
 <h3 id="#Welcome Screen"> Welcome Screen </h3>
+
 ![Welcome Screen](https://github.com/Haleshot/Flight_Booking_System/assets/57552973/d2e91b70-22e3-4ccc-a807-019375f08f0d)
 
 
