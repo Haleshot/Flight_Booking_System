@@ -578,20 +578,20 @@ class PiceJet_Admin_Options(QDialog):
         loadUi(r"Project_Source_Code\PiceJet_Admin_Options.ui", self)
 
         self.Check_Flights_Button.clicked.connect(self.gotoCheckFlights)
-        self.Payments_Button.clicked.connect(self.gotoNistaraPayments)
-        self.Cancellations_Button.clicked.connect(self.gotoNistaraCancellations)
+        self.Payments_Button.clicked.connect(self.gotoPiceJetPayments)
+        self.Cancellations_Button.clicked.connect(self.gotoPiceJetCancellations)
 
     def gotoCheckFlights(self):
         picejet = PiceJet_Flight_Options()
         widget.addWidget(picejet)
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
-    def gotoNistaraPayments(self):
+    def gotoPiceJetPayments(self):
         payments_info = PiceJet_Payments_Info()
         widget.addWidget(payments_info)
         widget.setCurrentIndex(widget.currentIndex() + 1)
 
-    def gotoNistaraCancellations(self):
+    def gotoPiceJetCancellations(self):
         cancellation_info = Picejet_Cancellation_Info()
         widget.addWidget(cancellation_info)
         widget.setCurrentIndex(widget.currentIndex() + 1)
