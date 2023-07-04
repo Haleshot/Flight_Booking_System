@@ -1010,7 +1010,6 @@ class Indivo_Cancellation_Info(QDialog):
         self.Payments_Info_TableWidget.setRowCount(0) # Setting the rowcount as zero so the QTableWidget refreshes everytime according to the applied filters.
         self.Payments_Info_TableWidget.verticalHeader().setVisible(False)  # Hiding the Row Count Numbers displayed on the side.
 
-
         result = cursor.fetchall()
         if cursor.rowcount == 0:
             self.Error_Popup_Message.setText("No Data to fetch from!")
