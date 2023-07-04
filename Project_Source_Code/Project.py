@@ -1033,15 +1033,6 @@ class Indivo_Cancellation_Info(QDialog):
 
 
 
-
-
-
-
-
-
-
-
-
 class Welcome_screen(QDialog):
     def __init__(self):
         super(Welcome_screen, self).__init__()
