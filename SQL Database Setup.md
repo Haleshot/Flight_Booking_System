@@ -43,6 +43,7 @@ CREATE TABLE `payment` (
   `Payment_Date` date NOT NULL,
   `Payment_Type` varchar(15) NOT NULL,
   `Payment_Card_No` int NOT NULL,
+  `F_Company` varchar(25) DEFAULT NULL,
   PRIMARY KEY (`Payment_ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
@@ -72,8 +73,10 @@ CREATE TABLE `cancellation` (
   `Canc_Payment_ID` int NOT NULL,
   `Canc_Refund` float NOT NULL,
   `Canc_Date` date NOT NULL,
+  `F_Company` varchar(25) DEFAULT NULL,
   PRIMARY KEY (`Canc_ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
 
 ```
 Company:
