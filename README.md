@@ -273,9 +273,6 @@ Overall, the Flight Booking Management System has served as a valuable project, 
 <hr>
 
 
-
-
-
 <!-- Contributing -->
 <h2 id="Contributing"> Contributing </h2>
 
