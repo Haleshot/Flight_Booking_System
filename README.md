@@ -219,7 +219,7 @@ Description of all relationships among various entities along with the specifica
 <hr>
 
 
-<h2 id="Learning from the Project"> :cloud: Learning from the Project</h2>
+<h2 id="Learnings from the Project"> :cloud: Learning from the Project</h2>
 <p align="justify">
 
 Through the development of the Flight Booking Management System, several key learning points were obtained:
