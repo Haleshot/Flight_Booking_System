@@ -1,4 +1,4 @@
-<h1 align="center"> Flight Booking Management Project </h1>
+<h1 align="center"> Flight Ticket Booking Management Project </h1>
 
 <details open="open">
   <summary>Table of Contents</summary>
